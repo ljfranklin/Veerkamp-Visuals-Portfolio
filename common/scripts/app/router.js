@@ -1,6 +1,6 @@
 define([
-
-], function() {
+    'require'
+], function(require) {
 
     var my = {};
     var PageRouter = Backbone.Router.extend({
@@ -12,9 +12,8 @@ define([
 
     my.init = function() {
 
-
-        var router = new ReportRouter();
-        router.on('route:getPage', loadReport);
+        var router = new PageRouter();
+        router.on('route:getPage', loadPage);
         router.on('route:getHome', function () {
             loadPage('Home');
         });
@@ -23,7 +22,19 @@ define([
     };
 
     function loadPage(pageName) {
+        var viewScript = '/Pages/' + pageName + '/' + pageName + 'View';
+        require([viewScript], function(PageView) {
 
+            var contentArea = $('.main-content');
+            var fadeTime = 200;
+
+            contentArea.fadeOut(fadeTime, function() {
+                var view = new PageView({
+                    el: contentArea
+                });
+                contentArea.fadeIn(fadeTime);
+            });
+        });
     }
 
     return my;
