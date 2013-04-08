@@ -1,6 +1,7 @@
 define([
+    'backbone',
     'require'
-], function(require) {
+], function(Backbone, require) {
 
     var my = {};
     var PageRouter = Backbone.Router.extend({
@@ -11,7 +12,7 @@ define([
     });
 
     my.init = function() {
-
+        console.log("RouterStart");
         var router = new PageRouter();
         router.on('route:getPage', loadPage);
         router.on('route:getHome', function () {
@@ -22,7 +23,7 @@ define([
     };
 
     function loadPage(pageName) {
-        var viewScript = '/Pages/' + pageName + '/' + pageName + 'View';
+        var viewScript = '../../../Pages/' + pageName + '/' + pageName + 'View';
         require([viewScript], function(PageView) {
 
             var contentArea = $('.main-content');
