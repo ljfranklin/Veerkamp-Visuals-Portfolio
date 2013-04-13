@@ -1,7 +1,7 @@
 require.config({
     paths: {
-        underscore: '../vendor/underscore-min',
-        backbone: '../vendor/backbone-min'
+        underscore: './common/scripts/vendor/underscore-min',
+        backbone: './common/scripts/vendor/backbone-min'
     },
     shim: {
         'backbone': {
@@ -15,7 +15,7 @@ require.config({
 });
 
 require([
-    './app',
+    './common/scripts/app/app',
     'jquery',
     'backbone',
     'underscore',

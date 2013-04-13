@@ -1,11 +1,17 @@
 
 define([
+    'backbone',
+    'underscore',
+    'text!./templates/work-template.html'
+], function(Backbone, _, workTemplate) {
 
-], function() {
-
-    var WorkView = new Backbone.View.extend({
+    var WorkView = Backbone.View.extend({
         initialize: function() {
-            console.log("Work");
+            this.render();
+        },
+        render: function() {
+            var template = _.template(workTemplate);
+            this.$el.html(template);
         }
     });
 
