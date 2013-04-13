@@ -19,7 +19,7 @@ require([
     'jquery',
     'backbone',
     'underscore',
-    '//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js'
+    './common/styles/vendor/bootstrap/js/bootstrap.min.js'
 ], function(app) {
     app.init();
 });
