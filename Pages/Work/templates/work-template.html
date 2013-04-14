@@ -1,1 +1,7 @@
-<h3>TheWork</h3>
+<link href="./Pages/Work/styles/app/work-style.css" rel="stylesheet"/>
+<div class="work-container">
+    <h3>TheWork</h3>
+    <% _.each(projectPreviewViews, function(projectView) { %>
+        <%= projectView %>
+    <% }); %>
+</div>
