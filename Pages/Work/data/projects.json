@@ -1,8 +1,8 @@
 {
     "projects": [
         {
-            "project-name": "Sex Trafficking",
-            "preview-img": "../imgs/projects/sex-trafficking.jpg"
+            "projectName": "Sex Trafficking",
+            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking.jpg"
         }
     ]
 }

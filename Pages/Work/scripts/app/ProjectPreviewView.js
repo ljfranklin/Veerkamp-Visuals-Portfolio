@@ -13,9 +13,9 @@ define([
 
             var projectData = this.options.projectJson;
             var img = new Image();
-            img.onload(function() {
-                
-            });
+            img.onload = function() {
+                console.log("Loaded");
+            };
             img.src = projectData.previewImg;
 
 
