@@ -3,37 +3,38 @@ define([
     'backbone',
     'underscore',
     'text!./templates/work-template.html',
-    './scripts/app/ProjectPreviewView'
-], function(Backbone, _, workTemplate, ProjectPreviewView) {
-
-    var projectsJson = JSON.parse(projectsJsonRaw);
+    './models/ProjectCollection',
+    './views/ProjectPreviewView'
+], function(Backbone, _, workTemplate, ProjectCollection, ProjectPreviewView) {
 
     var WorkView = Backbone.View.extend({
         initialize: function() {
 
             var self = this;
 
-            self.render = function() {
+            var projectCollection = new ProjectCollection();
 
+            self.render = function() {
                 var template = _.template(workTemplate, {});
-                this.$el.html(template);
+                self.$el.html(template);
+
+                renderProjectPreviewViews();
             };
             self.render();
+
+            function renderProjectPreviewViews() {
+
+                var $previewContainer = self.$el.find('.work-content-area');
+                projectCollection.forEach(function(projectModel) {
+                    var projectPreviewView = new ProjectPreviewView({
+                        model: projectModel,
+                        el: $previewContainer
+                    });
+                    projectPreviewView.render();
+                });
+            }
         }
     });
-
-    function getProjectPreviewViews() {
-        var views = [];
-
-        _.each(projectsJson.projects, function(project) {
-            var projectPreviewView = new ProjectPreviewView({
-                projectJson: project
-            });
-            views.push(projectPreviewView.render());
-        });
-
-        return views;
-    }
 
     return WorkView;
 });

@@ -1,9 +1,10 @@
 
 define([
     'backbone',
+    'underscore',
     './ProjectModel',
-    'text!./data/projects.json'
-], function(Backbone, ProjectModel, projectsJsonText) {
+    'text!../data/projects.json'
+], function(Backbone, _, ProjectModel, projectsJsonText) {
 
     var projectsJson = JSON.parse(projectsJsonText);
 
@@ -18,10 +19,11 @@ define([
             function buildProjectModels() {
 
                 var models = [];
-
+                console.log(projectsJson.projects);
                 _.each(projectsJson.projects, function(projectJson) {
                     var model = new ProjectModel({
-                        projectJson: projectJson
+                        projectName: projectJson.projectName,
+                        previewImg: projectJson.previewImg
                     });
                     models.push(model);
                 });
