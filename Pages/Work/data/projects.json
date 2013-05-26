@@ -3,6 +3,10 @@
         {
             "projectName": "Sex Trafficking",
             "previewImg": "./Pages/Work/imgs/projects/sex-trafficking.jpg"
+        },
+        {
+            "projectName":"World!!",
+            "previewImg": "https://atmire.com/labs17/bitstream/handle/123456789/7618/earth-map-huge.jpg?sequence=1"
         }
     ]
 }
