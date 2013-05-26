@@ -3,22 +3,22 @@ define([
     'backbone',
     'underscore',
     'text!./templates/work-template.html',
-    './scripts/app/ProjectPreviewView',
-    'text!./data/projects.json'
-], function(Backbone, _, workTemplate, ProjectPreviewView, projectsJsonRaw) {
+    './scripts/app/ProjectPreviewView'
+], function(Backbone, _, workTemplate, ProjectPreviewView) {
 
     var projectsJson = JSON.parse(projectsJsonRaw);
 
     var WorkView = Backbone.View.extend({
         initialize: function() {
-            this.render();
-        },
-        render: function() {
 
-            var template = _.template(workTemplate, {
-                projectPreviewViews: getProjectPreviewViews()
-            });
-            this.$el.html(template);
+            var self = this;
+
+            self.render = function() {
+
+                var template = _.template(workTemplate, {});
+                this.$el.html(template);
+            };
+            self.render();
         }
     });
 

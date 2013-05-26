@@ -18,7 +18,6 @@ define([
             };
             img.src = projectData.previewImg;
 
-
             var template = _.template(projectPreviewTemplate, projectData);
             return template;
         }
