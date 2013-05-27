@@ -18,7 +18,6 @@ define([
 
                 var img = new Image();
                 img.onload = function() {
-                    console.log("Loaded");
 
                     var $container = $(containerSelector);
                     var $imageContainer = $container.find('.preview-img-container');
@@ -34,7 +33,6 @@ define([
             };
 
             $(document).on('click', containerSelector + ' .preview-img-container', function() {
-                console.log("swap");
 
                 var detailView = new ProjectDetailView({
                     el: $('.project-breakdown-container'),
@@ -55,7 +53,9 @@ define([
                 }, animateTime);
             });
 
-            $(document).on('click', '.project-detail-container', function () {
+            var projectDetailContainer = '.project-detail-container[data-model-cid="' + model.cid +  '"]';
+            $(document).on('click', projectDetailContainer, function () {
+
                 var animateTime = 500;
                 $('.timeline-container').show();
                 $('.timeline-container').animate({

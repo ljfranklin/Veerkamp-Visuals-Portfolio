@@ -15,6 +15,7 @@ define([
             self.render = function () {
 
                 var viewProperties = model.toJSON();
+                viewProperties.cid = model.cid;
 
                 var template = _.template(detailTemplate, viewProperties);
                 self.$el.html(template);
