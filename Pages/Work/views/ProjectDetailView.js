@@ -10,10 +10,14 @@ define([
 
             var self = this;
 
+            var model = self.model;
+
             self.render = function () {
-                var template = _.template(detailTemplate, {});
+
+                var viewProperties = model.toJSON();
+
+                var template = _.template(detailTemplate, viewProperties);
                 self.$el.html(template);
-                console.log("Detail render");
             };
         }
     });

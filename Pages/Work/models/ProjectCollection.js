@@ -23,7 +23,8 @@ define([
                 _.each(projectsJson.projects, function(projectJson) {
                     var model = new ProjectModel({
                         projectName: projectJson.projectName,
-                        previewImg: projectJson.previewImg
+                        previewImg: projectJson.previewImg,
+                        tags: projectJson.tags
                     });
                     models.push(model);
                 });

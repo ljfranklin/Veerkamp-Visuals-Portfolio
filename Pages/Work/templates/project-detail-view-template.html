@@ -1,3 +1,13 @@
 <div class="project-detail-container">
-    Detail View
+    <div class="project-title">
+        <%= projectName %>
+    </div>
+    <br/>
+    <div class="project-tags">
+        <% tags.forEach(function(tag) { %>
+            <div class="project-tag">
+                <%= tag %>
+            </div>
+        <% }); %>
+    </div>
 </div>

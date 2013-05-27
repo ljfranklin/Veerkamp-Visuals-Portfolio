@@ -2,11 +2,21 @@
     "projects": [
         {
             "projectName": "Sex Trafficking",
-            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking.jpg"
+            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking.jpg",
+            "tags": [
+                "CSS",
+                "HTML",
+                "JS/jQuery"
+            ]
         },
         {
             "projectName":"Corgi!!",
-            "previewImg": "http://www.dogbreedinfo.com/images10/PembrokeLucy2.jpg"
+            "previewImg": "http://www.dogbreedinfo.com/images10/PembrokeLucy2.jpg",
+            "tags": [
+                "PUPPIES!!!!",
+                "EIN!!!",
+                "BEBOP!!!!!"
+            ]
         }
     ]
 }
