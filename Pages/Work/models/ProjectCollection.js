@@ -24,7 +24,8 @@ define([
                     var model = new ProjectModel({
                         projectName: projectJson.projectName,
                         previewImg: projectJson.previewImg,
-                        tags: projectJson.tags
+                        tags: projectJson.tags,
+                        siteLink: projectJson.siteLink
                     });
                     models.push(model);
                 });
