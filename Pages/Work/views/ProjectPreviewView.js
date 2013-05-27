@@ -2,8 +2,9 @@
 define([
     'backbone',
     'underscore',
-    'text!../templates/project-preview-template.html'
-], function(Backbone, _, projectPreviewTemplate) {
+    'text!../templates/project-preview-template.html',
+    './ProjectDetailView'
+], function(Backbone, _, projectPreviewTemplate, ProjectDetailView) {
 
     var ProjectPreviewView = Backbone.View.extend({
         initialize: function() {
@@ -32,7 +33,23 @@ define([
                 self.$el.append(template);
             };
 
+            $(document).on('click', containerSelector + ' .preview-img-container', function() {
+                console.log("swap");
 
+                var detailView = new ProjectDetailView({
+                    el: $('.project-breakdown-container'),
+                    model: self.model
+                });
+                detailView.render();
+
+                var animateTime = 500;
+                $('.timeline-container').animate({
+                    left: '-100%'
+                }, animateTime);
+                $('.project-breakdown-container').animate({
+                    left: '0%'
+                }, animateTime);
+            });
         }
     });
 
