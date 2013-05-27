@@ -17,6 +17,7 @@
 }
 
 .project-breakdown-container {
+    display: none;
     position: absolute;
     left: 100%;
     top: 0;

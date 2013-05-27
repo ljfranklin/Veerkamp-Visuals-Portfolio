@@ -43,9 +43,13 @@ define([
                 detailView.render();
 
                 var animateTime = 500;
+                $('.project-breakdown-container').show();
+
                 $('.timeline-container').animate({
                     left: '-100%'
-                }, animateTime);
+                }, animateTime, function () {
+                    $('.timeline-container').hide();
+                });
                 $('.project-breakdown-container').animate({
                     left: '0%'
                 }, animateTime);
@@ -53,12 +57,15 @@ define([
 
             $(document).on('click', '.project-detail-container', function () {
                 var animateTime = 500;
+                $('.timeline-container').show();
                 $('.timeline-container').animate({
                     left: '0'
                 }, animateTime);
                 $('.project-breakdown-container').animate({
                     left: '100%'
-                }, animateTime);
+                }, animateTime, function () {
+                    $('.project-breakdown-container').hide();
+                });
             });
         }
     });
