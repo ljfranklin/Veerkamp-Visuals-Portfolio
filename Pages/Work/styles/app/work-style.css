@@ -1,3 +1,10 @@
+.work-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 .project-preview-container {
     width: 15%;
 }

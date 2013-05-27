@@ -50,6 +50,16 @@ define([
                     left: '0%'
                 }, animateTime);
             });
+
+            $(document).on('click', '.project-detail-container', function () {
+                var animateTime = 500;
+                $('.timeline-container').animate({
+                    left: '0'
+                }, animateTime);
+                $('.project-breakdown-container').animate({
+                    left: '100%'
+                }, animateTime);
+            });
         }
     });
 
