@@ -19,12 +19,22 @@ define([
 
     function submitEmail() {
 
+        var $btn = $(this);
+
         var $modal = $(modalSelector);
 
         var userEmail = $modal.find('#user-email').val();
         var userMessage = $modal.find('#user-message').val();
 
-        console.log(userEmail + ' - ' + userMessage);
+        var originalBtnText = $btn.text();
+
+        $btn.text('Sending...');
+
+        setTimeout(function() {
+            console.log(userEmail + ' - ' + userMessage);
+            $modal.modal('hide');
+            $btn.text(originalBtnText);
+        }, 2000);
     }
 
     return self;
