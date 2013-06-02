@@ -1,12 +1,14 @@
 
 define([
-    './router'
-], function(router) {
+    './router',
+    './contact'
+], function(router, contact) {
     var my = {};
 
     my.init = function() {
-        console.log("init");
         router.init();
+
+        contact.init();
     };
 
     return my;
