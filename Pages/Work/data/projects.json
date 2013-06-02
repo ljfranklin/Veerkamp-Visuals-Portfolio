@@ -2,11 +2,14 @@
     "projects": [
         {
             "projectName": "Sex Trafficking",
-            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking.jpg",
+            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/sex-trafficking.jpg",
             "tags": [
                 "CSS",
                 "HTML",
                 "JS/jQuery"
+            ],
+            "slides": [
+                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
             ]
         },
         {

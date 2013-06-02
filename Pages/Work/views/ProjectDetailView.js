@@ -19,7 +19,37 @@ define([
 
                 var template = _.template(detailTemplate, viewProperties);
                 self.$el.html(template);
+
+                loadSlides();
             };
+
+            function loadSlides() {
+
+                var slidesSrc = model.get('slides');
+
+                var loadedImgs = [];
+                _.each(slidesSrc, function(src) {
+                    var img = new Image();
+                    img.onload = function () {
+                        loadedImgs.push(img);
+                        if (loadedImgs.length === slidesSrc.length) {
+                            displaySlides(loadedImgs);
+                        }
+                    };
+                    img.src = src;
+                });
+            }
+
+            function displaySlides(loadedImgs) {
+                var $slideContainer = self.$el.find('.project-slides-container');
+
+                _.each(loadedImgs, function(img) {
+                    var $wrapper = $('<div>').addClass('project-slide');
+                    $wrapper.append(img);
+
+                    $slideContainer.append($wrapper);
+                });
+            }
         }
     });
 

@@ -25,7 +25,8 @@ define([
                         projectName: projectJson.projectName,
                         previewImg: projectJson.previewImg,
                         tags: projectJson.tags,
-                        siteLink: projectJson.siteLink
+                        siteLink: projectJson.siteLink,
+                        slides: projectJson.slides
                     });
                     models.push(model);
                 });
