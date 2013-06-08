@@ -1,0 +1,21 @@
+.parallax-container {
+    display: block;
+    position: relative;
+    margin: 100px auto;
+    width: 318px;
+    height: 318px;
+
+    z-index: 1;
+}
+.parallax-container .layer1 {
+    position: absolute;
+    top: 125px;
+    left: 90px;
+    z-index: 3;
+}
+.parallax-container .layer2 {
+    position: absolute;
+    z-index: 4;
+    top: 189px;
+    left: 191px;
+}

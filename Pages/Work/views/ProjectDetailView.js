@@ -2,7 +2,7 @@
 define([
     'backbone',
     'underscore',
-    'text!../templates/project-detail-view-template'
+    'text!../templates/project-detail-view-template.html'
 ], function (Backbone, _, detailTemplate) {
 
     var ProjectDetailView = Backbone.View.extend({
