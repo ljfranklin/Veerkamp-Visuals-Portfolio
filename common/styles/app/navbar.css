@@ -1,9 +1,51 @@
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #000;
+	color:white;
+}
 
-    background-color: #eeeeee;
+.nav-title {
+	float:left;
+}
+
+.nav-links-container {
+	float:right;
+}
+
+.nav-link-home {
+	width: 25px;
+	height: 21px;
+	background: url('../../img/icons.jpg') no-repeat 0 0;
+}
+
+.nav-link-work {
+	width: 25px;
+	height: 21px;
+	background: url('../../img/icons.jpg') no-repeat 0 0;
+}
+
+.nav-link-about {
+	width: 25px;
+	height: 21px;
+	background: url('../../img/icons.jpg') no-repeat 0 0;
+}
+
+.nav-link-contact {
+	width: 25px;
+	height: 21px;
+	background: url('../../img/icons.jpg') no-repeat 0 0;
+}
+
+.nav-link-home,
+.nav-link-work,
+.nav-link-about,
+.nav-link-contact {
+	text-indent: -9999px;
+	color: transparent;
+	display: block;
+	float: left;
 }

@@ -7,7 +7,7 @@ define([
     var modalSelector = '.contact-modal';
 
     self.init = function() {
-        $(document).on('click', '.contact-link', showModal);
+        $(document).on('click', '.nav-link-contact', showModal);
         $(document).on('click', '.contact-modal .submit', submitEmail);
     };
 
