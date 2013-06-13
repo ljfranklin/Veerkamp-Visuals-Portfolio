@@ -10,21 +10,90 @@ define([
 
             var self = this;
 
-            var model = self.model;
+            self.render = function (opts) {
 
-            self.render = function () {
+                var model = opts.model;
+                var $el = opts.el;
 
                 var viewProperties = model.toJSON();
                 viewProperties.cid = model.cid;
 
                 var template = _.template(detailTemplate, viewProperties);
-                self.$el.html(template);
-                console.log(model.get('prevProject'));
-                console.log(model.get('nextProject'));
-                loadSlides();
+                $el.html(template);
+
+                bindClickHandlers(opts);
+
+                slideInDetailView(opts);
+
+                loadSlides(model);
             };
 
-            function loadSlides() {
+            self.hide = function(opts) {
+
+                unbindClickHandlers();
+
+                var $el = opts.el;
+                var animateTime = opts.animateTime;
+
+                $el.animate({
+                    left: '100%'
+                }, animateTime, function () {
+                    $el.hide();
+                });
+            };
+
+            function bindClickHandlers(opts) {
+
+                var model = opts.model;
+
+                var prevOpts = {};
+                _.extend(prevOpts, opts);
+                prevOpts.model = model.get('prevProject');
+                prevOpts.showPrev = true;
+
+                $('.project-detail-prev').click(function(e) {
+                    e.stopPropagation();
+                    opts.el.fadeOut(function() {
+                        self.render(prevOpts);
+                    });
+                });
+
+                var nextOpts = {};
+                _.extend(nextOpts, opts);
+                nextOpts.model = model.get('nextProject');
+                nextOpts.showNext = true;
+
+                $('.project-detail-next').click(function(e) {
+                    e.stopPropagation();
+                    opts.el.fadeOut(function() {
+                        self.render(nextOpts);
+                    });
+                });
+            }
+
+            function unbindClickHandlers() {
+                $('.project-detail-prev, project-detail-next').unbind('click');
+            }
+
+            function slideInDetailView(opts) {
+
+                var $el = opts.el;
+                var animateTime = opts.animateTime;
+
+                if (opts.showPrev) {
+                    $el.fadeIn();
+                } else if (opts.showNext) {
+                    $el.fadeIn();
+                } else {
+                    $el.show();
+                    $el.animate({
+                        left: '0%'
+                    }, animateTime);
+                }
+
+            }
+
+            function loadSlides(model) {
 
                 var slidesSrc = model.get('slides');
 
@@ -54,5 +123,6 @@ define([
         }
     });
 
-    return ProjectDetailView;
+    //singleton
+    return new ProjectDetailView();
 });

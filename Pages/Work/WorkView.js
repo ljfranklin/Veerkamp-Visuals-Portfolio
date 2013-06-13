@@ -25,6 +25,7 @@ define([
             function renderProjectPreviewViews() {
 
                 var $previewContainer = self.$el.find('.work-content-area');
+
                 projectCollection.forEach(function(projectModel) {
                     var projectPreviewView = new ProjectPreviewView({
                         model: projectModel,
@@ -32,6 +33,8 @@ define([
                     });
                     projectPreviewView.render();
                 });
+
+
             }
         }
     });

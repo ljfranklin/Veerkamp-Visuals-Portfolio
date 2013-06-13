@@ -4,13 +4,16 @@ define([
     'underscore',
     'text!../templates/project-preview-template.html',
     './ProjectDetailView'
-], function(Backbone, _, projectPreviewTemplate, ProjectDetailView) {
+], function(Backbone, _, projectPreviewTemplate, detailViewInstance) {
 
     var ProjectPreviewView = Backbone.View.extend({
         initialize: function() {
 
             var self = this;
             var model = self.model;
+            var animateTime = 500;
+
+            var views = [];
 
             var containerSelector = '.project-preview-container[data-project-cid="' + model.cid + '"]';
 
@@ -34,37 +37,30 @@ define([
 
             $(document).on('click', containerSelector + ' .preview-img-container', function() {
 
-                var detailView = new ProjectDetailView({
+                detailViewInstance.render({
                     el: $('.project-breakdown-container'),
-                    model: self.model
+                    model: self.model,
+                    animateTime: animateTime
                 });
-                detailView.render();
-
-                var animateTime = 500;
-                $('.project-breakdown-container').show();
 
                 $('.timeline-container').animate({
                     left: '-100%'
                 }, animateTime, function () {
                     $('.timeline-container').hide();
                 });
-                $('.project-breakdown-container').animate({
-                    left: '0%'
-                }, animateTime);
             });
 
             var projectDetailContainer = '.project-detail-container[data-model-cid="' + model.cid +  '"]';
             $(document).on('click', projectDetailContainer, function () {
 
-                var animateTime = 500;
                 $('.timeline-container').show();
                 $('.timeline-container').animate({
                     left: '0'
                 }, animateTime);
-                $('.project-breakdown-container').animate({
-                    left: '100%'
-                }, animateTime, function () {
-                    $('.project-breakdown-container').hide();
+
+                detailViewInstance.hide({
+                    el: $('.project-breakdown-container'),
+                    animateTime: animateTime
                 });
             });
         }
