@@ -20,9 +20,19 @@ define([
             }
 
             function initParallax() {
-                $('.parallax-container .layer1').plaxify({"xRange":40,"yRange":40})
-                $('.parallax-container .layer2').plaxify({"xRange":20,"yRange":20})
-                $.plax.enable();
+                $('.parallax-container img').plaxify();
+                $.plax.enable({ 
+                    "activityTarget": $('.parallax-container')
+                });
+
+                $('.parallax-container').mouseleave(function() {
+                    var animateTime = 300;
+                    $('.parallax-container img').animate({
+                        left: '0',
+                        top: '0'
+                    }, animateTime);    
+                });
+                
             }
         }
     });

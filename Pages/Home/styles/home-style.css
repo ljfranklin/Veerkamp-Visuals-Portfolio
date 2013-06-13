@@ -1,21 +1,64 @@
+.main-img {
+    background: #fff;
+}
 .parallax-container {
     display: block;
     position: relative;
-    margin: 100px auto;
-    width: 318px;
-    height: 318px;
-
+    margin: 0 auto;
+    width: 960px;
+    height: 424px;
     z-index: 1;
+    overflow: hidden;
 }
-.parallax-container .layer1 {
+
+.parallax-container .layer10 {
     position: absolute;
-    top: 125px;
-    left: 90px;
-    z-index: 3;
+    z-index: 4;
+    top:344px !important;
+    left:146px !important;
 }
+
+.parallax-container .layer9 {
+    position: absolute;
+    z-index: 11;
+}
+
+.parallax-container .layer8 {
+    position: absolute;
+    z-index: 10;
+}
+
+.parallax-container .layer7 {
+    position: absolute;
+    z-index: 9;
+}
+
+.parallax-container .layer6 {
+    position: absolute;
+    z-index: 8;
+}
+
+.parallax-container .layer5 {
+    position: absolute;
+    z-index: 7;
+}
+
+.parallax-container .layer4 {
+    position: absolute;
+    z-index: 6;
+}
+
+.parallax-container .layer3 {
+    position: absolute;
+    z-index: 5;
+}
+
 .parallax-container .layer2 {
     position: absolute;
     z-index: 4;
-    top: 189px;
-    left: 191px;
+}
+
+.parallax-container .layer1 {
+    position: absolute;
+    z-index: 3;
 }
