@@ -19,7 +19,8 @@ define([
 
                 var template = _.template(detailTemplate, viewProperties);
                 self.$el.html(template);
-
+                console.log(model.get('prevProject'));
+                console.log(model.get('nextProject'));
                 loadSlides();
             };
 

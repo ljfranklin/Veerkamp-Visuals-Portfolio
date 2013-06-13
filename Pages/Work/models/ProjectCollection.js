@@ -19,15 +19,25 @@ define([
             function buildProjectModels() {
 
                 var models = [];
-                console.log(projectsJson.projects);
+
+                var prevProject = null;
                 _.each(projectsJson.projects, function(projectJson) {
                     var model = new ProjectModel({
                         projectName: projectJson.projectName,
                         previewImg: projectJson.previewImg,
                         tags: projectJson.tags,
                         siteLink: projectJson.siteLink,
-                        slides: projectJson.slides
+                        slides: projectJson.slides,
+                        prevProject: prevProject,
+                        nextProject: null
                     });
+
+                    if (prevProject) {
+                        prevProject.set('nextProject', model);
+                    }
+
+                    prevProject = model;
+
                     models.push(model);
                 });
 
