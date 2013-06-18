@@ -5,22 +5,17 @@
     display: block;
     position: relative;
     margin: 0 auto;
-    width: 960px;
+    width: 1297px;
     height: 424px;
     z-index: 1;
     overflow: hidden;
 }
 
-.parallax-container .layer10 {
-    position: absolute;
-    z-index: 4;
-    top:344px !important;
-    left:146px !important;
-}
-
 .parallax-container .layer9 {
     position: absolute;
     z-index: 11;
+    top:-73px;
+    left:0;
 }
 
 .parallax-container .layer8 {
@@ -31,6 +26,7 @@
 .parallax-container .layer7 {
     position: absolute;
     z-index: 9;
+    top:-48px;
 }
 
 .parallax-container .layer6 {
@@ -61,4 +57,95 @@
 .parallax-container .layer1 {
     position: absolute;
     z-index: 3;
+}
+
+.home-content-links {
+    margin-top:25px;
+}
+
+.home-content-links li {
+    list-style-type: none;
+}
+
+.home-content-links li a {
+    font-family: 'verbblack';
+ color: white;
+border: 1px solid #ff0;
+padding: 45px 53px;
+display: inline-block;
+font-size: 41px;
+margin-bottom: 10px;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.home-content-links li a:hover {
+    -webkit-box-shadow: inset 0px 0px 0px 3px #ff0;
+    box-shadow: inset 0px 0px 0px 3px #ff0;
+    text-decoration: none;
+}
+
+.home-content-header {
+    position:absolute;
+    top:37%;
+    padding-left:23px;
+}
+
+.home-content-titles {
+    position: relative;
+}
+
+.home-content-titles-container {
+    padding-top: 27px
+}
+
+.home-content-titles li {
+font-size: 69px;
+font-family: 'neoubold';
+list-style-type: none;
+padding: 2px 0;
+line-height: 51px;
+color:#111;
+}
+
+.logo-one {
+    font-family: 'neouthin'; 
+    z-index: 3;
+    font-size: 31px;
+    position: relative;
+    color:#fff;
+    font-size: 103px;
+}
+
+.logo-two {
+    font-family: 'neoubold';
+    z-index: 2;
+    font-size: 31px;
+    color:#ff0;
+    position: relative;
+    margin-left:-62px;
+    font-size: 103px;
+}
+
+.logo-three {
+    font-family: 'open_sansregular';
+    z-index: 1;
+    font-size: 19px;
+    margin-left: -47px;
+    color:#fff;
+    font-size: 61px;
+}
+
+.logo-four {
+    font-family: 'open_sans_light';
+    letter-spacing: 5px;
+    font-size: 61px;
+}
+
+.logo-five {
+    font-family: 'neouthin';
+    font-size: 103px;
 }

@@ -25,14 +25,43 @@ define([
                     "activityTarget": $('.parallax-container')
                 });
 
-                $('.parallax-container').mouseleave(function() {
-                    var animateTime = 300;
-                    $('.parallax-container img').animate({
-                        left: '0',
-                        top: '0'
-                    }, animateTime);    
-                });
+                // $('.parallax-container').mouseleave(function() {
+                //     var animateTime = 300;
+                //     $('.parallax-container img').animate({
+                //         left: '0',
+                //         top: '0'
+                //     }, animateTime);    
+                // });
                 
+            }
+
+            $(".home-content-links .work").hover(function() {
+                //hover in
+                fadeOutHeader();
+            }, function () {
+                //hover out
+                fadeInHeader();
+            });
+
+            function fadeOutHeader() {
+                fadeHeader(true);
+            }
+
+            function fadeInHeader() {
+                fadeHeader(false);
+            }
+
+            function fadeHeader(shouldFade) {
+                var $header = $('.home-content-header');
+                var animateTime = 500;
+
+                var opacity = shouldFade ? 0.4 : 1.0;
+
+                $header.animate({
+                    opacity: opacity
+                }, animateTime);
+
+                //$header.find('span').css('color', '#222');
             }
         }
     });
