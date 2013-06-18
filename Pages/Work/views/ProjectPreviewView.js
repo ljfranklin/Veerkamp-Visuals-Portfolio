@@ -50,7 +50,7 @@ define([
                 });
             });
 
-            var projectDetailContainer = '.project-detail-container[data-model-cid="' + model.cid +  '"]';
+            var projectDetailContainer = '.project-detail-container[data-model-cid="' + model.cid +  '"] .project-detail-back';
             $(document).on('click', projectDetailContainer, function () {
 
                 $('.timeline-container').show();

@@ -19,13 +19,13 @@ define([
                 viewProperties.cid = model.cid;
 
                 var template = _.template(detailTemplate, viewProperties);
-                $el.html(template);
+                //$el.html(template);
 
-                bindClickHandlers(opts);
-
-                slideInDetailView(opts);
+                slideInDetailView(opts, template);
 
                 loadSlides(model);
+
+                bindClickHandlers(opts);
             };
 
             self.hide = function(opts) {
@@ -53,9 +53,7 @@ define([
 
                 $('.project-detail-prev').click(function(e) {
                     e.stopPropagation();
-                    opts.el.fadeOut(function() {
-                        self.render(prevOpts);
-                    });
+                    self.render(prevOpts);
                 });
 
                 var nextOpts = {};
@@ -65,9 +63,7 @@ define([
 
                 $('.project-detail-next').click(function(e) {
                     e.stopPropagation();
-                    opts.el.fadeOut(function() {
-                        self.render(nextOpts);
-                    });
+                    self.render(nextOpts);
                 });
             }
 
@@ -75,22 +71,50 @@ define([
                 $('.project-detail-prev, project-detail-next').unbind('click');
             }
 
-            function slideInDetailView(opts) {
+            function slideInDetailView(opts, template) {
 
                 var $el = opts.el;
                 var animateTime = opts.animateTime;
 
-                if (opts.showPrev) {
-                    $el.fadeIn();
-                } else if (opts.showNext) {
-                    $el.fadeIn();
+                if (opts.showPrev || opts.showNext) {
+                    switchProject(opts, template);
                 } else {
+
+                    $el.html(template);
+
                     $el.show();
                     $el.animate({
                         left: '0%'
                     }, animateTime);
                 }
+            }
 
+            function switchProject(opts, template) {
+
+                var $el = opts.el;
+                var animateTime = opts.animateTime;
+
+                var startingPos = opts.showNext ? '100%' : '-100%';
+                var endPos = opts.showNext ? '-100%' : '100%';
+
+                var $newBreakdownArea = $('<div>').addClass('project-breakdown-container');
+                $newBreakdownArea.css('left', '0').css('top', startingPos);
+
+                $newBreakdownArea.html(template);
+                $newBreakdownArea.insertBefore($el);
+                $newBreakdownArea.show();
+
+                $newBreakdownArea.animate({
+                    top: '0%'
+                }, animateTime);
+
+                $el.animate({
+                    top: endPos
+                },
+                animateTime,
+                function () {
+                    $el.remove();
+                });
             }
 
             function loadSlides(model) {
