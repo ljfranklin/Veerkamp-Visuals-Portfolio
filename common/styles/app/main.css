@@ -94,7 +94,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+.main-content {
+    position: fixed;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
 
 
 
