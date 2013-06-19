@@ -47,8 +47,9 @@ define([
                 var model = opts.model;
 
                 var prevOpts = {};
-                _.extend(prevOpts, opts);
+                $.extend(true, prevOpts, opts);
                 prevOpts.model = model.get('prevProject');
+                prevOpts.showNext = false;
                 prevOpts.showPrev = true;
 
                 $('.project-detail-prev').click(function(e) {
@@ -57,9 +58,10 @@ define([
                 });
 
                 var nextOpts = {};
-                _.extend(nextOpts, opts);
+                $.extend(true, nextOpts, opts);
                 nextOpts.model = model.get('nextProject');
                 nextOpts.showNext = true;
+                nextOpts.showPrev = false;
 
                 $('.project-detail-next').click(function(e) {
                     e.stopPropagation();
@@ -91,9 +93,9 @@ define([
 
             function switchProject(opts, template) {
 
-                var $el = opts.el;
+                var $el = $(opts.el.selector);
                 var animateTime = opts.animateTime;
-
+                
                 var startingPos = opts.showNext ? '100%' : '-100%';
                 var endPos = opts.showNext ? '-100%' : '100%';
 
