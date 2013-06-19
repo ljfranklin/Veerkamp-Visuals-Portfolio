@@ -2,12 +2,16 @@
     <div class="project-detail-back">
         Back
     </div>
-    <div class="project-detail-prev">
-        Prev
-    </div>
-    <div class="project-detail-next">
-        Next
-    </div>
+    <% if (prevProject) { %>
+        <div class="project-detail-prev">
+            Prev
+        </div>
+    <% } %>
+    <% if (nextProject) { %>
+        <div class="project-detail-next">
+            Next
+        </div>
+    <% } %>
     <div class="project-title">
         <%= projectName %>
     </div>
