@@ -10,11 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
+   html,
+   button,
+   input,
+   select,
+   textarea {
     color: #fff;
 }
 
@@ -30,7 +30,7 @@ body {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
 }
@@ -44,7 +44,7 @@ body {
  * A better looking default horizontal rule
  */
 
-hr {
+ hr {
     display: block;
     height: 1px;
     border: 0;
@@ -57,7 +57,7 @@ hr {
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 
-img {
+ img {
     vertical-align: middle;
 }
 
@@ -65,7 +65,7 @@ img {
  * Remove default fieldset styles.
  */
 
-fieldset {
+ fieldset {
     border: 0;
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+ textarea {
     resize: vertical;
 }
 
@@ -83,7 +83,7 @@ textarea {
    Chrome Frame prompt
    ========================================================================== */
 
-.chromeframe {
+   .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -94,13 +94,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.main-content {
+   .main-content {
     position: fixed;
     top: 40px;
     bottom: 20px;
     left: 0;
     right: 0;
     overflow: auto;
+    overflow-x:hidden;
 }
 
 
@@ -110,10 +111,35 @@ textarea {
     left: 0;
     right: 0;
     height: 20px;
-    background-color: blue;
-
+    border-top:1px solid #222;
     color: white;
+    font-size: 12px;
+    background:black;
+    font-family: 'open_sansregular';
 }
+
+.copyright {
+    float:left;
+}
+
+.contact {
+    float:right;
+}
+
+.contact ul li{
+    display: inline;
+    padding: 0 3px;
+}
+
+.contact ul li a {
+    color: #ff0;
+}
+
+.contact ul li a:hover {
+    color:white;
+    cursor: pointer;
+}
+
 
 
 
@@ -134,7 +160,7 @@ textarea {
  * Image replacement
  */
 
-.ir {
+ .ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
@@ -153,7 +179,7 @@ textarea {
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 
-.hidden {
+ .hidden {
     display: none !important;
     visibility: hidden;
 }
@@ -162,7 +188,7 @@ textarea {
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
-.visuallyhidden {
+ .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -178,8 +204,8 @@ textarea {
  * when navigated to via the keyboard: h5bp.com/p
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+ .visuallyhidden.focusable:active,
+ .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -192,7 +218,7 @@ textarea {
  * Hide visually and from screenreaders, but maintain layout
  */
 
-.invisible {
+ .invisible {
     visibility: hidden;
 }
 
@@ -208,8 +234,8 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+ .clearfix:before,
+ .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
@@ -223,7 +249,7 @@ textarea {
  * Include this rule to trigger hasLayout and contain floats.
  */
 
-.clearfix {
+ .clearfix {
     *zoom: 1;
 }
 
@@ -233,14 +259,14 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+   @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -249,7 +275,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
-@media print {
+   @media print {
     * {
         background: transparent !important;
         color: #000 !important; /* Black prints faster: h5bp.com/s */
@@ -274,9 +300,9 @@ textarea {
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+     .ir a:after,
+     a[href^="javascript:"]:after,
+     a[href^="#"]:after {
         content: "";
     }
 

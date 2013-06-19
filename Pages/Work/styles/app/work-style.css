@@ -33,3 +33,10 @@
 .project-breakdown-container .project-slides-container .project-slide {
     width: 10%;
 }
+
+.timeline-home-header {
+    color:red;
+transform:rotate(7deg);
+-ms-transform:rotate(7deg); /* IE 9 */
+-webkit-transform:rotate(7deg); /* Safari and Chrome */
+}
