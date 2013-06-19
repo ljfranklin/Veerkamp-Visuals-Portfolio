@@ -1,0 +1,148 @@
+/* Large desktop */
+@media (min-width: 1200px) { 	
+	.parallax-container {
+		display: block;
+	} 
+	.main-img-nonparallax {
+		display:none;
+	}
+
+	.navbar {
+		background:red;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1199px){
+
+	.navbar {
+		background: purple;
+	}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) {
+	.parallax-container {
+		display: none;
+	}
+
+	.home-content-links li a {
+		padding:23px 30px;
+		font-size: 35px;
+	}
+
+	.home-content-titles li {
+		font-size: 40px;
+		line-height: 33px;
+	}
+
+	.logo-one,
+	.logo-two,
+	.logo-five {
+		font-size: 65px;
+	}
+
+	.logo-two {
+		margin-left: -41px;
+	}
+
+	.logo-three,
+	.logo-four {
+		font-size: 38px;
+	}
+
+	.logo-three {
+		margin-left:-35px;
+	}
+	
+
+	.navbar {
+		background:orange;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.parallax-container {
+		display: none;
+	}
+
+
+
+	.navbar {
+		background:yellow;
+	}
+
+		.home-content-links {
+		margin: 14px 5px;
+	}
+
+	.home-content-links li a {
+		padding: 10px 0px;
+		display: block;
+		font-size: 20px;
+		margin-bottom: 5px;
+		ox-sizing: border-box;
+		text-align: center;
+		float: none;
+	}
+
+	.logo-one,
+	.logo-two,
+	.logo-five {
+		font-size: 42px;
+	}
+
+	.logo-two {
+		margin-left: -28px;
+	}
+
+	.logo-three,
+	.logo-four {
+		font-size: 24px;
+	}
+
+	.logo-three {
+		margin-left:-23px;
+	}
+
+	.home-content-titles li {
+		font-size: 34px;
+		line-height: 16px;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.parallax-container {
+		display: none;
+	}
+	.main-img-nonparallax {
+		display:block;
+	}
+
+
+	.navbar {
+		background:green;
+	}
+}
+
+@media (max-width: 300px) {
+
+
+	.logo-one
+	.logo-two,
+	.logo-three {
+		line-height: 10px;
+	}
+
+	.logo-three {
+		margin:0 auto;
+		float:none;
+	}
+
+		.navbar {
+		background:grey;
+	}
+
+}
