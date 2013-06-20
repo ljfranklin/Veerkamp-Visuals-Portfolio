@@ -17,6 +17,8 @@ define([
             function render() {
                 var template = _.template(homeTemplate);
                 self.$el.html(template);
+
+                addHoverEvents();
             }
 
             function initParallax() {
@@ -35,33 +37,46 @@ define([
                 
             }
 
-            $(".home-content-links .work").hover(function() {
-                //hover in
-                fadeOutHeader();
-            }, function () {
-                //hover out
-                fadeInHeader();
-            });
+            function addHoverEvents() {
+                wireHoverEvent($('.home-content-links li a'),
+                    $('.home-content-header'),
+                    true);
 
-            function fadeOutHeader() {
-                fadeHeader(true);
+                wireHoverEvent($('.home-content-links .work'),
+                    $('.home-content-title-work'));
+                wireHoverEvent($('.home-content-links .about'),
+                    $('.home-content-title-about'));
+                wireHoverEvent($('.home-content-links .blog'),
+                    $('.home-content-title-blog'));
             }
 
-            function fadeInHeader() {
-                fadeHeader(false);
+            function wireHoverEvent($hoverEl, $textEl, shouldReverse) {
+
+                var shouldFade = false;
+                if (shouldReverse) {
+                    shouldFade = true;
+                }
+
+                $hoverEl.hover(function() {
+                    fadeHeader(shouldFade, $textEl);
+                }, function () {
+                    fadeHeader(!shouldFade, $textEl);
+                });
             }
 
-            function fadeHeader(shouldFade) {
-                var $header = $('.home-content-header');
+            function fadeHeader(shouldFade, $text) {
                 var animateTime = 500;
 
                 var opacity = shouldFade ? 0.4 : 1.0;
-
-                $header.animate({
-                    opacity: opacity
+                var zIndex = shouldFade ? 0 : 99;
+                $text.stop(true);
+                $text.animate({
+                    'opacity': opacity,
+                    'z-index': zIndex,
+                    'color': 'yellow'
                 }, animateTime);
 
-                //$header.find('span').css('color', '#222');
+                //$text.find('span').css('color', 'red');
             }
         }
     });

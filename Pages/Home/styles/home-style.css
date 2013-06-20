@@ -154,3 +154,8 @@
     font-family: 'neouthin';
     font-size: 103px;
 }
+
+.home-content-titles-container li {
+    /* TODO: add other opacity options */
+    opacity: 0.4;
+}
