@@ -35,8 +35,27 @@
 }
 
 .timeline-home-header {
-    color:red;
-transform:rotate(7deg);
--ms-transform:rotate(7deg); /* IE 9 */
--webkit-transform:rotate(7deg); /* Safari and Chrome */
+    margin: 10px auto;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #ff0;
+    border-bottom: 1px solid #ff0;
+    transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    padding: 4px;
+    color:transparent;
+    text-indent: -99999px;
+
+}
+
+.timeline-home-header-text {
+     margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'neouthin';
+    color:#ff0;
+    font-size: 47px;
+    margin-top: -44px;
 }
