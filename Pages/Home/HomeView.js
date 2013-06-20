@@ -67,16 +67,18 @@ define([
             function fadeHeader(shouldFade, $text) {
                 var animateTime = 500;
 
-                var opacity = shouldFade ? 0.4 : 1.0;
-                var zIndex = shouldFade ? 0 : 99;
+                var opacity = shouldFade ? 0.7 : 1.0;
+                var zIndex = shouldFade ? -1 : 99;
+                var color = shouldFade ? '#111' : 'yellow';
+
+                $text.find('span').css('color', 'inherit');
+                $text.css('z-index', zIndex);
+
                 $text.stop(true);
                 $text.animate({
                     'opacity': opacity,
-                    'z-index': zIndex,
-                    'color': 'yellow'
+                    'color': color
                 }, animateTime);
-
-                //$text.find('span').css('color', 'red');
             }
         }
     });
