@@ -95,7 +95,7 @@ define([
 
                 var $el = $(opts.el.selector);
                 var animateTime = opts.animateTime;
-                
+
                 var startingPos = opts.showNext ? '100%' : '-100%';
                 var endPos = opts.showNext ? '-100%' : '100%';
 
