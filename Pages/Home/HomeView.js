@@ -71,7 +71,21 @@ define([
                 var zIndex = shouldFade ? -1 : 99;
                 var color = shouldFade ? '#111' : 'yellow';
 
-                $text.find('span').css('color', 'inherit');
+                var $spans = $text.find('div, span');
+                if (shouldFade) {
+                    $.each($spans, function() {
+                        var $span = $(this);
+                        var origColor = $span.css('color');
+                        $span.data('orig-color', origColor);
+                    });
+                } else {
+                    $.each($spans, function() {
+                        var $span = $(this);
+                        var origColor = $span.data('orig-color');
+                        $span.css('color', origColor);
+                    });
+                }
+
                 $text.css('z-index', zIndex);
 
                 $text.stop(true);

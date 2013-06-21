@@ -97,6 +97,7 @@
     position:absolute;
     top:37%;
     padding-left:23px;
+    z-index: 1;
 }
 
 .home-content-titles {
