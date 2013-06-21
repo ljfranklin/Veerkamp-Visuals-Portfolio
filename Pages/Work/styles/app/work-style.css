@@ -6,7 +6,13 @@
 }
 
 .project-preview-container {
-    width: 15%;
+    width:500px;
+    margin-bottom:20px;
+}
+
+.preview-img-container img {
+    width:100%;
+
 }
 
 .timeline-container {
@@ -51,11 +57,37 @@
 }
 
 .timeline-home-header-text {
-     margin: 0 auto;
-    display: block;
-    text-align: center;
-    font-family: 'neouthin';
-    color:#ff0;
-    font-size: 47px;
-    margin-top: -44px;
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+   font-family: 'neouthin';
+   color:#ff0;
+   font-size: 47px;
+   margin-top: -44px;
+}
+
+.triangle {
+    font-size: 56px;
+    line-height: 10px;
+}
+
+.preview-wrapper {
+    position:relative;
+}
+
+.white-corner {
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    bottom: 0;
+    border-left: 500px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 274px solid rgba(0, 0, 0, .5);
+
+ }
+
+.project-preview-container:nth-child(odd) .preview-wrapper .white-corner {
+    border-left: 0px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 274px solid rgba(0, 0, 0, .5);
 }
