@@ -1,0 +1,207 @@
+   a {
+      cursor: pointer;
+   }
+
+   .member-home-intro-links {
+      margin: 0;
+      padding:0;
+   }
+
+   .member-home-intro-links li {
+      list-style-type: none;
+      display: block;
+      padding: 10px 10px 10px 46px;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+   }
+
+   .member-home-intro-links .liId  {
+      background: #f7f7f7;
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"), -webkit-linear-gradient(top, #f7f7f7, #e5e5e5); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),    -moz-linear-gradient(top, #f7f7f7, #e5e5e5); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),     -ms-linear-gradient(top, #f7f7f7, #e5e5e5); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),      -o-linear-gradient(top, #f7f7f7, #e5e5e5); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),         linear-gradient(top, #f7f7f7, #e5e5e5); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px 7px, 0px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+   }
+
+   .member-home-intro-links .liId:hover  {
+      background: #eaeaea;
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"), -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d8d8d8)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"), -webkit-linear-gradient(top, #eaeaea, #d8d8d8); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),    -moz-linear-gradient(top, #eaeaea, #d8d8d8); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),     -ms-linear-gradient(top, #eaeaea, #d8d8d8); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),      -o-linear-gradient(top, #eaeaea, #d8d8d8); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_352_nameplate.png"),         linear-gradient(top, #eaeaea, #d8d8d8); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px -37px, 0px;
+   }
+
+   .member-home-intro-links .liFind  {
+      background: #f7f7f7;
+      background-image: url("quicklinksImg/glyphicons_003_user.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"), -webkit-linear-gradient(top, #f7f7f7, #e5e5e5); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),    -moz-linear-gradient(top, #f7f7f7, #e5e5e5); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),     -ms-linear-gradient(top, #f7f7f7, #e5e5e5); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),      -o-linear-gradient(top, #f7f7f7, #e5e5e5); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),         linear-gradient(top, #f7f7f7, #e5e5e5); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px 7px, 0px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+   }
+
+   .member-home-intro-links .liFind:hover  {
+      background: #eaeaea; /* Old browsers */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"), -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d8d8d8)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"), -webkit-linear-gradient(top, #eaeaea, #d8d8d8); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),    -moz-linear-gradient(top, #eaeaea, #d8d8d8); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),     -ms-linear-gradient(top, #eaeaea, #d8d8d8); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),      -o-linear-gradient(top, #eaeaea, #d8d8d8); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_003_user.png"),         linear-gradient(top, #eaeaea, #d8d8d8); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px -37px, 0px;
+   }
+
+   .member-home-intro-links .liClaims  {
+      background: #f7f7f7;
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"), -webkit-linear-gradient(top, #f7f7f7, #e5e5e5); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),    -moz-linear-gradient(top, #f7f7f7, #e5e5e5); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),     -ms-linear-gradient(top, #f7f7f7, #e5e5e5); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),      -o-linear-gradient(top, #f7f7f7, #e5e5e5); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),         linear-gradient(top, #f7f7f7, #e5e5e5); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px 9px, 0px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+   }
+
+   .member-home-intro-links .liClaims:hover  {
+      background: #eaeaea;
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"), -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d8d8d8)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"), -webkit-linear-gradient(top, #eaeaea, #d8d8d8); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),    -moz-linear-gradient(top, #eaeaea, #d8d8d8); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),     -ms-linear-gradient(top, #eaeaea, #d8d8d8); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),      -o-linear-gradient(top, #eaeaea, #d8d8d8); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_051_eye_open.png"),         linear-gradient(top, #eaeaea, #d8d8d8); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px -25px, 0px;
+   }
+
+   .member-home-intro-links .liProfile  {
+      background: #f7f7f7;
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"), -webkit-linear-gradient(top, #f7f7f7, #e5e5e5); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),    -moz-linear-gradient(top, #f7f7f7, #e5e5e5); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),     -ms-linear-gradient(top, #f7f7f7, #e5e5e5); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),      -o-linear-gradient(top, #f7f7f7, #e5e5e5); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),         linear-gradient(top, #f7f7f7, #e5e5e5); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px 9px, 0px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+   }
+
+   .member-home-intro-links .liProfile:hover  {
+      background: #eaeaea;
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"), -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"), -webkit-linear-gradient(top, #eaeaea, #d8d8d8); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),    -moz-linear-gradient(top, #eaeaea, #d8d8d8); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),     -ms-linear-gradient(top, #eaeaea, #d8d8d8); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),      -o-linear-gradient(top, #eaeaea, #d8d8d8); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_024_parents.png"),         linear-gradient(top, #eaeaea, #d8d8d8); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px -37px, 0px;
+   }
+
+   .member-home-intro-links .liGoals  {
+      background: #f7f7f7;
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"), -webkit-linear-gradient(top, #f7f7f7, #e5e5e5); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),    -moz-linear-gradient(top, #f7f7f7, #e5e5e5); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),     -ms-linear-gradient(top, #f7f7f7, #e5e5e5); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),      -o-linear-gradient(top, #f7f7f7, #e5e5e5); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),         linear-gradient(top, #f7f7f7, #e5e5e5); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px 7px, 0px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+   }
+
+   .member-home-intro-links .liGoals:hover  {
+      background: #eaeaea;
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"), -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d8d8d8)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"), -webkit-linear-gradient(top, #eaeaea, #d8d8d8); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),    -moz-linear-gradient(top, #eaeaea, #d8d8d8); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),     -ms-linear-gradient(top, #eaeaea, #d8d8d8); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),      -o-linear-gradient(top, #eaeaea, #d8d8d8); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_282_cardio.png"),         linear-gradient(top, #eaeaea, #d8d8d8); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px -48px, 0px;
+   }
+
+   .member-home-intro-links .liQuestion  {
+      background: #f7f7f7;
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#999999)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"), -webkit-linear-gradient(top, #f7f7f7, #e5e5e5); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),    -moz-linear-gradient(top, #f7f7f7, #e5e5e5); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),     -ms-linear-gradient(top, #f7f7f7, #e5e5e5); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),      -o-linear-gradient(top, #f7f7f7, #e5e5e5); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),         linear-gradient(top, #f7f7f7, #e5e5e5); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px 7px, 0px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -ms-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+   }
+
+   .member-home-intro-links .liQuestion:hover  {
+      background: #eaeaea;
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"); /* fallback */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"), -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d8d8d8)); /* Saf4+, Chrome */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"), -webkit-linear-gradient(top, #eaeaea, #d8d8d8); /* Chrome 10+, Saf5.1+ */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),    -moz-linear-gradient(top, #eaeaea, #d8d8d8); /* FF3.6+ */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),     -ms-linear-gradient(top, #eaeaea, #d8d8d8); /* IE10 */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),      -o-linear-gradient(top, #eaeaea, #d8d8d8); /* Opera 11.10+ */
+      background-image: url("quicklinksImg/glyphicons_124_message_plus.png"),         linear-gradient(top, #eaeaea, #d8d8d8); /* W3C */
+      background-repeat: no-repeat;
+      background-position: 10px -41px, 0px;
+   }
+
+   .member-home-intro-links li:first-child {
+      border-top: 1px solid #ccc;
+   }

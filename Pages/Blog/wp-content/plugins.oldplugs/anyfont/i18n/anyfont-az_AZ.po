@@ -1,0 +1,682 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AnyFont v2.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-05-23 19:20+0400\n"
+"Last-Translator: Madat <translator.baku@gmail.com>\n"
+"Language-Team: Webmestre <translator.baku@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Azerbaijani\n"
+"X-Poedit-Country: AZERBAIJAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ anyfont
+#: anyfont.php:183
+#: anyfont.php:194
+msgid "Settings"
+msgstr "Parametrlər"
+
+#@ anyfont
+#: anyfont.php:184
+msgid "Manage Fonts"
+msgstr "Şriftləri redaktə etmək"
+
+#@ anyfont
+#: anyfont.php:185
+msgid "Manage Styles"
+msgstr "Stilləri redaktə etmək"
+
+#@ anyfont
+#: anyfont.php:200
+msgid "Help Pages for FontServ & AnyFont"
+msgstr "FontServ & AnyFont üzrə köməkçi səhifələr"
+
+#@ anyfont
+#: anyfont.php:200
+msgid "FontServ FAQ and Help Page"
+msgstr "FontServ FAQ və Kömək Səhifəsi"
+
+#@ anyfont
+#: anyfont.php:201
+msgid "AnyFont FAQ"
+msgstr "AnyFont FAQ"
+
+#@ anyfont
+#: anyfont.php:202
+msgid "AnyFont Project Page"
+msgstr "AnyFont Proyektin Səhifəsi"
+
+#@ anyfont
+#: anyfont.php:203
+msgid "If you need to contact support please use the support form available on your <a href='http://fontserv.com/account' target='_blank'>account</a> page at FontServ.com.<br /> If you have not yet signed up at FontServ.com, signing up is both free and quick to do. <a href='http://fontserv.com/signup' target='_blank'>Sign Up Here</a>"
+msgstr "Əgər Sizə dəstək xidməti ilə əlaqə saxlamaq lazımdırsa, onda, zəhmət olmasa, FontServ.com saytında yerləşən Sizin<a href='http://fontserv.com/account' target='_blank'> kabinetdə </a> yerləşən formadan istifadə edin. Əgər Siz hələm də  FontServ.com-da requstrasiya olunmasızınsa, onda Siz bunu  <a href='http://fontserv.com/signup' target='_blank'>reqistrasiya </ a> səhifəsində edə bilərsiniz."
+
+#@ anyfont
+#: anyfont.php:225
+msgid "Font Manager"
+msgstr "Şriftlərin redaktoru"
+
+#@ anyfont
+#: anyfont.php:232
+msgid "Style Manager"
+msgstr "Stillərin redaktoru"
+
+#@ anyfont
+#: anyfont.php:528
+#: anyfont.php:562
+#, php-format
+msgid "%s has been deleted."
+msgstr "%s silinmişdir"
+
+#@ anyfont
+#: anyfont.php:536
+msgid "The selected fonts have been deleted."
+msgstr "Seçilən şriftlər silinmişdir"
+
+#@ anyfont
+#: anyfont.php:558
+msgid "The selected styles have been deleted."
+msgstr "Seçilən stillər silinmişdir"
+
+#@ anyfont
+#: anyfont.php:589
+msgid "Cache Cleared"
+msgstr "Keş silinib"
+
+#@ anyfont
+#: anyfont.php:677
+#: anyfont.php:691
+#: anyfont.php:760
+msgid "Your settings have been saved!"
+msgstr "Kökləmələr yaddaşda saxlanılıb !"
+
+#@ anyfont
+#: anyfont.php:700
+msgid "Your API key has been saved!"
+msgstr "Sizin API açarınız yaddaşda saxlanılıb!"
+
+#@ anyfont
+#: anyfont.php:715
+#: anyfont.php:732
+msgid "Error: No Style Selected! If you have not created any styles yet, <a href='admin.php?page=anyfont-styles'>click here</a> to go to the style manager now."
+msgstr "Səhv: Stil seçilməyib! Əgər Siz hələm də heç bir stil yaratmamısınız isə, onda indi dərxal stil menecerinə keçmək üçün <a href='admin.php?page=anyfont-styles'> bura </> basın."
+
+#@ anyfont
+#: anyfont.php:1056
+msgid "It was detected that you are using PHP4 and currently PHP5 is required for fonts to be converted correctly using FontServ.com."
+msgstr "Aşkar olunmuşdur ki, Siz PHP4 istifadə edirsiniz. FontServ.com  plaginin düzgün işləməsindən ötrü PHP5 tələb olunur."
+
+#@ anyfont
+#: anyfont.php:1104
+msgid "New Font Style"
+msgstr "Yeni Şriftin Stili"
+
+#@ anyfont
+#: anyfont.php:1105
+msgid "Upload New Font"
+msgstr "Yeni Şrifti Yükləmək"
+
+#@ anyfont
+#: lib/class.admin.php:37
+msgid "Help for this setting is not yet available."
+msgstr "Bu funksiya üzrə kömək hələm əl çatmazdır."
+
+#@ anyfont
+#: lib/class.admin.php:38
+msgid "Enables replacement of the text in your page menus with the styles chosen below."
+msgstr "Aşağıda seçilmiş stillər ilə menyu səhifəsində mətni dəyişdirməyi icazə vermək."
+
+#@ anyfont
+#: lib/class.admin.php:39
+msgid "Enable this setting if the text in your generated images is cut off."
+msgstr "Əgər qoyulmuş şəkildə mətin yarımçıqdırsa onda bu parametri qoşun."
+
+#@ anyfont
+#: lib/class.admin.php:40
+msgid "Amount of empty space at the top of the generated image."
+msgstr "Alınmış şəkilin yuxarı hissəsindəki boş sahənin ölçüsü."
+
+#@ anyfont
+#: lib/class.admin.php:41
+msgid "Amount of empty space at the bottom of the generated image."
+msgstr "Alınmış şəkilin aşağı hissəsindəki boş sahənin ölçüsü."
+
+#@ anyfont
+#: lib/class.admin.php:42
+msgid "Amount of empty space on the right of the generated image."
+msgstr "Alınmış şəkilin sağ hissəsindəki boş sahənin ölçüsü. "
+
+#@ anyfont
+#: lib/class.admin.php:43
+msgid "Amount of empty space on the left of the generated image."
+msgstr "Alınmış şəkilin sol hissəsindəki boş sahənin ölçüsü. "
+
+#@ anyfont
+#: lib/class.admin.php:44
+msgid "Unless you are using an alternative mod_rewrite method you should NEVER disable this setting."
+msgstr "Əgər Siz mod_rewrite  alternativi istifadə etmirsiniz isə ona Siz HEÇ VAXT bu parametri söndurməli deyilsiniz."
+
+#@ anyfont
+#: lib/class.admin.php:45
+msgid "Enabling this setting will allow you to set the folder for uploaded font files.  Note: Changing this setting will automatically move any fonts you have already uploaded to the new folder."
+msgstr "Bu parametirin qoşulması yüklənmiş şriftlərin fayılları üçün papkasını yaratmağa imkan verəcək. Qeyd: Bu parametirin dəyişdirilməsi Siz yeni papkaya yüklədiyiniz şrifti avtomatik olaraq keçirdəcək. "
+
+#@ anyfont
+#: lib/class.admin.php:46
+msgid "Enabling this setting will allow you to set the folder which is used to store generated images.  Note: Changing this setting will automatically move any images already cached to the new folder."
+msgstr "Bu parametirin qoşulması düzədilmiş şriftlərin görüntülərin saxlanması üçün üçün papkasını yaratmağa imkan verəcək. Qeyd: Bu parametirin dəyişdirilməsi keşi yeni papkaya avtomatik olaraq keçirdəcək.           "
+
+#@ anyfont
+#: lib/class.admin.php:47
+msgid "When this setting is enabled, a button will be added to the editor for posts/pages which allows you to apply AnyFont styles to text in your post."
+msgstr "Bu parametr qoşulduğu zaman yazıların / səhifənin redaktor düyməsi əlavə olunacaq, hansı ki AnyFont-un şrift stillərini Sizin yazıda mətn daxilində istifadə edə bilərsiniz."
+
+#@ anyfont
+#: lib/class.admin.php:48
+msgid "Enable this setting if you would like to compress AnyFont generated images using gzip before they sent to the browser.  Note: In some cases this may actually increase the size of the image as all generated images are already optimized.  Use at your own discretion."
+msgstr "Şəkili brauzerə göndərməmişdən qabaq  əgər Siz GZIP vasitəsi ilə AnyFont-un düzəldilmiş şəklini sıxmaq istəyirsiniz isa onda bu parametri qoşun. Qeyd: Bəzi hallarda bu faktiki olaraq şəkilin ölçülərini çoxalda bilər, çünki bütün yaranmış şəkillər artıq optimizasiya olunublar.  Özünüzun istədiyiniz halda istifadə edə bilərsiniz."
+
+#@ anyfont
+#: lib/class.admin.php:49
+msgid "This will prevent any unauthorized websites from using your generated images on their own pages. Disabling this setting is not recommended."
+msgstr "Bu Sizin yaratdığınız şriftin görüntüsünü digər veb-saytların istifadə edilməməsindən imkan verəcək. Bu parametrlərin söndürülməsi məsləhət görülmür."
+
+#@ anyfont
+#: lib/class.admin.php:50
+msgid "When enabled, Disk usage will be shown in bytes. This was the default behaviour prior to version 1.0 so this setting is here just in case someone actually liked it that way! ;)"
+msgstr "Goşulan zaman istifadə olunan disk həcmini bayt ilə göstərir. Bu funksiya 1,0 versiyadan qabaq olmuşdur, ona görə də həmin parametr burada hela belə yerləşdirilib - bəlkəm kimin isə xoşuna gəldi! ;)"
+
+#@ anyfont
+#: lib/class.admin.php:51
+msgid "Enabling this will add an admin widget to your dashboard showing disk usage information for AnyFont"
+msgstr "Bu funksiyanın aktivləşdirilməsi admin konsolya AnyFont ücün disk sahəsi barəsində  məlumat vidjetini əlavə etməyə imkan yaradacaq."
+
+#@ anyfont
+#: lib/class.admin.php:52
+msgid "If you want to make sure AnyFont doesn't use more disk space than what you're allowed, enabling this setting will allow you to set a size limit.  If enabled, the cache will be checked once every day and cleaned only if it is found to be larger than the set limit"
+msgstr "Əgər əmin olmaq istayirsiniz isə AnyFont Siz icazə verdiyinizdən çox disk sahədən istifadə etmir, bu parametrin qoşulması hüdud ölçülərin quraşdırılmasına imkan verir. Əgər qoşulubsa onda keş gündə bir dəfə yoxlanılıb və yalnız icazə verlimiş hüdudlarından iri olsa  silinəcək."
+
+#@ anyfont
+#: lib/class.admin.php:53
+msgid "Enter the maximum amount of disk space AnyFont is allowed to use in MB"
+msgstr "AnyFont-un istifadəsi üçün icazə verilmiş disk sahənin maksimal həcmini MB ilə daxil edin."
+
+#@ anyfont
+#: lib/class.admin.php:54
+msgid "When this setting is enabled, the primary text heading of your blog posts will automatically be replaced with a dynamically generated image which is 100% SEO friendly. Dont forget to select a style from the dropdown list after enabling this setting."
+msgstr "Bu parametr qoşulduğu zaman, yazıların adları 100% SEO ilə mehriban olan dinamik düzənilən şəkilləri ilə avtomatik olaraq əvəz olunacaqlar. Bu parametri qoşduqdan sonra düşən siyahıdan stili seçmək unutmayın. "
+
+#@ anyfont
+#: lib/class.admin.php:55
+msgid "When this setting is enabled, the primary text heading of your blog pages will automatically be replaced with a dynamically generated image which is 100% SEO friendly. Dont forget to select a style from the dropdown list after enabling this setting."
+msgstr "Bu parametr qoşulduğu zaman, səhifənin adları 100% SEO ilə mehriban olan dinamik düzənilən şəkilləri ilə avtomatik olaraq əvəz olunacaqlar. Bu parametri qoşduqdan sonra düşən siyahıdan stili seçmək unutmayın.  "
+
+#@ anyfont
+#: lib/class.admin.php:56
+msgid "When this setting is enabled, the tag name, which is normally displayed at the top of the page when browsing a specific tag, will automatically be replaced with a dynamically generated image which is 100% SEO friendly. Dont forget to select a styles from the dropdown list after enabling this setting."
+msgstr "Bu parametr qoşulduğu zaman, teqin adı hansı ki, konkret teqə baxanda səhifənin yuxarı hissəsində yerləşir, 100% SEO ilə mehriban olan  dinamik düzənilən şəkilləri ilə avtomatik olaraq əvəz olunacaqlar. Bu parametri qoşduqdan sonra düşən siyahıdan stili seçmək unutmayın.  "
+
+#@ anyfont
+#: lib/class.admin.php:57
+msgid "When this setting is enabled, the category name, which is normally displayed at the top of the page when browsing a specific category, will automatically be replaced with a dynamically generated image which is 100% SEO friendly. Dont forget to select a styles from the dropdown list after enabling this setting."
+msgstr "Bu parametr qoşulduğu zaman, kateqoriyaların adları hansı ki, konkret kateqoriyaya baxanda səhifənin yuxarı hissəsində yerləşir, 100% SEO ilə mehriban olan dinamik düzənilən şəkilləri ilə avtomatik olaraq əvəz olunacaqlar. Bu parametri qoşduqdan sonra düşən siyahıdan stili seçmək unutmayın.    "
+
+#@ anyfont
+#: lib/class.admin.php:58
+msgid "When this setting is enabled, widget titles will automatically be replaced with a dynamically generated image. NOTE: Widget title images are NOT SEO friendly. Dont forget to select a styles from the dropdown list after enabling this setting."
+msgstr "Bu parametr qoşulduğu zaman, vidjetin adı dinamik düzənilən şəkilləri ilə avtomatik olaraq əvəz olunacaq. QEYD: vidjetin adının şəkili SEO İLƏ MEHRİBAN DEYİL. Bu parametri qoşduqdan sonra düşən siyahıdan stili seçmək unutmayın.   "
+
+#@ anyfont
+#: lib/class.admin.php:59
+msgid "When enabled, AnyFont will attempt to style your Blogs Name in the site header using the chosen style.  Note: Results may vary depending on the theme."
+msgstr "Qoşulduğu zaman, AnyFont seçilmiş stildən istifadə edərək Sizin bloqun başlığının stil etməyi çalışacaq. Qeyd: Nəticələr mövzudan asılı olaraq dəyişilə bilər."
+
+#@ anyfont
+#: lib/class.admin.php:60
+msgid "When enabled, AnyFont will attempt to style your Blogs Description in the site header using the chosen style.  Note: Results may vary depending on the theme."
+msgstr "Qoşulduğu zaman, AnyFont seçilmiş stildən istifadə edərək Sizin bloqun təsvirini stil etməyi çalışacaq. Qeyd: Nəticələr mövzudan asılı olaraq dəyişilə bilər.    "
+
+#@ anyfont
+#: lib/class.admin.php:61
+msgid "Enabling this setting will allow you to set styles for menus generated with the wp_list_pages or wp_page_menu WordPress functions and the new menu builder available in WordPress 3(Requires the 'Title Attribute' to be set for each entry on the WordPress menus admin page).  Note: Results may vary depending on the theme."
+msgstr "Bu parametrlərin qoşulması menyu üçün avtomatik qenerasiya olunan WordPress -  wp_list_pages yaxud  wp_page_menu  standard funksiyalarını və WordPress 3 üçün açıq olan konstruktorun yeni menyusu (Hər yazı üçün ayrıca administrator səhifəsinin menyusunda 'Title Attribute' quraşdırılması tövsiyə olunur) stillərin quraşdırılmasında Sizə imkan verəcək. Qeyd: Nəticələr mövzudan asılı olaraq dəyişilə bilər.    "
+
+#@ anyfont
+#: lib/class.admin.php:62
+msgid "The name of the style. Acceptable characters to use include letters, numbers, spaces, underscores and dashes."
+msgstr "Stilin adı. İcazə verilir istifadə etmək:  hərflər, rəqəmlər, məsafələr, xətt çəkmək və tire."
+
+#@ anyfont
+#: lib/class.admin.php:63
+msgid "The main color of the font face, Select a color by clicking the color square and choosing a preset or type in your own color code in hex format"
+msgstr "Şriftin əsas rəngi. Rəngli kvadrata basaraq rəngi seçin yaxud on altı rəqəmli formatda daxil edərək öz rənginin kodunu daxil edin"
+
+#@ anyfont
+#: lib/class.admin.php:64
+msgid "Select an uploaded font from the list, if you have not yet uploaded any fonts, you should do so before attempting to create a style."
+msgstr "Əgər Siz öz şriftinizi yükləməmisiniz isə, onda siyahıda yüklənmiş şriftən seçin, Siz bunu stili yaratmaqdan əvvəl etməlisiniz."
+
+#@ anyfont
+#: lib/class.admin.php:65
+msgid "Select a size from the dropdown or type in a custom size."
+msgstr "Düşən siyahıdan ölçünü seçin yaxud istifadəçi ölçünü daxil edin."
+
+#@ anyfont
+#: lib/class.admin.php:66
+msgid "Enabling this setting will allow you to set a character limit for the width of the image, after which the text will then continue on a new line."
+msgstr "Bu parametrin qoşulması şəkilin eni üçün simvol limiti quraşdırılmasına Sizə imkan yaradacaq, və sonra mətin təzə sətirə köçürüləcək."
+
+#@ anyfont
+#: lib/class.admin.php:67
+msgid "Set the pixel width for the generated images"
+msgstr "Şriftin qenerasiya olunan şəklinin eninin ölçüsu pikseldir."
+
+#@ anyfont
+#: lib/class.admin.php:68
+msgid "Align the text to display either centered or left aligned(default) in the generated image."
+msgstr "Şəkildə alınmış mətnini səhifənin ortsi yaxud sol tərəf ilə düzəldin (standard formasında)."
+
+#@ anyfont
+#: lib/class.admin.php:69
+msgid "Adjust the height for each line of text on multi-line images. NOTE: When set to '0px', this setting will be ignored and the default line height will be used"
+msgstr "Hər sətrin hündürlüyünü nizamlıyın. QEYD: При установке  \\\"0px\\\" qurulduğu zaman, bu parametrə əhəmiyyət verilməyəcək, və defolt hündürlüyü istifadə olunacaq."
+
+#@ anyfont
+#: lib/class.admin.php:70
+msgid "Enabling this setting will allow you to add shadow effects to the text"
+msgstr "Bu parametrin söndürülməsi mətinə kölqə effektini əlavə etməsini Sizə imkan yaradacaq"
+
+#@ anyfont
+#: lib/class.admin.php:71
+msgid "Set the color for the text shadow by clicking the color square and choosing a preset or type in your own color code in hex format"
+msgstr "Mətnin kölgəsinin rəngini təyin edin.  Rəngli kvadrata basaraq rəngi seçin yaxud on altı rəqəmli formatda daxil edərək öz rənginin kodunu daxil edin "
+
+#@ anyfont
+#: lib/class.admin.php:72
+msgid "This controls how far the shadow is from the text. The higher the value, the further down and to the right the shadow will appear."
+msgstr "Bu parametr kölgənin əsas mətində neca uzaq olacağını təyin edir. Aşağı, yuxarı, sola, sağa."
+
+#@ anyfont
+#: lib/class.admin.php:73
+msgid "Control the amount of blur/stretch that is applied to the shadow."
+msgstr "Kölgədə istifadə olunan bulanığın / dartınmağının kontrolu."
+
+#@ anyfont
+#: lib/class.admin.php:74
+msgid "Enabling this setting will blur the shadow slightly and smoothly merge it into the background."
+msgstr "Bu parametrin qoşulması kölgənin bulanğını səlist edir və arxa plan (fon) ilə birləşdirir."
+
+#@ anyfont
+#: lib/class.admin.php:75
+msgid "This must be set to the background color that the image will be placed on when used on your site. ie: If your site has a white background, this color should then be set to white."
+msgstr "Bu parametr saytın fonu rəngi ila uyğun gəlməlidir. Məsələn: Əgər Sizin saytınız ağ rəngdədi, onda bu rəngdə ağ təyin qoyulmalıdır."
+
+#@ anyfont
+#: lib/class.admin.php:76
+msgid "Enter your API key which can be found on your Account page at FontServ.com. Sign up now for free if you do not yet have an account."
+msgstr "FontServ.com saytında öz əkaunta daxil olaraq alınmış API açarını daxil edin. İndi pulsuz qeydiyyatdan keçin, əgər bu vaxta kimi bunu etməmisiz."
+
+#@ anyfont
+#: lib/class.admin.php:77
+msgid "This setting will apply the selected style to <strong><em>all</em></strong> the text on every page of your site."
+msgstr "Bu kökləmə Sizin saytınızın hər səhifədə  <strong> <em> mətn </ EM> </ STRONG> şriftinin stilini verir. "
+
+#@ anyfont
+#: lib/class.admin.php:78
+msgid "This setting will apply the selected style to just the content element on every page of your site. WARNING: This setting may not work with all themes as it depends on there being a div element with the id 'content'."
+msgstr "Bu parametr saytın səhifəsində yerləşən seçilmiş stilə təsir edəcək.. DİQQƏT: Bu opsiya  Div elementindən kodunda id 'content' identifikatorından asılı olaraq hər bir mövzu ilə işləyə bilməz. Yani bu opsiyanin düzgün görünüşü üçün səhifənin kontentini bloka id 'content' ilə qoyun."
+
+#@ anyfont
+#: lib/class.admin.php:79
+msgid "This setting will apply the selected style to just the footer element on every page of your site. WARNING: This setting may not work with all themes as it depends on there being a div element with the id 'footer'."
+msgstr "Bu parametr hər Sizin saytın sahifəsində footera stilina təsir göstərəcək. DİQQƏT: Bu opsiya  Div elementindən kodunda id 'content' identifikatorından asılı olaraq hər bir mövzu ilə işləyə bilməz. "
+
+#@ anyfont
+#: lib/class.admin.php:80
+msgid "This setting will apply the selected style to just the header element on every page of your site. WARNING: This setting may not work with all themes as it depends on there being a div element with the id 'header'."
+msgstr "Bu parametr saytın səhifəsində yerləşən header stilin elementlərinə təsir edəcək. DİQQƏT: Bu opsiya  Div elementindən kodunda id 'content' identifikatorından asılı olaraq hər bir mövzu ilə işləyə bilməz. "
+
+#@ anyfont
+#: lib/class.admin.php:81
+msgid "Apply styles to any Element, Element ID or Element Classname.  For more details, please click help in the upper right hand corner of this page."
+msgstr "Hər hansı elementa, id yaxud class-a tətbiqi. Əlavə məlumat almaq üçün, zəhmət olmasa, bu səhifədə sağ tərəfində yerləşən kömək düyməsini basın."
+
+#@ anyfont
+#: lib/class.admin.php:82
+msgid "Enable this setting to have all images generated at FontServ instead of your own server."
+msgstr "Bu parametri qoşun ki, FontServ-də Sizin serverin yerinə bütün şəkillər qenerasiya olunsunlar."
+
+#@ anyfont
+#: lib/class.admin.php:83
+msgid "Backup your font files to FontServ.com automatically whenever a change is detected."
+msgstr "Dəyişiklər aşkar olunduğu zamanı FontServ.com şriftlərin fayıllarını avtomatik rezerv kopiyası. Авт"
+
+#@ anyfont
+#: lib/class.admin.php:84
+msgid "Backup all your styles to FontServ.com automatically whenever a change is detected."
+msgstr "Dəyişiklər aşkar olunduğu zamanı FontServ.com Sizin stillərinizin avtomatik rezerv kopiyası. "
+
+#@ anyfont
+#: lib/class.admin.php:85
+msgid "Select one of your converted fonts from the list in the dropdown menu"
+msgstr "Düşən siyahıdan dəyişilən şriftlərdən birini seçin. "
+
+#@ anyfont
+#: lib/class.admin.php:86
+msgid "Set whether your styles text should be bold, italic or underlined.  Multiple options may be selected."
+msgstr "Sizin mətninin stili qara, kursiv yaxud xətt çəkilmiş olub olmamağını təyyin edin. Bir neçə opsiyalar seçilə bilər."
+
+#@ anyfont
+#: lib/class.admin.php:87
+msgid "Set the styles text to be either left, center or right aligned."
+msgstr "Mətn stili naboru ya solda, ya ortada yaxud yada sol tərəfdə yerləşir."
+
+#@ anyfont
+#: lib/class.admin.php:88
+msgid "Set the styles text to be aligned to either the left or the center."
+msgstr "Mətn sitlini müvafiq olaraq solda yaxud ortada quraşdırın."
+
+#@ anyfont
+#: lib/class.admin.php:89
+msgid "Custom post type title replacement. Both image styles and css styles can be assigned."
+msgstr "Stil üçün istifadəçi adları. Həm şəkillər üçün həm də css stilləri təyin oluna bilərlər."
+
+#@ anyfont
+#: lib/class.admin.php:91
+msgid "This is a custom css rule you created."
+msgstr "Siz öz CSS stilini yaratmısınız."
+
+#@ anyfont
+#: lib/class.admin.php:110
+msgid "Please note that once a style is deleted, any generated images that are assosiated with the style will no longer load."
+msgstr "Zəhmət olmasa fikir verin ki, stil silinib, bu stilin hansısa bir gorüntüsü daha yükləmək olmayacaq."
+
+#@ anyfont
+#: lib/class.admin.php:111
+msgid "Are you sure you want to delete this style?"
+msgstr "Siz əminsiniz ki bu stili silmək istəyirsiniz?"
+
+#@ anyfont
+#: lib/class.admin.php:112
+msgid "Are you sure you want to delete the selected styles?"
+msgstr "Siz əminsiniz ki seçilmiş stilləri silmək istəyirsiniz?"
+
+#@ anyfont
+#: lib/class.admin.php:113
+msgid "Are you sure you want to delete the selected font(s)?"
+msgstr "Siz əminsiniz ki seçilmiş şrift(-ləri)i silmək istəyirsiniz?"
+
+#@ anyfont
+#: lib/class.admin.php:114
+msgid "Please note that once a font is deleted, any styles which are using the font will break."
+msgstr "Zəhmət omasa fikir verin ki, şrift silinəcək və şriftin istifadə olunan bütün stillər silinəcəkdirlər."
+
+#@ anyfont
+#: lib/class.admin.php:115
+msgid "Deleting Selected Fonts..."
+msgstr "Seçilmiş şriftlərin silinməsi ..."
+
+#@ anyfont
+#: lib/class.admin.php:116
+msgid "Deleting Selected Styles..."
+msgstr "Seçilmiş stillərin silinməsi ..."
+
+#@ anyfont
+#: lib/class.admin.php:117
+msgid "Deleting"
+msgstr "Silmək"
+
+#@ anyfont
+#: lib/class.admin.php:118
+msgid "No Styles Selected!"
+msgstr "Seçilmiş stillər yoxdur !"
+
+#@ anyfont
+#: lib/class.admin.php:119
+msgid ""
+"Are you sure you want to clear the cache?\n"
+"Note: this action will not delete any uploaded font files."
+msgstr "Siz əminsiniz ki, keşi silmək istəyirsiniz? Qeyd: bu hərəkət şriftlərin fayıllarını silə bilmayacək."
+
+#@ anyfont
+#: lib/class.admin.php:120
+msgid "Clearing the cache..."
+msgstr "Keşin təmizlənməsi ..."
+
+#@ anyfont
+#: lib/class.admin.php:121
+msgid "no images"
+msgstr "şəkillər yoxdur"
+
+#@ anyfont
+#: lib/class.admin.php:122
+msgid "was uploaded successfully"
+msgstr "müvəffəqiyyətlə yüklənmişdir"
+
+#@ anyfont
+#: lib/class.admin.php:123
+msgid "Upload Failed:"
+msgstr "Yüklənmək alınmadı:"
+
+#@ anyfont
+#: lib/class.admin.php:124
+msgid "Save Failed! Please ensure that the font folder and all files inside are writable by the webserver."
+msgstr "Yaddaşda kəsildi ! Zəhmət olmasa əmin olun ki,  şriftlər papkasi və onların içində yerləşən fayıllar veb-servis ilə yazı (chmod 0777 quraşdırmağı çalışın)   üçün hazırdırlar. "
+
+#@ anyfont
+#: lib/class.admin.php:125
+msgid "Style has been saved."
+msgstr "Stil yaddaşda saxlanmışdır."
+
+#@ anyfont
+#: lib/class.admin.php:126
+msgid "Saving Style..."
+msgstr "Stili yaddaşda saxlanması ..."
+
+#@ anyfont
+#: lib/class.admin.php:127
+msgid "Loading Preview..."
+msgstr "Əvvəlcədən baxışı yüklənməsi ..."
+
+#@ anyfont
+#: lib/class.admin.php:128
+msgid "Uploading Font..."
+msgstr "Şriftin yüklənməsi ..."
+
+#@ anyfont
+#: lib/class.admin.php:129
+msgid "Saving Settings..."
+msgstr "Kökləmələrin yaddaşda saxlanması ..."
+
+#@ anyfont
+#: lib/class.admin.php:164
+msgid "AnyFont Settings"
+msgstr "AnyFont-un kökləmələri"
+
+#@ anyfont
+#: lib/class.admin.php:165
+msgid "Install Fonts"
+msgstr "Şriftləri quraşdırmaq"
+
+#@ anyfont
+#: lib/class.admin.php:166
+msgid "Create Styles"
+msgstr "Stillərin yaradılması"
+
+#@ anyfont
+#: lib/class.admin.php:189
+msgid "Please click the help button in the top right corner of this page for links to the documentation and support options."
+msgstr "Zəhmət olmasa, bu səhifədə sağda küncdə yerləşən dokumentlərə və texniki dəstək variantların göstərilməsi üçün kömək düyməsin basın."
+
+#@ anyfont
+#: lib/class.admin.php:239
+msgid "AutoReplace Titles"
+msgstr "Adların yeniləşdirilməsi"
+
+#@ anyfont
+#: lib/class.admin.php:240
+msgid "To replace certain plain text titles with images in your wordpress blog, enable the appropriate section below and then assign it one of your <a href=\"{STYLE_URL}\">styles</a>."
+msgstr "Standart səhifənin  mətnini şəkil ilə dəyişdirməsi üçün aşağıda göstərilən bölmədə onu (şəkili) qoşun və sonra isə  <a href=\"{STYLE_URL}\">styles</a>  dəyişdirin."
+
+#@ anyfont
+#: lib/class.admin.php:241
+msgid "The post title, page title, blog name and blog description image replacements are SEO compatible."
+msgstr "Yazılışın başlığı, səhifənin başlağı, bloqun başlığı və şəkilin -SEO ilə uyğundur - dəyişdirilən zamanı bloqun təsviri."
+
+#@ anyfont
+#: lib/class.admin.php:242
+msgid "<span>PLEASE NOTE:</span><br /> The above options may not be compatible with ALL themes and/or custom widgets."
+msgstr "<span>DİQQƏT EDİN:</span> <br /> Yuxarıda göstərilən parametrlər bütün mövzular və/ yaxud istifadəçi vidjetlər ilə uyğunlaşmaya bilər."
+
+#@ anyfont
+#: lib/class.admin.php:243
+msgid "If you encounter any problems:<br/><br /><ul><li>Please check the <a href=\"http://wordpress.org/extend/plugins/anyfont/faq\" target=\"_blank\">FAQ</a> for known issues with certain themes.</li><li>Check with the theme developer</li><li>See message below to contact me for support.</li></ul>"
+msgstr "Əgər Sizdə problem yaransa: <br/><br /><ul><li> Zəhmət olmasa, bəzi mövzunu tanınmış problemlər ilə <a href=\\\"http://wordpress.org/extend/plugins/anyfont/faq\\\" target=\\\"_blank\\\">FAQ</a> bölməsini yoxlayın. </li><li>Düzəldəyəcinin mövzusu ilə yoxlayın</li><li> Texniki dəstək üçün mənim ilə əlaqə saxlamaqdan ötrü aşağıdakı məlumata baxın. </li></ul>"
+
+#@ anyfont
+#: lib/class.admin.php:283
+msgid "Cache Settings"
+msgstr "Keşin kökləmələri"
+
+#@ anyfont
+#: lib/class.admin.php:284
+msgid "Advanced Settings"
+msgstr "Əlavə kökləmələr"
+
+#@ anyfont
+#: lib/class.admin.php:285
+msgid "It is recommended that the following options are left on their default settings."
+msgstr "Aşağıda göstərilən kökləmələri dəyişdirilmədən saxlanması tövsiyyə olunur."
+
+#@ anyfont
+#: lib/class.admin.php:389
+msgid "Disk Usage"
+msgstr "Diskin istifadəsi"
+
+#@ default
+#: lib/class.admin.php:533
+msgid "Formats: "
+msgstr "Formatlar"
+
+#@ default
+#: lib/class.admin.php:534
+msgid "Supported Styles: "
+msgstr "Dəstək olunan stillər"
+
+#@ default
+#: lib/class.admin.php:535
+msgid "images"
+msgstr "şəkillər"
+
+#@ default
+#: lib/class.admin.php:536
+msgid "CSS3"
+msgstr "CSS3"
+
+#@ anyfont
+#: lib/class.admin.php:538
+msgid "File: "
+msgstr "Fayıl:"
+
+#@ anyfont
+#: lib/class.admin.php:539
+msgid "Author: "
+msgstr "Müəllif:"
+
+#@ anyfont
+#: lib/class.admin.php:540
+msgid "License: "
+msgstr "Lisenziya:"
+
+#@ anyfont
+#: lib/class.admin.php:541
+msgid "Trademark: "
+msgstr "Ticarət nişanı:"
+
+#@ anyfont
+#: lib/class.admin.php:542
+msgid "Description: "
+msgstr "Təsviri:"
+
+#@ default
+#: lib/class.admin.php:736
+msgid "CSS styles cannot be created before any uploaded fonts have been converted into all the required formats which make embedding fonts inside web pages compatible in all browsers. Please ensure you have signed up at FontServ.com and then convert some fonts in the Font Manager."
+msgstr "CSS stillər yüklənmiş şriftlərin bütün brauzerlər ilə uyğun olması üçün lazımi formata kecirilməyənə qədər yaradıla bilməz. Əmin olun ki, FontServ.com-da reqistrasiya keçmisiniz və yalnız ondan sonra Font Manager-də şriftləri dəyişin."
+
+#@ default
+#: lib/class.admin.php:796
+msgid "limit-width"
+msgstr "enin limiti"
+
+#@ anyfont
+#: lib/php5/convert.inc.php:11
+#, php-format
+msgid "%s was successfully processed and can now be used with '@font-face' CSS styles."
+msgstr "%s müvəffəqiyyətlə davam etdirilib və indi CSS stildə '@font-face' ilə istifadə oluna bilər."
+
+#@ anyfont
+#: lib/php5/convert.inc.php:23
+#, php-format
+msgid "%s was successfully processed and can now be used with Cufon Styles."
+msgstr "%s müvəffəqiyyətlə davam etdirilib və indi Cufon ' ilə istifadə oluna bilər. "
+
+#@ anyfont
+#: mce_anyfont/dialog.php:41
+msgid "Insert Text using AnyFont Styles"
+msgstr " AnyFont  stili istifadə edən mətnini qoyun."
+
+#@ default
+#: upload.php:18
+msgid "We could not find your <code>wp-config.php</code> file."
+msgstr "Biz Sizin <code>wp-config.php</code> faylını tapa bilmirik."
+
+#@ anyfont
+#: upload.php:31
+msgid "You are not allowed to upload files. Please contact your Administrator for assistance."
+msgstr "Siz faylı yüklüyə bilmərsiniz. Kömək üçün, zəhmət olmasa, administratora müraciət edin."
+
+#@ anyfont
+#: upload.php:63
+msgid "File Upload Error"
+msgstr "Faylın yüklənməsi zamanı səhv"
+
+#@ anyfont
+#: upload.php:86
+#, php-format
+msgid "The folder '%s' does not exist and could not be created, please check that the webserver has permissions to write to the wp-content folder."
+msgstr "'%s' papkası mövcud deyil və yarana bilməz, əmin olun ki, veb-server wp-content papkasina yazılışı üçün icazəsi var."
+
+#@ anyfont
+#: upload.php:90
+#, php-format
+msgid "The folder '%s' is not writable, please check that the webserver has permissions to write to the folder. Only as a last resort, try setting the folder permissions to 0777."
+msgstr "  '%s' papkasına yazmaq olmaz. Əmin olun ki, veb-server bu papkaya yazılışı üçün icazəsi var. 0777 papkasına icazənin quraşdırılmasını cəhd edin."
+
+#@ anyfont
+#: anyfont.php:766
+msgid "Error: There was an error while saving, Please check if all the enabled options have a style selected."
+msgstr ""
+
+#@ anyfont
+#: anyfont.php:790
+msgid "Custom CSS rule deleted."
+msgstr ""
+
+#@ anyfont
+#: lib/class.admin.php:90
+msgid "Type in an element name, class name or ID to apply the selected style to matching elements. ID's should be prefixed with a '#' and class names with a '.', chaining elements, ID's and class names together is also supported. ie:'div#content h2.title'."
+msgstr ""
+
+#@ anyfont
+#: lib/class.admin.php:131
+msgid "Please wait while custom CSS rule is deleted."
+msgstr ""
+
