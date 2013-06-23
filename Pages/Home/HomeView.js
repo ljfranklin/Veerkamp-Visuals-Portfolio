@@ -11,6 +11,8 @@ define([
 
             var self = this;
 
+            var fadeColor = '#111';
+
             render();
             initParallax();
 
@@ -19,6 +21,7 @@ define([
                 self.$el.html(template);
 
                 addHoverEvents();
+                fadeOutHeaders();
             }
 
             function initParallax() {
@@ -37,6 +40,10 @@ define([
                 
             }
 
+            function fadeOutHeaders() {
+                $('.home-content-titles-container li').css('color', fadeColor);
+            }
+
             function addHoverEvents() {
                 wireHoverEvent($('.home-content-links li a'),
                     $('.home-content-header'),
@@ -51,6 +58,8 @@ define([
             }
 
             function wireHoverEvent($hoverEl, $textEl, shouldReverse) {
+
+                saveOriginalColors($textEl);
 
                 var shouldFade = false;
                 if (shouldReverse) {
@@ -69,30 +78,39 @@ define([
 
                 var opacity = shouldFade ? 0.7 : 1.0;
                 var zIndex = shouldFade ? -1 : 99;
-                var color = shouldFade ? '#111' : 'yellow';
-
-                var $spans = $text.find('div, span');
-                if (shouldFade) {
-                    $.each($spans, function() {
-                        var $span = $(this);
-                        var origColor = $span.css('color');
-                        $span.data('orig-color', origColor);
-                    });
-                } else {
-                    $.each($spans, function() {
-                        var $span = $(this);
-                        var origColor = $span.data('orig-color');
-                        $span.css('color', origColor);
-                    });
-                }
 
                 $text.css('z-index', zIndex);
 
-                $text.stop(true);
-                $text.animate({
-                    'opacity': opacity,
-                    'color': color
-                }, animateTime);
+                var $spans = $text.find('span');
+                $spans = $spans.add($text);
+
+                $spans.each(function() {
+                    var $span = $(this);
+
+                    $span.stop(true);
+
+                    var origColor = $span.data('orig-color');
+                    var color = shouldFade ? '#111' : origColor;
+                    
+                    $span.animate({
+                        'color': color,
+                        'opacity': opacity
+                    }, animateTime);
+                });
+
+            }
+
+            function saveOriginalColors($content) {
+
+                var $spans = $content.find('span');
+                $spans = $spans.add($content);
+
+                $spans.each(function() {
+                    var $span = $(this);
+
+                    var currColor = $span.css('color');
+                    $span.data('orig-color', currColor);
+                });
             }
         }
     });
