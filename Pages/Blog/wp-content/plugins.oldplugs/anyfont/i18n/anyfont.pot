@@ -1,0 +1,726 @@
+# Translation of the WordPress plugin AnyFont 2.0.7 by Ryan Peel.
+# Copyright (C) 2010 Ryan Peel
+# This file is distributed under the same license as the AnyFont package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AnyFont 2.0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/anyfont\n"
+"POT-Creation-Date: 2010-09-17 06:02+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: anyfont.php:183 anyfont.php:194
+msgid "Settings"
+msgstr ""
+
+#: anyfont.php:184
+msgid "Manage Fonts"
+msgstr ""
+
+#: anyfont.php:185
+msgid "Manage Styles"
+msgstr ""
+
+#: anyfont.php:200
+msgid "Help Pages for FontServ & AnyFont"
+msgstr ""
+
+#: anyfont.php:200
+msgid "FontServ FAQ and Help Page"
+msgstr ""
+
+#: anyfont.php:201
+msgid "AnyFont FAQ"
+msgstr ""
+
+#: anyfont.php:202
+msgid "AnyFont Project Page"
+msgstr ""
+
+#: anyfont.php:203
+msgid ""
+"If you need to contact support please use the support form available on your "
+"<a href='http://fontserv.com/account' target='_blank'>account</a> page at "
+"FontServ.com.<br /> If you have not yet signed up at FontServ.com, signing "
+"up is both free and quick to do. <a href='http://fontserv.com/signup' "
+"target='_blank'>Sign Up Here</a>"
+msgstr ""
+
+#: anyfont.php:225
+msgid "Font Manager"
+msgstr ""
+
+#: anyfont.php:232
+msgid "Style Manager"
+msgstr ""
+
+#: anyfont.php:443
+msgid "Please enter the style name."
+msgstr ""
+
+#: anyfont.php:528 anyfont.php:562
+#, php-format
+msgid "%s has been deleted."
+msgstr ""
+
+#: anyfont.php:536
+msgid "The selected fonts have been deleted."
+msgstr ""
+
+#: anyfont.php:558
+msgid "The selected styles have been deleted."
+msgstr ""
+
+#: anyfont.php:589
+msgid "Cache Cleared"
+msgstr ""
+
+#: anyfont.php:677 anyfont.php:691 anyfont.php:760
+msgid "Your settings have been saved!"
+msgstr ""
+
+#: anyfont.php:700
+msgid "Your API key has been saved!"
+msgstr ""
+
+#: anyfont.php:715 anyfont.php:732
+msgid ""
+"Error: No Style Selected! If you have not created any styles yet, <a "
+"href='admin.php?page=anyfont-styles'>click here</a> to go to the style "
+"manager now."
+msgstr ""
+
+#: anyfont.php:766
+msgid ""
+"Error: There was an error while saving, Please check if all the enabled "
+"options have a style selected."
+msgstr ""
+
+#: anyfont.php:790
+msgid "Custom CSS rule deleted."
+msgstr ""
+
+#: anyfont.php:1056
+msgid ""
+"It was detected that you are using PHP4 and currently PHP5 is required for "
+"fonts to be converted correctly using FontServ.com."
+msgstr ""
+
+#: anyfont.php:1103
+msgid "New Font Style"
+msgstr ""
+
+#: anyfont.php:1104
+msgid "Upload New Font"
+msgstr ""
+
+#: lib/class.admin.php:38
+msgid "Help for this setting is not yet available."
+msgstr ""
+
+#: lib/class.admin.php:39
+msgid ""
+"Enables replacement of the text in your page menus with the styles chosen "
+"below."
+msgstr ""
+
+#: lib/class.admin.php:40
+msgid "Enable this setting if the text in your generated images is cut off."
+msgstr ""
+
+#: lib/class.admin.php:41
+msgid "Amount of empty space at the top of the generated image."
+msgstr ""
+
+#: lib/class.admin.php:42
+msgid "Amount of empty space at the bottom of the generated image."
+msgstr ""
+
+#: lib/class.admin.php:43
+msgid "Amount of empty space on the right of the generated image."
+msgstr ""
+
+#: lib/class.admin.php:44
+msgid "Amount of empty space on the left of the generated image."
+msgstr ""
+
+#: lib/class.admin.php:45
+msgid ""
+"Unless you are using an alternative mod_rewrite method you should NEVER "
+"disable this setting."
+msgstr ""
+
+#: lib/class.admin.php:46
+msgid ""
+"Enabling this setting will allow you to set the folder for uploaded font "
+"files.  Note: Changing this setting will automatically move any fonts you "
+"have already uploaded to the new folder."
+msgstr ""
+
+#: lib/class.admin.php:47
+msgid ""
+"Enabling this setting will allow you to set the folder which is used to "
+"store generated images.  Note: Changing this setting will automatically move "
+"any images already cached to the new folder."
+msgstr ""
+
+#: lib/class.admin.php:48
+msgid ""
+"When this setting is enabled, a button will be added to the editor for posts/"
+"pages which allows you to apply AnyFont styles to text in your post."
+msgstr ""
+
+#: lib/class.admin.php:49
+msgid ""
+"Enable this setting if you would like to compress AnyFont generated images "
+"using gzip before they sent to the browser.  Note: In some cases this may "
+"actually increase the size of the image as all generated images are already "
+"optimized.  Use at your own discretion."
+msgstr ""
+
+#: lib/class.admin.php:50
+msgid ""
+"This will prevent any unauthorized websites from using your generated images "
+"on their own pages. Disabling this setting is not recommended."
+msgstr ""
+
+#: lib/class.admin.php:51
+msgid ""
+"When enabled, Disk usage will be shown in bytes. This was the default "
+"behaviour prior to version 1.0 so this setting is here just in case someone "
+"actually liked it that way! ;)"
+msgstr ""
+
+#: lib/class.admin.php:52
+msgid ""
+"Enabling this will add an admin widget to your dashboard showing disk usage "
+"information for AnyFont"
+msgstr ""
+
+#: lib/class.admin.php:53
+msgid ""
+"If you want to make sure AnyFont doesn't use more disk space than what "
+"you're allowed, enabling this setting will allow you to set a size limit.  "
+"If enabled, the cache will be checked once every day and cleaned only if it "
+"is found to be larger than the set limit"
+msgstr ""
+
+#: lib/class.admin.php:54
+msgid "Enter the maximum amount of disk space AnyFont is allowed to use in MB"
+msgstr ""
+
+#: lib/class.admin.php:55
+msgid ""
+"When this setting is enabled, the primary text heading of your blog posts "
+"will automatically be replaced with a dynamically generated image which is "
+"100% SEO friendly. Dont forget to select a style from the dropdown list "
+"after enabling this setting."
+msgstr ""
+
+#: lib/class.admin.php:56
+msgid ""
+"When this setting is enabled, the primary text heading of your blog pages "
+"will automatically be replaced with a dynamically generated image which is "
+"100% SEO friendly. Dont forget to select a style from the dropdown list "
+"after enabling this setting."
+msgstr ""
+
+#: lib/class.admin.php:57
+msgid ""
+"When this setting is enabled, the tag name, which is normally displayed at "
+"the top of the page when browsing a specific tag, will automatically be "
+"replaced with a dynamically generated image which is 100% SEO friendly. Dont "
+"forget to select a styles from the dropdown list after enabling this setting."
+msgstr ""
+
+#: lib/class.admin.php:58
+msgid ""
+"When this setting is enabled, the category name, which is normally displayed "
+"at the top of the page when browsing a specific category, will automatically "
+"be replaced with a dynamically generated image which is 100% SEO friendly. "
+"Dont forget to select a styles from the dropdown list after enabling this "
+"setting."
+msgstr ""
+
+#: lib/class.admin.php:59
+msgid ""
+"When this setting is enabled, widget titles will automatically be replaced "
+"with a dynamically generated image. NOTE: Widget title images are NOT SEO "
+"friendly. Dont forget to select a styles from the dropdown list after "
+"enabling this setting."
+msgstr ""
+
+#: lib/class.admin.php:60
+msgid ""
+"When enabled, AnyFont will attempt to style your Blogs Name in the site "
+"header using the chosen style.  Note: Results may vary depending on the "
+"theme."
+msgstr ""
+
+#: lib/class.admin.php:61
+msgid ""
+"When enabled, AnyFont will attempt to style your Blogs Description in the "
+"site header using the chosen style.  Note: Results may vary depending on the "
+"theme."
+msgstr ""
+
+#: lib/class.admin.php:62
+msgid ""
+"Enabling this setting will allow you to set styles for menus generated with "
+"the wp_list_pages or wp_page_menu WordPress functions and the new menu "
+"builder available in WordPress 3(Requires the 'Title Attribute' to be set "
+"for each entry on the WordPress menus admin page).  Note: Results may vary "
+"depending on the theme."
+msgstr ""
+
+#: lib/class.admin.php:63
+msgid ""
+"The name of the style. Acceptable characters to use include letters, "
+"numbers, spaces, underscores and dashes."
+msgstr ""
+
+#: lib/class.admin.php:64
+msgid ""
+"The main color of the font face, Select a color by clicking the color square "
+"and choosing a preset or type in your own color code in hex format"
+msgstr ""
+
+#: lib/class.admin.php:65
+msgid ""
+"Select an uploaded font from the list, if you have not yet uploaded any "
+"fonts, you should do so before attempting to create a style."
+msgstr ""
+
+#: lib/class.admin.php:66
+msgid "Select a size from the dropdown or type in a custom size."
+msgstr ""
+
+#: lib/class.admin.php:67
+msgid ""
+"Enabling this setting will allow you to set a character limit for the width "
+"of the image, after which the text will then continue on a new line."
+msgstr ""
+
+#: lib/class.admin.php:68
+msgid "Set the pixel width for the generated images"
+msgstr ""
+
+#: lib/class.admin.php:69
+msgid ""
+"Align the text to display either centered or left aligned(default) in the "
+"generated image."
+msgstr ""
+
+#: lib/class.admin.php:70
+msgid ""
+"Adjust the height for each line of text on multi-line images. NOTE: When set "
+"to '0px', this setting will be ignored and the default line height will be "
+"used"
+msgstr ""
+
+#: lib/class.admin.php:71
+msgid "Enabling this setting will allow you to add shadow effects to the text"
+msgstr ""
+
+#: lib/class.admin.php:72
+msgid ""
+"Set the color for the text shadow by clicking the color square and choosing "
+"a preset or type in your own color code in hex format"
+msgstr ""
+
+#: lib/class.admin.php:73
+msgid ""
+"This controls how far the shadow is from the text. The higher the value, the "
+"further down and to the right the shadow will appear."
+msgstr ""
+
+#: lib/class.admin.php:74
+msgid "Control the amount of blur/stretch that is applied to the shadow."
+msgstr ""
+
+#: lib/class.admin.php:75
+msgid ""
+"Enabling this setting will blur the shadow slightly and smoothly merge it "
+"into the background."
+msgstr ""
+
+#: lib/class.admin.php:76
+msgid ""
+"This must be set to the background color that the image will be placed on "
+"when used on your site. ie: If your site has a white background, this color "
+"should then be set to white."
+msgstr ""
+
+#: lib/class.admin.php:77
+msgid ""
+"Enter your API key which can be found on your Account page at FontServ.com. "
+"Sign up now for free if you do not yet have an account."
+msgstr ""
+
+#: lib/class.admin.php:78
+msgid ""
+"This setting will apply the selected style to <strong><em>all</em></strong> "
+"the text on every page of your site."
+msgstr ""
+
+#: lib/class.admin.php:79
+msgid ""
+"This setting will apply the selected style to just the content element on "
+"every page of your site. WARNING: This setting may not work with all themes "
+"as it depends on there being a div element with the id 'content'."
+msgstr ""
+
+#: lib/class.admin.php:80
+msgid ""
+"This setting will apply the selected style to just the footer element on "
+"every page of your site. WARNING: This setting may not work with all themes "
+"as it depends on there being a div element with the id 'footer'."
+msgstr ""
+
+#: lib/class.admin.php:81
+msgid ""
+"This setting will apply the selected style to just the header element on "
+"every page of your site. WARNING: This setting may not work with all themes "
+"as it depends on there being a div element with the id 'header'."
+msgstr ""
+
+#: lib/class.admin.php:82
+msgid ""
+"Apply styles to any Element, Element ID or Element Classname.  For more "
+"details, please click help in the upper right hand corner of this page."
+msgstr ""
+
+#: lib/class.admin.php:83
+msgid ""
+"Enable this setting to have all images generated at FontServ instead of your "
+"own server."
+msgstr ""
+
+#: lib/class.admin.php:84
+msgid ""
+"Backup your font files to FontServ.com automatically whenever a change is "
+"detected."
+msgstr ""
+
+#: lib/class.admin.php:85
+msgid ""
+"Backup all your styles to FontServ.com automatically whenever a change is "
+"detected."
+msgstr ""
+
+#: lib/class.admin.php:86
+msgid "Select one of your converted fonts from the list in the dropdown menu"
+msgstr ""
+
+#: lib/class.admin.php:87
+msgid ""
+"Set whether your styles text should be bold, italic or underlined.  Multiple "
+"options may be selected."
+msgstr ""
+
+#: lib/class.admin.php:88
+msgid "Set the styles text to be either left, center or right aligned."
+msgstr ""
+
+#: lib/class.admin.php:89
+msgid "Set the styles text to be aligned to either the left or the center."
+msgstr ""
+
+#: lib/class.admin.php:90
+msgid ""
+"Custom post type title replacement. Both image styles and css styles can be "
+"assigned."
+msgstr ""
+
+#: lib/class.admin.php:91
+msgid ""
+"Type in an element name, class name or ID to apply the selected style to "
+"matching elements. ID's should be prefixed with a '#' and class names with a "
+"'.', chaining elements, ID's and class names together is also supported. "
+"ie:'div#content h2.title'."
+msgstr ""
+
+#: lib/class.admin.php:92
+msgid "This is a custom css rule you created."
+msgstr ""
+
+#: lib/class.admin.php:111
+msgid ""
+"Please note that once a style is deleted, any generated images that are "
+"assosiated with the style will no longer load."
+msgstr ""
+
+#: lib/class.admin.php:112
+msgid "Are you sure you want to delete this style?"
+msgstr ""
+
+#: lib/class.admin.php:113
+msgid "Are you sure you want to delete the selected styles?"
+msgstr ""
+
+#: lib/class.admin.php:114
+msgid "Are you sure you want to delete the selected font(s)?"
+msgstr ""
+
+#: lib/class.admin.php:115
+msgid ""
+"Please note that once a font is deleted, any styles which are using the font "
+"will break."
+msgstr ""
+
+#: lib/class.admin.php:116
+msgid "Deleting Selected Fonts..."
+msgstr ""
+
+#: lib/class.admin.php:117
+msgid "Deleting Selected Styles..."
+msgstr ""
+
+#: lib/class.admin.php:118
+msgid "Deleting"
+msgstr ""
+
+#: lib/class.admin.php:119
+msgid "No Styles Selected!"
+msgstr ""
+
+#: lib/class.admin.php:120
+msgid ""
+"Are you sure you want to clear the cache?\n"
+"Note: this action will not delete any uploaded font files."
+msgstr ""
+
+#: lib/class.admin.php:121
+msgid "Clearing the cache..."
+msgstr ""
+
+#: lib/class.admin.php:122
+msgid "no images"
+msgstr ""
+
+#: lib/class.admin.php:123
+msgid "was uploaded successfully"
+msgstr ""
+
+#: lib/class.admin.php:124
+msgid "Upload Failed:"
+msgstr ""
+
+#: lib/class.admin.php:125
+msgid ""
+"Save Failed! Please ensure that the font folder and all files inside are "
+"writable by the webserver."
+msgstr ""
+
+#: lib/class.admin.php:126
+msgid "Style has been saved."
+msgstr ""
+
+#: lib/class.admin.php:127
+msgid "Saving Style..."
+msgstr ""
+
+#: lib/class.admin.php:128
+msgid "Loading Preview..."
+msgstr ""
+
+#: lib/class.admin.php:129
+msgid "Uploading Font..."
+msgstr ""
+
+#: lib/class.admin.php:130
+msgid "Saving Settings..."
+msgstr ""
+
+#: lib/class.admin.php:132
+msgid "Please wait while custom CSS rule is deleted."
+msgstr ""
+
+#: lib/class.admin.php:165
+msgid "AnyFont Settings"
+msgstr ""
+
+#: lib/class.admin.php:166
+msgid "Install Fonts"
+msgstr ""
+
+#: lib/class.admin.php:167
+msgid "Create Styles"
+msgstr ""
+
+#: lib/class.admin.php:190
+msgid ""
+"Please click the help button in the top right corner of this page for links "
+"to the documentation and support options."
+msgstr ""
+
+#: lib/class.admin.php:240
+msgid "AutoReplace Titles"
+msgstr ""
+
+#: lib/class.admin.php:241
+msgid ""
+"To replace certain plain text titles with images in your wordpress blog, "
+"enable the appropriate section below and then assign it one of your <a href="
+"\"{STYLE_URL}\">styles</a>."
+msgstr ""
+
+#: lib/class.admin.php:242
+msgid ""
+"The post title, page title, blog name and blog description image "
+"replacements are SEO compatible."
+msgstr ""
+
+#: lib/class.admin.php:243
+msgid ""
+"<span>PLEASE NOTE:</span><br /> The above options may not be compatible with "
+"ALL themes and/or custom widgets."
+msgstr ""
+
+#: lib/class.admin.php:244
+msgid ""
+"If you encounter any problems:<br/><br /><ul><li>Please check the <a href="
+"\"http://wordpress.org/extend/plugins/anyfont/faq\" target=\"_blank\">FAQ</"
+"a> for known issues with certain themes.</li><li>Check with the theme "
+"developer</li><li>See message below to contact me for support.</li></ul>"
+msgstr ""
+
+#: lib/class.admin.php:284
+msgid "Cache Settings"
+msgstr ""
+
+#: lib/class.admin.php:285
+msgid "Advanced Settings"
+msgstr ""
+
+#: lib/class.admin.php:286
+msgid ""
+"It is recommended that the following options are left on their default "
+"settings."
+msgstr ""
+
+#: lib/class.admin.php:390
+msgid "Disk Usage"
+msgstr ""
+
+#: lib/class.admin.php:534
+msgid "Formats: "
+msgstr ""
+
+#: lib/class.admin.php:535
+msgid "Supported Styles: "
+msgstr ""
+
+#: lib/class.admin.php:536
+msgid "images"
+msgstr ""
+
+#: lib/class.admin.php:537
+msgid "CSS3"
+msgstr ""
+
+#: lib/class.admin.php:539
+msgid "File: "
+msgstr ""
+
+#: lib/class.admin.php:540
+msgid "Author: "
+msgstr ""
+
+#: lib/class.admin.php:541
+msgid "License: "
+msgstr ""
+
+#: lib/class.admin.php:542
+msgid "Trademark: "
+msgstr ""
+
+#: lib/class.admin.php:543
+msgid "Description: "
+msgstr ""
+
+#: lib/class.admin.php:734
+msgid ""
+"CSS styles cannot be created before any uploaded fonts have been converted "
+"into all the required formats which make embedding fonts inside web pages "
+"compatible in all browsers. Please ensure you have signed up at FontServ.com "
+"and then convert some fonts in the Font Manager."
+msgstr ""
+
+#: lib/class.admin.php:794
+msgid "limit-width"
+msgstr ""
+
+#: lib/php5/convert.inc.php:11
+#, php-format
+msgid ""
+"%s was successfully processed and can now be used with '@font-face' CSS "
+"styles."
+msgstr ""
+
+#: lib/php5/convert.inc.php:23
+#, php-format
+msgid "%s was successfully processed and can now be used with Cufon Styles."
+msgstr ""
+
+#: mce_anyfont/dialog.php:41
+msgid "Insert Text using AnyFont Styles"
+msgstr ""
+
+#: upload.php:18
+msgid "We could not find your <code>wp-config.php</code> file."
+msgstr ""
+
+#: upload.php:31
+msgid ""
+"You are not allowed to upload files. Please contact your Administrator for "
+"assistance."
+msgstr ""
+
+#: upload.php:79
+msgid "File Upload Error"
+msgstr ""
+
+#: upload.php:102
+#, php-format
+msgid ""
+"The folder '%s' does not exist and could not be created, please check that "
+"the webserver has permissions to write to the wp-content folder."
+msgstr ""
+
+#: upload.php:106
+#, php-format
+msgid ""
+"The folder '%s' is not writable, please check that the webserver has "
+"permissions to write to the folder. Only as a last resort, try setting the "
+"folder permissions to 0777."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "AnyFont"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://2amlife.com/projects/anyfont"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"AnyFont allows you to use any truetype or opentype font for post titles, "
+"menu items or anywhere else you want to use a custom font on your site.."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ryan Peel"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://fontserv.com/"
+msgstr ""
