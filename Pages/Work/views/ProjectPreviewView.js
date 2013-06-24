@@ -51,6 +51,14 @@ define([
                     $rightCorner.animate({
                         'border-left-width': '500px'
                     }, animateTime);
+
+                    var $hoverDetail = $container.find('.hover-detail');
+                    $hoverDetail.stop(true);
+
+                    $hoverDetail.animate({
+                       'opacity': 1.0
+                    });
+
                 }, function() {
                     $leftCorner.animate({
                         'border-right-width': '60px'
@@ -58,11 +66,18 @@ define([
                     $rightCorner.animate({
                         'border-left-width': '60px'
                     }, animateTime);
+
+                    var $hoverDetail = $container.find('.hover-detail');
+                    $hoverDetail.stop(true);
+
+                    $hoverDetail.animate({
+                        'opacity': 0
+                    });
                 });
             }
 
-            $(document).on('click', containerSelector + ' .preview-img-container', function() {
-
+            $(document).on('click', containerSelector, function() {
+                console.log("Test");
                 detailViewInstance.render({
                     el: $('.project-breakdown-container'),
                     model: self.model,

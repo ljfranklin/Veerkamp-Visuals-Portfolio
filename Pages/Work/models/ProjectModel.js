@@ -7,6 +7,9 @@ define([
         defaults: {
             projectName: null,
             previewImg: null,
+            tags: null,
+            siteLink: null,
+            slides: null,
             prevProject: null,
             nextProject: null
         },
