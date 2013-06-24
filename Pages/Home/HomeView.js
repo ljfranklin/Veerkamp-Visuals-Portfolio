@@ -30,13 +30,13 @@ define([
                     "activityTarget": $('.parallax-container')
                 });
 
-                // $('.parallax-container').mouseleave(function() {
-                //     var animateTime = 300;
-                //     $('.parallax-container img').animate({
-                //         left: '0',
-                //         top: '0'
-                //     }, animateTime);    
-                // });
+                $('.parallax-container').mouseleave(function() {
+                     var animateTime = 300;
+                     $('.parallax-container img').animate({
+                         left: '0',
+                         top: '0'
+                     }, animateTime);
+                });
                 
             }
 
@@ -91,7 +91,7 @@ define([
 
                     var origColor = $span.data('orig-color');
                     var color = shouldFade ? '#111' : origColor;
-                    
+
                     $span.animate({
                         'color': color,
                         'opacity': opacity
