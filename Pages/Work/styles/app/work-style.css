@@ -136,3 +136,9 @@
     color: white;
     background: #111;
 }
+
+.work-content-area .year-container {
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}

@@ -25,16 +25,29 @@ define([
             function renderProjectPreviewViews() {
 
                 var $previewContainer = self.$el.find('.work-content-area');
+                var prevYear = null;
 
                 projectCollection.forEach(function(projectModel) {
                     var projectPreviewView = new ProjectPreviewView({
                         model: projectModel,
                         el: $previewContainer
                     });
+
+                    var year = projectModel.get('year');
+                    if (year !== prevYear) {
+                        renderYear(year, $previewContainer);
+                        prevYear = year;
+                    }
+
                     projectPreviewView.render();
                 });
+            }
 
-
+            function renderYear(year, $el) {
+                var $yearContainer = $('<div>')
+                    .addClass('year-container')
+                    .html(year);
+                $el.append($yearContainer);
             }
         }
     });

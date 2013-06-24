@@ -77,7 +77,7 @@ define([
             }
 
             $(document).on('click', containerSelector, function() {
-                console.log("Test");
+
                 detailViewInstance.render({
                     el: $('.project-breakdown-container'),
                     model: self.model,

@@ -28,6 +28,7 @@ define([
                         tags: projectJson.tags,
                         siteLink: projectJson.siteLink,
                         slides: projectJson.slides,
+                        year: projectJson.year,
                         prevProject: prevProject,
                         nextProject: null
                     });

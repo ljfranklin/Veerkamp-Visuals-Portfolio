@@ -2,6 +2,7 @@
     "projects": [
         {
             "projectName": "LISA Liveware",
+            "year": 2013,
             "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview.jpg",
             "tags": [
                 "CSS",
@@ -15,6 +16,7 @@
 
             {
             "projectName": "Health Place",
+            "year": 2013,
             "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-preview.jpg",
             "tags": [
                 "CSS",
@@ -28,6 +30,7 @@
 
         {
             "projectName": "Sex Trafficking",
+            "year": 2012,
             "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/traf-preview.jpg",
             "tags": [
                 "CSS",
@@ -41,6 +44,7 @@
 
                 {
             "projectName": "Ball Bearings Online",
+            "year": 2012,
             "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
             "tags": [
                 "CSS",
@@ -51,9 +55,9 @@
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
             ]
         },
-
-                        {
+        {
             "projectName": "Save the Elephants",
+            "year": 2011,
             "previewImg": "./Pages/Work/imgs/projects/elephant/elephant-preview.jpg",
             "tags": [
                 "CSS",
@@ -67,6 +71,7 @@
 
                                 {
             "projectName": "GRID Magazine",
+            "year": 2011,
             "previewImg": "./Pages/Work/imgs/projects/grid/grid-preview.jpg",
             "tags": [
                 "CSS",
@@ -80,6 +85,7 @@
 
                                         {
             "projectName": "Coca-Cola",
+            "year": 2011,
             "previewImg": "./Pages/Work/imgs/projects/coke/coke-preview.jpg",
             "tags": [
                 "CSS",
@@ -93,6 +99,7 @@
 
                                                 {
             "projectName": "Professional Motion",
+            "year": 2010,
             "previewImg": "./Pages/Work/imgs/projects/promo/promo-preview.jpg",
             "tags": [
                 "CSS",
@@ -107,6 +114,7 @@
 
         {
             "projectName":"Corgi!!",
+            "year": 1960,
             "previewImg": "http://www.dogbreedinfo.com/images10/PembrokeLucy2.jpg",
             "tags": [
                 "PUPPIES!!!!",
