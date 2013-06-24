@@ -2,7 +2,7 @@
     "projects": [
         {
             "projectName": "LISA Liveware",
-            "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-home-preview3.jpg",
+            "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview.jpg",
             "tags": [
                 "CSS",
                 "HTML",
@@ -15,7 +15,7 @@
 
             {
             "projectName": "Health Place",
-            "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-home-preview.jpg",
+            "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-preview.jpg",
             "tags": [
                 "CSS",
                 "HTML",
@@ -28,7 +28,7 @@
 
         {
             "projectName": "Sex Trafficking",
-            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/sex-trafficking.jpg",
+            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/traf-preview.jpg",
             "tags": [
                 "CSS",
                 "HTML",
@@ -38,6 +38,73 @@
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
             ]
         },
+
+                {
+            "projectName": "Ball Bearings Online",
+            "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
+            "tags": [
+                "CSS",
+                "HTML",
+                "JS/jQuery"
+            ],
+            "slides": [
+                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
+            ]
+        },
+
+                        {
+            "projectName": "Save the Elephants",
+            "previewImg": "./Pages/Work/imgs/projects/elephant/elephant-preview.jpg",
+            "tags": [
+                "CSS",
+                "HTML",
+                "JS/jQuery"
+            ],
+            "slides": [
+                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
+            ]
+        },
+
+                                {
+            "projectName": "GRID Magazine",
+            "previewImg": "./Pages/Work/imgs/projects/grid/grid-preview.jpg",
+            "tags": [
+                "CSS",
+                "HTML",
+                "JS/jQuery"
+            ],
+            "slides": [
+                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
+            ]
+        },
+
+                                        {
+            "projectName": "Coca-Cola",
+            "previewImg": "./Pages/Work/imgs/projects/coke/coke-preview.jpg",
+            "tags": [
+                "CSS",
+                "HTML",
+                "JS/jQuery"
+            ],
+            "slides": [
+                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
+            ]
+        },
+
+                                                {
+            "projectName": "Professional Motion",
+            "previewImg": "./Pages/Work/imgs/projects/promo/promo-preview.jpg",
+            "tags": [
+                "CSS",
+                "HTML",
+                "JS/jQuery"
+            ],
+            "slides": [
+                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
+            ]
+        },
+
+
         {
             "projectName":"Corgi!!",
             "previewImg": "http://www.dogbreedinfo.com/images10/PembrokeLucy2.jpg",
