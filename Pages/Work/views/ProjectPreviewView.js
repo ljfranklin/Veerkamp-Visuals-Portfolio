@@ -60,6 +60,7 @@ define([
                     });
 
                 }, function() {
+                    $leftCorner.add($rightCorner).stop(true);
                     $leftCorner.animate({
                         'border-right-width': '60px'
                     }, animateTime);
