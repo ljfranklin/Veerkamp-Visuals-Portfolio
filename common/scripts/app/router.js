@@ -26,6 +26,8 @@ define([
         var viewScript = '../../../Pages/' + pageName + '/' + pageName + 'View';
         require([viewScript], function(PageView) {
 
+            addActiveClass(pageName);
+
             var contentArea = $('.main-content');
             var fadeTime = 200;
 
@@ -36,6 +38,11 @@ define([
                 contentArea.fadeIn(fadeTime);
             });
         });
+    }
+
+    function addActiveClass(pageName) {
+        $('.nav-links-container a').removeClass('active');
+        $('.nav-links-container a[href="#' + pageName + '"]').addClass('active');
     }
 
     return my;

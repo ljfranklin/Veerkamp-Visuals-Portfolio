@@ -23,8 +23,11 @@
 	background: url('../../img/icons.jpg') no-repeat -7px 0;
 }
 
-.nav-link-home:hover {
+.nav-link-home:not(.active):hover {
 	background-position: -7px -27px;
+}
+.nav-link-home.active {
+    background-position: -7px -27px;
 }
 .nav-link-work {
 	width: 25px;
@@ -32,8 +35,11 @@
 	background: url('../../img/icons.jpg') no-repeat -38px 0;
 }
 
-.nav-link-work:hover {
+.nav-link-work:not(.active):hover {
 	background-position: -38px -27px;
+}
+.nav-link-work.active {
+    background-position: -38px -27px;
 }
 
 .nav-link-about {
@@ -42,8 +48,11 @@
 	background: url('../../img/icons.jpg') no-repeat -68px 0;
 }
 
-.nav-link-about:hover {
+.nav-link-about:not(.active):hover {
 	background-position: -68px -27px;
+}
+.nav-link-about.active {
+    background-position: -68px -27px;
 }
 
 .nav-link-blog {
@@ -52,8 +61,11 @@
 	background: url('../../img/icons.jpg') no-repeat -100px 0;
 }
 
-.nav-link-blog:hover {
+.nav-link-blog:not(.active):hover {
 	background-position: -100px -27px;
+}
+.nav-link-blog.active {
+    background-position: -100px -27px;
 }
 
 .nav-link-home,
