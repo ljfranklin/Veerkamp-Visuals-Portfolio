@@ -25,18 +25,28 @@ define([
             }
 
             function initParallax() {
-                $('.parallax-container img').plaxify();
-                $.plax.enable({ 
-                    "activityTarget": $('.parallax-container')
+
+                var plaxCallback = function() {
+                    $('.parallax-container img').plaxify();
+                    $.plax.enable({
+                        "activityTarget": $('.parallax-container')
+                    });
+                };
+
+                var imgLoadCounter = 0;
+                $('.parallax-container img').on('load', function() {
+                    imgLoadCounter++;
+                    plaxCallback();
                 });
 
-                $('.parallax-container').mouseleave(function() {
-                     var animateTime = 300;
-                     $('.parallax-container img').animate({
-                         left: '0',
-                         top: '0'
-                     }, animateTime);
-                });
+
+//                $('.parallax-container').mouseleave(function() {
+//                     var animateTime = 300;
+//                     $('.parallax-container img').animate({
+//                         left: '0',
+//                         top: '0'
+//                     }, animateTime);
+//                });
                 
             }
 
