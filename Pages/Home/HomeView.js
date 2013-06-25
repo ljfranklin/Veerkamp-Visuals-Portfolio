@@ -29,7 +29,7 @@ define([
                 var plaxCallback = function() {
                     $('.parallax-container img').plaxify();
                     $.plax.enable({
-                        "activityTarget": $('.parallax-container')
+                        //"activityTarget": $('.parallax-container')
                     });
                 };
 
