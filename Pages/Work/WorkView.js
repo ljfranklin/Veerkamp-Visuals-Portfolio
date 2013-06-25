@@ -41,6 +41,8 @@ define([
 
                     projectPreviewView.render();
                 });
+
+                addOddClass();
             }
 
             function renderYear(year, $el) {
@@ -48,6 +50,10 @@ define([
                     .addClass('year-container')
                     .html(year);
                 $el.append($yearContainer);
+            }
+
+            function addOddClass() {
+                $('.project-preview-container:odd').addClass('odd');
             }
         }
     });

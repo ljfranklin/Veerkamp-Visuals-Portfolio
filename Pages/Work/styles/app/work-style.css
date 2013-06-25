@@ -103,7 +103,7 @@
     right: 0;
 }
 
-.project-preview-container:nth-child(odd) .preview-wrapper .left-corner {
+.project-preview-container.odd .left-corner {
     border-left: 0px solid transparent;
     border-right: 60px solid transparent;
     border-top: 274px solid rgba(0, 0, 0, .5);
@@ -113,7 +113,7 @@
     right: auto;
 }
 
-.project-preview-container:nth-child(odd) .preview-wrapper .right-corner {
+.project-preview-container.odd .right-corner {
     border-left: 60px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 274px solid rgba(0, 0, 0, .5);
