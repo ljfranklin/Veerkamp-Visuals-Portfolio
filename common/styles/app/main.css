@@ -140,17 +140,68 @@ body {
     cursor: pointer;
 }
 
+.modal-wrapper {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+}
+.contact-modal > div {
+    position: absolute;
+    left: -200px;
+    top: -150px;
+    width: 400px;
+    height: 300px;
+
+    background-color: #d3d3d3;
+}
+
+.contact-modal .front {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+    z-index: 400;
+}
 
 
+.contact-modal.flip .front {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
 
+.contact-modal .back {
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
 
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
 
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 
+    z-index: 500;
+}
 
-
-
-
-
+.contact-modal.flip .back {
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+}
 
 /* ==========================================================================
    Helper classes

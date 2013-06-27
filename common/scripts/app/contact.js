@@ -6,15 +6,28 @@ define([
     var self = {};
     var modalSelector = '.contact-modal';
 
+    var animateTime = 400;
+    var thanksDelay = 4000;
+
     self.init = function() {
         $(document).on('click', '.nav-link-contact', showModal);
         $(document).on('click', '.contact-modal .submit', submitEmail);
     };
 
     function showModal() {
-        $(modalSelector).modal('show');
+        $('.modal-wrapper').fadeIn(animateTime);
 
         $(modalSelector).find('#user-message').val('');
+    }
+
+    function flipContactModal() {
+        $('.contact-modal').toggleClass('flip');
+    }
+
+    function hideModal(callback) {
+        $('.modal-wrapper').fadeOut(
+            animateTime,
+            callback);
     }
 
     function submitEmail() {
@@ -30,11 +43,24 @@ define([
 
         $btn.text('Sending...');
 
-        setTimeout(function() {
-            console.log(userEmail + ' - ' + userMessage);
-            $modal.modal('hide');
-            $btn.text(originalBtnText);
-        }, 2000);
+        var mailRequest = $.ajax({
+            url: './server/info.php',
+            type: 'post',
+            data: {
+                emailAddress: userEmail,
+                message: userMessage
+            }
+        });
+
+        $.when(mailRequest).done(function(data) {
+            console.log(data);
+            flipContactModal();
+            setTimeout(function() {
+                hideModal(function() {
+                    flipContactModal();
+                });
+            }, thanksDelay);
+        });
     }
 
     return self;
