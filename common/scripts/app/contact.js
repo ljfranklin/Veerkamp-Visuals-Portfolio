@@ -11,6 +11,7 @@ define([
 
     self.init = function() {
         $(document).on('click', '.nav-link-contact', showModal);
+        $(document).on('click', '.modal-background', hideModal);
         $(document).on('click', '.contact-modal .submit', submitEmail);
     };
 
@@ -29,7 +30,11 @@ define([
         $('.modal-background').fadeOut(animateTime);
         $('.modal-wrapper').fadeOut(
             animateTime,
-            callback);
+            function() {
+                if (typeof callback === 'function') {
+                    callback();
+                }
+            });
     }
 
     function submitEmail() {
