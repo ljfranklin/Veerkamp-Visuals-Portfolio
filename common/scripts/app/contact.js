@@ -41,6 +41,7 @@ define([
 
         var originalBtnText = $btn.text();
 
+        $btn.data('original-text', $btn.text());
         $btn.text('Sending...');
 
         var mailRequest = $.ajax({
@@ -53,11 +54,11 @@ define([
         });
 
         $.when(mailRequest).done(function(data) {
-            console.log(data);
             flipContactModal();
             setTimeout(function() {
                 hideModal(function() {
                     flipContactModal();
+                    $btn.text($btn.data('original-text'));
                 });
             }, thanksDelay);
         });
