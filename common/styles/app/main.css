@@ -140,11 +140,28 @@ body {
     cursor: pointer;
 }
 
+.modal-background {
+
+    display: none;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-color: #515151;
+
+    z-index: 100;
+}
+
 .modal-wrapper {
     display: none;
     position: fixed;
     left: 50%;
     top: 50%;
+
+    z-index: 200;
 }
 .contact-modal > div {
     position: absolute;

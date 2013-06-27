@@ -6,7 +6,7 @@ define([
     var self = {};
     var modalSelector = '.contact-modal';
 
-    var animateTime = 400;
+    var animateTime = 500;
     var thanksDelay = 4000;
 
     self.init = function() {
@@ -16,6 +16,7 @@ define([
 
     function showModal() {
         $('.modal-wrapper').fadeIn(animateTime);
+        $('.modal-background').fadeTo(animateTime, 0.6);
 
         $(modalSelector).find('#user-message').val('');
     }
@@ -25,6 +26,7 @@ define([
     }
 
     function hideModal(callback) {
+        $('.modal-background').fadeOut(animateTime);
         $('.modal-wrapper').fadeOut(
             animateTime,
             callback);
