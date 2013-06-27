@@ -7,7 +7,7 @@ define([
     var modalSelector = '.contact-modal';
 
     var animateTime = 500;
-    var thanksDelay = 4000;
+    var thanksDelay = 2000;
 
     self.init = function() {
         $(document).on('click', '.nav-link-contact', showModal);
