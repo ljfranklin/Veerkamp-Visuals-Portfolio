@@ -48,6 +48,7 @@ define([
         var $modal = $(modalSelector);
 
         var userEmail = $modal.find('#user-email').val();
+        var userName = $modal.find('#user-name').val();
         var userMessage = $modal.find('#user-message').val();
 
         var originalBtnText = $btn.text();
@@ -60,8 +61,9 @@ define([
             url: './server/contact-form-handler.php',
             type: 'post',
             data: {
-                emailAddress: userEmail,
-                message: userMessage
+                email: userEmail,
+                message: userMessage,
+                name: userName
             }
         });
 
@@ -69,7 +71,7 @@ define([
 
             console.log(result);
 
-            if (result === '1') {
+            if (result !== '0') {
                 displayError($btn);
                 return;
             }

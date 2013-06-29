@@ -5,7 +5,7 @@ if(empty($_POST['name'])  ||
    empty($_POST['email']) || 
    empty($_POST['message']))
 {
-    echo 1;
+    echo 2;
     return;
 }
 
@@ -21,5 +21,9 @@ $headers = "From: $myemail\n";
 $headers .= "Reply-To: $email_address";
 
 $result = mail($to,$email_subject,$email_body,$headers);
-echo $result;
+if ($result == true) {
+	echo 0;
+} else {
+	echo 1;
+}
 ?>
