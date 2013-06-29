@@ -1,18 +1,137 @@
+.res-content-wrapper {
+	font-family: 'open_sansregular';
+	color:#fff;
+}
+
+.res-content-wrapper a {
+	color:#aaa;
+		text-decoration: underline;
+}
+
+.res-content-wrapper a:hover {
+	color:#888;
+}
+.res-education p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.res-job-desc ul,
+.res-skills {
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+.res-job-desc ul li,
+.res-skills li {
+	list-style-type: none;
+}
+
+.res-job-desc ul li:before,
+.res-skills li:before {
+	content: '\25B2';
+	padding-right:10px;
+	color:#ff0;
+}
+
+.res-job-title,
+.job-company,
+.res-job-date,
+.res-job-location,
+.res-award-company,
+.res-award-date,
+.res-award-title
+ {
+	font-family: 'open_sanssemibold';
+	font-size: 14px;
+	color:#aaa;
+}
+
+.res-job-title,
+.res-award-title {
+	font-family: 'open_sans_bold';
+	color:#fff;
+}
+
+.res-award-desc {
+	font-size: 14px;
+}
+
 .res-title
 {
-	font-family: open_sansregular;
+	font-family: 'open_sansregular';
 	vertical-align: middle;
 	line-height: 28px;
 }
 
 .res-name {
-	
+	padding-top:10px;
 }
 
 .res-logo {
 	float:left;
 }
 
-.res-content-wrapper {
-	background:#fff;
+.contact-title {
+	color:#ccc;
+	font-family: 'open_sans_light';
+}
+
+.res-header,
+.res-name,
+.res-job {
+font-family: 'neouthin';
+font-size: 30px;
+color: #ff0;
+}
+
+.res-header {
+	font-size: 24px;
+}
+
+.res-education-wrapper,
+.res-experience-wrapper,
+.res-software-wrapper,
+.res-awards-wrapper {
+	margin-bottom:20px;
+	border-bottom: 1px solid #444;
+	padding-bottom:10px;
+}
+
+.res-experience-wrapper {
+	margin-top:10px;
+}
+
+.res-award-section {
+	margin-bottom:20px;
+}
+
+.res-btn {
+	font-family: 'verbblack';
+color: white;
+border: 1px solid #ff0;
+padding: 16px 29px;
+display: inline-block;
+font-size: 20px;
+margin-bottom: 10px;
+-webkit-transition: all 150ms ease-in-out;
+-moz-transition: all 150ms ease-in-out;
+-ms-transition: all 150ms ease-in-out;
+-o-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;
+background: none;
+margin: 10px 0;
+}
+
+.res-btn:hover {
+	-webkit-box-shadow: inset 0px 0px 0px 3px #ff0;
+box-shadow: inset 0px 0px 0px 3px #ff0;
+text-decoration: none;
+}
+
+.contact-info a {
+	color:#fff;
+	text-decoration: none;
 }
