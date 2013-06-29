@@ -1,4 +1,18 @@
 <?php 
+
+function spamcheck($email)
+{
+  if(filter_var($email, FILTER_VALIDATE_EMAIL))
+  {
+    return TRUE;
+  }
+  else
+  {
+    return FALSE;
+  }
+}
+
+
 $errors = '';
 $myemail = 'skveerkamp@gmail.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
@@ -10,8 +24,13 @@ if(empty($_POST['name'])  ||
 }
 
 $name = $_POST['name']; 
-$email_address = $_POST['email'];
+$email_address = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 $message = $_POST['message'];
+
+if (spamcheck($email_address) == FALSE) {
+	echo 3;
+	return;
+}
 
 $to = $myemail; 
 $email_subject = "Portfolio Message: $name, $type";
