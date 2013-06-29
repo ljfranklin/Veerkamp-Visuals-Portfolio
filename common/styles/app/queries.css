@@ -12,6 +12,12 @@
 	}*/
 }
 
+@media (max-width: 980px) {
+    .res-title {
+        position: relative;
+    }
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1199px) {
 	.parallax-container {
@@ -46,7 +52,6 @@
 	.logo-three {
 		margin-left:-35px;
 	}
-	
 
 /*	.navbar {
 		background:orange;
@@ -58,8 +63,6 @@
 	.parallax-container {
 		display: none;
 	}
-
-
 
 /*	.navbar {
 		background:yellow;

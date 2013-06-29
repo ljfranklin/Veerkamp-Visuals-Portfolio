@@ -61,6 +61,8 @@
 
 .res-title
 {
+    position: fixed;
+
 	font-family: 'open_sansregular';
 	vertical-align: middle;
 	line-height: 28px;

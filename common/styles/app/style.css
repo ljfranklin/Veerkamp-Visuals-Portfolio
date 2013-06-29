@@ -3,4 +3,5 @@
 @import 'navbar.css';
 @import '../../../Pages/Home/styles/home-style.css';
 @import '../../../Pages/Work/styles/app/work-style.css';
+@import '../../../Pages/Resume/styles/resume-style.css';
 @import 'queries.css';
