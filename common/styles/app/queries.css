@@ -46,6 +46,10 @@
 	.logo-three {
 		margin-left:-35px;
 	}
+
+	.sticky-scroll {
+		position:static;
+	}
 	
 
 /*	.navbar {
@@ -59,12 +63,14 @@
 		display: none;
 	}
 
+	.sticky-scroll {
+		position:static;
+	}
 
+.navbar {
+	background:yellow;
 
-/*	.navbar {
-		background:yellow;
-	}*/
-
+}
 		.home-content-links {
 		margin: 14px 5px;
 	}
