@@ -64,20 +64,20 @@
 		display: none;
 	}
 
-/*	.navbar {
-		background:yellow;
-	}*/
+/*.navbar {*/
+	/*background:yellow;*/
 
+/*}*/
 		.home-content-links {
 		margin: 14px 5px;
 	}
 
 	.home-content-links li a {
-		padding: 10px 0px;
+		padding: 10px 0;
 		display: block;
 		font-size: 20px;
 		margin-bottom: 5px;
-		ox-sizing: border-box;
+		box-sizing: border-box;
 		text-align: center;
 		float: none;
 	}
