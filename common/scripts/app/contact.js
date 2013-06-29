@@ -41,6 +41,10 @@ define([
 
         var $btn = $(this);
 
+        if ($btn.hasClass('disabled')) {
+            return;
+        }
+
         var $modal = $(modalSelector);
 
         var userEmail = $modal.find('#user-email').val();
@@ -48,11 +52,12 @@ define([
 
         var originalBtnText = $btn.text();
 
-        $btn.data('original-text', $btn.text());
-        $btn.text('Sending...');
+        $btn.data('original-text', $btn.text())
+            .text('Sending...')
+            .addClass('disabled');
 
         var mailRequest = $.ajax({
-            url: './server/info.php',
+            url: './server/contact-form-handler.php',
             type: 'post',
             data: {
                 emailAddress: userEmail,
@@ -60,15 +65,38 @@ define([
             }
         });
 
-        $.when(mailRequest).done(function(data) {
+        $.when(mailRequest).done(function(result) {
+
+            console.log(result);
+
+            if (result === '1') {
+                displayError($btn);
+                return;
+            }
+
             flipContactModal();
             setTimeout(function() {
                 hideModal(function() {
                     flipContactModal();
-                    $btn.text($btn.data('original-text'));
+                    $btn.text($btn.data('original-text'))
+                        .removeClass('disabled');
                 });
             }, thanksDelay);
         });
+    }
+
+    function displayError($btn) {
+
+        $btn.text('Error, retry')
+            .addClass('btn-danger')
+            .addClass('disabled');
+
+        setTimeout(function() {
+
+            $btn.text($btn.data('original-text'))
+                .removeClass('btn-danger')
+                .removeClass('disabled');
+        }, 2000);
     }
 
     return self;
