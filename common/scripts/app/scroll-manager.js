@@ -32,7 +32,6 @@ define([
     }
 
     function useScrollPlugin() {
-        return true;
         return supportsOverflow() === false &&
             isMobilePlatform();
     }
