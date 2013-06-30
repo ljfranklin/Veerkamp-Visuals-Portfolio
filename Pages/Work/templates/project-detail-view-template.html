@@ -1,66 +1,84 @@
 <div data-model-cid="<%= cid %>" class="project-detail-container">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+                <ul class="project-nav">
+                    <li class="project-detail-back">
+                        <i class="icon-chevron-left"></i>
+                        <span>Back</span>
+                    </li>
+                    <li class="project-detail-prev">
+                        <i class="icon-chevron-up"></i>
+                        <span>Prev</span>
+                    </li>
+                    <li class="project-detail-next">
+                        <i class="icon-chevron-down"></i>
+                        <span>Next</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span5">
+                <div class="project-title">
+                    <%= projectName %>
+                </div>
 
-    <ul class="project-nav">
-        <li class="project-detail-back">
-            <i class="icon-chevron-left"></i>
-            <span>Back</span>
-        </li>
-        <li class="project-detail-prev">
-            <i class="icon-chevron-up"></i>
-            <span>Prev</span>
-        </li>
-        <li class="project-detail-next">
-            <i class="icon-chevron-down"></i>
-            <span>Next</span>
-        </li>
-    </ul>
-
-    <div class="project-title">
-        <%= projectName %>
-    </div>
-    <div class="project-img">
-        <img src="<%= previewImg %>"/>
-    </div>
-    <div class="project-role">
-        <%= projectRole %>
-    </div>
-    <div class="project-type">
-        <%= projectType %>
-        <% if (projectTypeDisclaimer) { %> 
-        <span class="project-type-disclaimer"><%= projectTypeDisclaimer %>
-        </span>
-        <% } %>
-    </div>
+                <div class="project-role">
+                    <%= projectRole %>
+                </div>
+                <div class="project-type">
+                    <%= projectType %>
+                    <% if (projectTypeDisclaimer) { %> 
+                    <span class="project-type-disclaimer"><%= projectTypeDisclaimer %>
+                    </span>
+                    <% } %>
+                </div>
 
 
-    <% if (siteLink) { %>
-    <a class="site-link" href="<%= siteLink %>" target="_blank">
-        WEBSITE
-    </a>
-    <% } %>
+                <% if (siteLink) { %>
+                <a class="site-link" href="<%= siteLink %>" target="_blank">
+                    WEBSITE
+                </a>
+                <% } %>
 
-    <div class="project-tags">
-        <h5>Contributions</h5>
-        <ul id="double">
-            <% tags.forEach(function(tag) { %>
-            <li class="project-tag">
-                <%= tag %>
-            </li>
-            <% }); %>
-        </ul>
+                <div class="project-tags">
+                    <h5>Contributions</h5>
+                    <ul id="double">
+                        <% tags.forEach(function(tag) { %>
+                        <li class="project-tag">
+                            <%= tag %>
+                        </li>
+                        <% }); %>
+                    </ul>
+                </div>
+                <% if (projectAward) { %>
+                <div class="project-award">
+                    <h5>Awards</h5>
+                    <ul>
+                        <% projectAward.forEach(function(award) { %>
+                        <li class="project-award-list">
+                            <%= award %>
+                        </li>
+                        <% }); %>
+                    </ul>
+                </div>
+                <% } %>
+            </div>
+            <div class="span7">
+                <div class="project-img">
+                    <img src="<%= previewImg %>"/>
+                </div>
+            </div>
+        </div>
     </div>
-    <% if (projectAward) { %>
-    <div class="project-award">
-        <h5>Awards</h5>
-        <ul>
-            <% projectAward.forEach(function(award) { %>
-            <li class="project-award-list">
-                <%= award %>
-            </li>
-            <% }); %>
-        </ul>
-    </div>
-    <% } %>
+    <hr class="project-view-line"/>
+    <div class="container">
+        <div class="row-fluid">
 
-    <div class="project-slides-container"></div>
+            <div class="span12">
+                <div class="project-slides-container"></div>
+            </div>
+        </div>
+    </div>
 </div>
