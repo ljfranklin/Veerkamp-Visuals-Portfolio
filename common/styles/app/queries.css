@@ -132,8 +132,8 @@
 		background:green;
 	}
 
-    .main-content {
-        overflow-y: visible;
+    .timeline-container {
+        overflow: visible;
     }
 }
 

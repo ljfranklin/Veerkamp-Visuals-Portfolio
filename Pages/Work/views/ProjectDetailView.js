@@ -21,7 +21,6 @@ define([
                 viewProperties.cid = model.cid;
 
                 var template = _.template(detailTemplate, viewProperties);
-                //$el.html(template);
 
                 slideInDetailView(opts, template);
 

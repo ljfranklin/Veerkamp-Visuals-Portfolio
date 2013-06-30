@@ -4,8 +4,9 @@ define([
     'underscore',
     'text!./templates/work-template.html',
     './models/ProjectCollection',
-    './views/ProjectPreviewView'
-], function(Backbone, _, workTemplate, ProjectCollection, ProjectPreviewView) {
+    './views/ProjectPreviewView',
+    '../../common/scripts/app/scroll-manager'
+], function(Backbone, _, workTemplate, ProjectCollection, ProjectPreviewView, scrollManager) {
 
     var WorkView = Backbone.View.extend({
         initialize: function() {
@@ -19,6 +20,9 @@ define([
                 self.$el.html(template);
 
                 renderProjectPreviewViews();
+
+                var $timelineContainer = $('.timeline-container');
+                scrollManager.makeScrollable($timelineContainer);
             };
             self.render();
 

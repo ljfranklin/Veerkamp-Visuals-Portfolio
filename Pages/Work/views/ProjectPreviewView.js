@@ -3,8 +3,9 @@ define([
     'backbone',
     'underscore',
     'text!../templates/project-preview-template.html',
-    './ProjectDetailView'
-], function(Backbone, _, projectPreviewTemplate, detailViewInstance) {
+    './ProjectDetailView',
+    '../../../common/scripts/app/scroll-manager'
+], function(Backbone, _, projectPreviewTemplate, detailViewInstance, scrollManager) {
 
     var ProjectPreviewView = Backbone.View.extend({
         initialize: function() {
@@ -25,6 +26,8 @@ define([
                     var $container = $(containerSelector);
                     var $imageContainer = $container.find('.preview-img-container');
                     $imageContainer.append(img);
+
+                    scrollManager.refresh();
                 };
                 img.src = model.get('previewImg');
 

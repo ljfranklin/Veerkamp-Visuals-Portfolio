@@ -100,8 +100,8 @@ body {
     bottom: 20px;
     left: 0;
     right: 0;
-    overflow: auto;
-    overflow-x:hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
