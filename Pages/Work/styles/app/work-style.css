@@ -145,3 +145,22 @@
     color: white;
     font-size: 20pt;
 }
+
+.project-nav {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.project-nav li {
+    display: inline;
+    border: 1px solid black;
+
+    padding: 2px 4px;
+
+    box-sizing: border-box;
+}
+
+.project-nav li div {
+    display: inline-block;
+}

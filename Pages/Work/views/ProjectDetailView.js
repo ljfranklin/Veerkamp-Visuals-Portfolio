@@ -10,6 +10,8 @@ define([
 
             var self = this;
 
+            var navAnimateTime = 200;
+
             self.render = function (opts) {
 
                 var model = opts.model;
@@ -83,6 +85,7 @@ define([
                 } else {
 
                     $el.html(template);
+                    setupNav();
 
                     $el.show();
                     $el.animate({
@@ -104,6 +107,9 @@ define([
 
                 $newBreakdownArea.html(template);
                 $newBreakdownArea.insertBefore($el);
+
+                setupNav();
+
                 $newBreakdownArea.show();
 
                 $newBreakdownArea.animate({
@@ -145,6 +151,57 @@ define([
 
                     $slideContainer.append($wrapper);
                 });
+            }
+
+            function setupNav() {
+
+                showFirstSpan(true);
+
+                $('.project-nav li').hover(function() {
+                    var $li = $(this);
+                    var $span = $li.find('span');
+
+                    var $otherSpans = $('span').not($span);
+                    hideSpan($otherSpans);
+
+                    showSpan($span);
+                }, function() {
+                    showFirstSpan(false);
+                });
+            }
+
+            function showFirstSpan(immediate) {
+
+                var time = immediate ? 0 : navAnimateTime;
+                var $firstLi = $('.project-nav li:first-child > span');
+
+                showSpan($firstLi);
+
+                var $otherSpans = $('.project-nav span').not($firstLi);
+                $otherSpans.stop();
+                $otherSpans.animate({
+                    width: '0'
+                }, time, function() {
+                    $(this).hide();
+                });
+            }
+
+            function hideSpan($span) {
+                $span.stop();
+                $span.animate({
+                    width: '0'
+                }, navAnimateTime, function() {
+                    $span.hide();
+                });
+            }
+
+            function showSpan($span) {
+                $span.stop();
+
+                $span.show();
+                $span.animate({
+                    width: '30px'
+                }, navAnimateTime);
             }
         }
     });

@@ -1,17 +1,20 @@
 <div data-model-cid="<%= cid %>" class="project-detail-container">
-    <div class="project-detail-back">
-        Back
-    </div>
-    <% if (prevProject) { %>
-        <div class="project-detail-prev">
-            Prev
-        </div>
-    <% } %>
-    <% if (nextProject) { %>
-        <div class="project-detail-next">
-            Next
-        </div>
-    <% } %>
+
+    <ul class="project-nav">
+        <li class="project-detail-back">
+            <i class="icon-chevron-left"></i>
+            <span>Back</span>
+        </li>
+        <li class="project-detail-prev">
+            <i class="icon-chevron-up"></i>
+            <span>Prev</span>
+        </li>
+        <li class="project-detail-next">
+            <i class="icon-chevron-down"></i>
+            <span>Next</span>
+        </li>
+    </ul>
+
     <div class="project-title">
         <%= projectName %>
     </div>
@@ -23,14 +26,14 @@
     <% } %>
 
     <div class="project-tags">
-        <h5>Contributions</h1>
-            <ul>
-        <% tags.forEach(function(tag) { %>
+        <h5>Contributions</h5>
+        <ul>
+            <% tags.forEach(function(tag) { %>
             <li class="project-tag">
                 <%= tag %>
             </li>
-        <% }); %>
-    </ul>
+            <% }); %>
+        </ul>
     </div>
 
 
