@@ -87,12 +87,12 @@ define([
                     loadSlides(opts.model, $el);
                     setupNav();
 
-                    scrollManager.makeScrollable($el);
-
                     $el.show();
                     $el.animate({
                         left: '0%'
                     }, animateTime);
+
+                    scrollManager.makeScrollable($el);
                 }
             }
 
@@ -111,9 +111,10 @@ define([
                 $newBreakdownArea.insertBefore($el);
 
                 setupNav();
-                scrollManager.makeScrollable($newBreakdownArea);
 
                 $newBreakdownArea.show();
+
+                scrollManager.makeScrollable($newBreakdownArea);
 
                 loadSlides(opts.model, $newBreakdownArea);
 
