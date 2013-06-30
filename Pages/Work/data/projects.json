@@ -1,13 +1,15 @@
 {
     "projects": [
         {
-            "projectName": "LISA Liveware",
+            "projectName": "LISA LIVEWARE",
             "year": 2013,
             "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "CSS3",
+                "HTML5",
+                "JS/jQuery",
+                "Wireframes",
+                "UI Designs"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"

@@ -15,20 +15,25 @@
     <div class="project-title">
         <%= projectName %>
     </div>
-    <br/>
-    <div class="project-tags">
-        <% tags.forEach(function(tag) { %>
-            <div class="project-tag">
-                <%= tag %>
-            </div>
-        <% }); %>
-    </div>
 
     <% if (siteLink) { %>
         <a class="site-link" href="<%= siteLink %>" target="_blank">
             WEBSITE
         </a>
     <% } %>
+
+    <div class="project-tags">
+        <h5>Contributions</h1>
+            <ul>
+        <% tags.forEach(function(tag) { %>
+            <li class="project-tag">
+                <%= tag %>
+            </li>
+        <% }); %>
+    </ul>
+    </div>
+
+
 
     <div class="project-slides-container"></div>
 </div>
