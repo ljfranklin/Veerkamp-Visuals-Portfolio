@@ -3,8 +3,9 @@ define([
     'backbone',
     'underscore',
     'text!./templates/home-template.html',
+    '../../common/scripts/app/scroll-manager',
     'common/scripts/vendor/plax'
-], function(Backbone, _, homeTemplate) {
+], function(Backbone, _, homeTemplate, scrollManager) {
 
     var HomeView = Backbone.View.extend({
         initialize: function() {
@@ -22,32 +23,36 @@ define([
 
                 addHoverEvents();
                 fadeOutHeaders();
+                makeScrollable();
             }
 
             function initParallax() {
 
                 var plaxCallback = function() {
                     $('.parallax-container img').plaxify();
-                    $.plax.enable({
-                        //"activityTarget": $('.parallax-container')
-                    });
+                    $.plax.enable({});
                 };
 
                 var imgLoadCounter = 0;
-                $('.parallax-container img').on('load', function() {
+                var $imgs = $('.parallax-container img');
+                var imgCount = $imgs.size();
+
+                $imgs.on('load', function() {
                     imgLoadCounter++;
-                    plaxCallback();
+                    if (imgLoadCounter === imgCount) {
+                        plaxCallback();
+                    }
                 });
+            }
 
+            function makeScrollable() {
+                var $content = self.$el.find('.home-content-area');
+                scrollManager.makeScrollable($content);
 
-//                $('.parallax-container').mouseleave(function() {
-//                     var animateTime = 300;
-//                     $('.parallax-container img').animate({
-//                         left: '0',
-//                         top: '0'
-//                     }, animateTime);
-//                });
-                
+                var $imgs = $content.find('img');
+                $imgs.on('load', function() {
+                    scrollManager.refresh();
+                });
             }
 
             function fadeOutHeaders() {
