@@ -25,7 +25,7 @@
         <%= projectType %>
         <% if (projectTypeDisclaimer) { %> 
         <span class="project-type-disclaimer"><%= projectTypeDisclaimer %>
-        </span> 
+        </span>
         <% } %>
     </div>
 
@@ -38,27 +38,26 @@
 
     <div class="project-tags">
         <h5>Contributions</h5>
-            <ul id="double">
-                <% tags.forEach(function(tag) { %>
-                <li class="project-tag">
-                    <%= tag %>
-                </li>
-                <% }); %>
-            </ul>
-        </div>
-        <% if (projectAward) { %>
-        <div class="project-award">
-            <h5>Awards</h5>
-                <ul>
-                    <% projectAward.forEach(function(award) { %>
-                    <li class="project-award-list">
-                        <%= award %>
-                    </li>
-                    <% }); %>
-                </ul>
-            </div>
-            <% } %>
+        <ul id="double">
+            <% tags.forEach(function(tag) { %>
+            <li class="project-tag">
+                <%= tag %>
+            </li>
+            <% }); %>
+        </ul>
+    </div>
+    <% if (projectAward) { %>
+    <div class="project-award">
+        <h5>Awards</h5>
+        <ul>
+            <% projectAward.forEach(function(award) { %>
+            <li class="project-award-list">
+                <%= award %>
+            </li>
+            <% }); %>
+        </ul>
+    </div>
+    <% } %>
 
-
-            <div class="project-slides-container"></div>
-        </div>
+    <div class="project-slides-container"></div>
+</div>

@@ -25,8 +25,6 @@ define([
 
                 slideInDetailView(opts, template);
 
-                loadSlides(model);
-
                 bindClickHandlers(opts);
             };
 
@@ -85,6 +83,8 @@ define([
                 } else {
 
                     $el.html(template);
+
+                    loadSlides(opts.model, $el);
                     setupNav();
 
                     $el.show();
@@ -112,6 +112,8 @@ define([
 
                 $newBreakdownArea.show();
 
+                loadSlides(opts.model, $newBreakdownArea);
+
                 $newBreakdownArea.animate({
                     top: '0%'
                 }, animateTime);
@@ -125,7 +127,7 @@ define([
                 });
             }
 
-            function loadSlides(model) {
+            function loadSlides(model, $el) {
 
                 var slidesSrc = model.get('slides');
 
@@ -135,15 +137,16 @@ define([
                     img.onload = function () {
                         loadedImgs.push(img);
                         if (loadedImgs.length === slidesSrc.length) {
-                            displaySlides(loadedImgs);
+                            displaySlides(loadedImgs, $el);
                         }
                     };
                     img.src = src;
                 });
             }
 
-            function displaySlides(loadedImgs) {
-                var $slideContainer = self.$el.find('.project-slides-container');
+            function displaySlides(loadedImgs, $el) {
+
+                var $slideContainer = $el.find('.project-slides-container');
 
                 _.each(loadedImgs, function(img) {
                     var $wrapper = $('<div>').addClass('project-slide');
