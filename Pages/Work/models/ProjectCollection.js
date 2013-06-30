@@ -24,7 +24,11 @@ define([
                 _.each(projectsJson.projects, function(projectJson) {
                     var model = new ProjectModel({
                         projectName: projectJson.projectName,
+                        projectRole: projectJson.projectRole,
+                        projectType: projectJson.projectType,
+                        projectTypeDisclaimer: projectJson.projectTypeDisclaimer,
                         previewImg: projectJson.previewImg,
+                        projectAward: projectJson.projectAward,
                         tags: projectJson.tags,
                         siteLink: projectJson.siteLink,
                         slides: projectJson.slides,

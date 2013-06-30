@@ -163,4 +163,8 @@
 
 .project-nav li div {
     display: inline-block;
+.project-title {
+    font-family:'neouthin';
+    font-size: 43px;
+    color:#ff0;
 }

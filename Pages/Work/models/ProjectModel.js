@@ -6,6 +6,10 @@ define([
     var ProjectModel = Backbone.Model.extend({
         defaults: {
             projectName: null,
+            projectRole: null,
+            projectType: null,
+            projectDisclaimer: null,
+            projectAward: null,
             previewImg: null,
             tags: null,
             siteLink: null,

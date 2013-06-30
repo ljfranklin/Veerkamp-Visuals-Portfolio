@@ -18,25 +18,47 @@
     <div class="project-title">
         <%= projectName %>
     </div>
-
-    <% if (siteLink) { %>
-        <a class="site-link" href="<%= siteLink %>" target="_blank">
-            WEBSITE
-        </a>
-    <% } %>
-
-    <div class="project-tags">
-        <h5>Contributions</h5>
-        <ul>
-            <% tags.forEach(function(tag) { %>
-            <li class="project-tag">
-                <%= tag %>
-            </li>
-            <% }); %>
-        </ul>
+    <div class="project-role">
+        <%= projectRole %>
+    </div>
+    <div class="project-type">
+        <%= projectType %>
+        <% if (projectTypeDisclaimer) { %> 
+        <div class="project-type-disclaimer"><%= projectTypeDisclaimer %>
+        </div> 
+        <% } %>
     </div>
 
 
+    <% if (siteLink) { %>
+    <a class="site-link" href="<%= siteLink %>" target="_blank">
+        WEBSITE
+    </a>
+    <% } %>
 
-    <div class="project-slides-container"></div>
-</div>
+    <div class="project-tags">
+        <h5>Contributions</h1>
+            <ul>
+                <% tags.forEach(function(tag) { %>
+                <li class="project-tag">
+                    <%= tag %>
+                </li>
+                <% }); %>
+            </ul>
+        </div>
+        <% if (projectAward) { %>
+        <div class="project-award">
+            <h5>Awards</h1>
+                <ul>
+                    <% projectAward.forEach(function(award) { %>
+                    <li class="project-award-list">
+                        <%= award %>
+                    </li>
+                    <% }); %>
+                </ul>
+            </div>
+            <% } %>
+
+
+            <div class="project-slides-container"></div>
+        </div>
