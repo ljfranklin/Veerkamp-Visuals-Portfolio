@@ -42,6 +42,11 @@ define([
                     models.push(model);
                 });
 
+                var firstModel = models[0];
+                var lastModel = models[models.length - 1];
+                firstModel.set('prevProject', lastModel);
+                lastModel.set('nextProject', firstModel);
+
                 self.reset(models);
             }
         }
