@@ -128,9 +128,13 @@
 		margin:0;
 	}
 
-/*	.navbar {
+    .navbar {
 		background:green;
-	}*/
+	}
+
+    .main-content {
+        overflow-y: visible;
+    }
 }
 
 @media (max-width: 300px) {
