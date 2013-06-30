@@ -221,3 +221,8 @@ li.project-tag{
     border-top:1px solid #333;
     margin:20px 0;
 }
+
+.project-nav span{
+    text-transform: uppercase;
+    font-family: 'open_sansregular';
+}

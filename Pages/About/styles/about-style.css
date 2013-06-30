@@ -1,0 +1,26 @@
+.about-header {
+display: block;
+font-family: 'neouthin';
+color: #ff0;
+font-size: 32px;
+line-height: 30px;
+padding:0;
+}
+
+.about-desc {
+	font-family: "open_sansregular";
+color: #fff;
+padding-top: 26px;
+font-size: 14px;
+}
+
+.about-desc-header {
+	font-family:'open_sans_bold';
+	font-size: 20px;
+}
+
+.byline {
+font-family: 'open_sansbold_italic';
+	font-size: 24px;
+	color:#ff0;
+}
