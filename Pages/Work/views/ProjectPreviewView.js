@@ -107,6 +107,8 @@ define([
                     el: $('.project-breakdown-container'),
                     animateTime: animateTime
                 });
+
+                scrollManager.refresh();
             });
         }
     });

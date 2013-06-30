@@ -22,8 +22,7 @@ require([
     './common/scripts/vendor/modernizr-2.6.2.min.js',
     './common/scripts/vendor/less-1.3.3.min.js',
     './common/scripts/vendor/jquery-ui-color.min.js',
-    './common/styles/vendor/bootstrap/js/bootstrap.min.js',
-    './common/scripts/vendor/modernizr-2.6.2.min'
+    './common/styles/vendor/bootstrap/js/bootstrap.min.js'
 ], function(app) {
     app.init();
 });

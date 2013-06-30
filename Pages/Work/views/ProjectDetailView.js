@@ -2,8 +2,9 @@
 define([
     'backbone',
     'underscore',
-    'text!../templates/project-detail-view-template.html'
-], function (Backbone, _, detailTemplate) {
+    'text!../templates/project-detail-view-template.html',
+    '../../../common/scripts/app/scroll-manager'
+], function (Backbone, _, detailTemplate, scrollManager) {
 
     var ProjectDetailView = Backbone.View.extend({
         initialize: function () {
@@ -86,6 +87,8 @@ define([
                     loadSlides(opts.model, $el);
                     setupNav();
 
+                    scrollManager.makeScrollable($el);
+
                     $el.show();
                     $el.animate({
                         left: '0%'
@@ -108,6 +111,7 @@ define([
                 $newBreakdownArea.insertBefore($el);
 
                 setupNav();
+                scrollManager.makeScrollable($newBreakdownArea);
 
                 $newBreakdownArea.show();
 
@@ -153,6 +157,7 @@ define([
 
                     $slideContainer.append($wrapper);
                 });
+                scrollManager.refresh();
             }
 
             function setupNav() {
