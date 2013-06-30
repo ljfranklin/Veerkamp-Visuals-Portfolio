@@ -175,17 +175,20 @@ font-family: 'open_sansbold_italic';
     font-family: 'open_sansregular';
 }
 
-/*.project-tags ul{
+.project-tags ul,
+.project-award ul{
   width:760px;
   margin-bottom:20px;
   overflow:hidden;
 }
-li.project-tag{
+li.project-tag,
+li.project-award-list
+{
   line-height:1.5em;
   float:left;
   display:inline;
-}*/
-/*#double li  { width:50%;} 
+}
+#double li  { width:50%;} 
 #triple li  { width:33.333%; } 
 #quad li    { width:25%; } 
-#six li     { width:16.666%; } */
+#six li     { width:16.666%; } 
