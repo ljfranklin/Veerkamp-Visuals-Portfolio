@@ -168,3 +168,40 @@
     font-size: 43px;
     color:#ff0;
 }
+
+.project-role,
+.project-type,
+.project-tags h5,
+.project-award h5
+{
+    font-family: 'open_sans_bold';
+    color:#ff0;
+}
+
+.project-type {
+    color:#fff;
+
+}
+
+.project-type-disclaimer {
+font-family: 'open_sansbold_italic';
+}
+
+.project-tag {
+    font-family: 'open_sansregular';
+}
+
+/*.project-tags ul{
+  width:760px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+li.project-tag{
+  line-height:1.5em;
+  float:left;
+  display:inline;
+}*/
+/*#double li  { width:50%;} 
+#triple li  { width:33.333%; } 
+#quad li    { width:25%; } 
+#six li     { width:16.666%; } */

@@ -24,8 +24,8 @@
     <div class="project-type">
         <%= projectType %>
         <% if (projectTypeDisclaimer) { %> 
-        <div class="project-type-disclaimer"><%= projectTypeDisclaimer %>
-        </div> 
+        <span class="project-type-disclaimer"><%= projectTypeDisclaimer %>
+        </span> 
         <% } %>
     </div>
 
@@ -37,8 +37,8 @@
     <% } %>
 
     <div class="project-tags">
-        <h5>Contributions</h1>
-            <ul>
+        <h5>Contributions</h5>
+            <ul id="double">
                 <% tags.forEach(function(tag) { %>
                 <li class="project-tag">
                     <%= tag %>
@@ -48,7 +48,7 @@
         </div>
         <% if (projectAward) { %>
         <div class="project-award">
-            <h5>Awards</h1>
+            <h5>Awards</h5>
                 <ul>
                     <% projectAward.forEach(function(award) { %>
                     <li class="project-award-list">
