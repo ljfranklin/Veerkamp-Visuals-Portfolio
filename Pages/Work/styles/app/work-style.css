@@ -187,6 +187,8 @@ font-family: 'open_sansbold_italic';
 
     padding: 2px 4px;
     box-sizing: border-box;
+
+    cursor: pointer;
 }
 
 .project-nav li div {
