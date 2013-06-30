@@ -2,6 +2,9 @@
     "projects": [
         {
             "projectName": "LISA LIVEWARE",
+            "projectRole":"Designer, Front-End Developer, Interaction Designer",
+            "projectType":"Web Application",
+            "projectTypeDisclaimer":"In Development",
             "year": 2013,
             "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview.jpg",
             "tags": [
