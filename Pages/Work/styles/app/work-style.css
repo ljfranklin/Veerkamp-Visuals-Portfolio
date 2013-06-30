@@ -45,7 +45,7 @@
 }
 
 .project-breakdown-container .project-slides-container .project-slide {
-    width: 10%;
+    text-align: center;
 }
 
 .timeline-home-header {
@@ -198,7 +198,6 @@ font-family: 'open_sansbold_italic';
 }
 
 .project-tags ul{
-  width:760px;
   margin-bottom:20px;
   overflow:hidden;
 }
@@ -211,3 +210,9 @@ li.project-tag{
 #triple li  { width:33.333%; } 
 #quad li    { width:25%; } 
 #six li     { width:16.666%; }
+
+.project-view-line {
+    border:0;
+    border-top:1px solid #333;
+    margin:20px 0;
+}

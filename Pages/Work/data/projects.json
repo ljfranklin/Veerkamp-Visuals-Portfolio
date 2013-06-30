@@ -6,28 +6,34 @@
             "projectType":"Web Application",
             "projectTypeDisclaimer":"(In Development)",
             "year": 2013,
-            "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview.jpg",
+            "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview2.jpg",
             "tags": [
+                "UI Design",
                 "CSS3",
                 "HTML5",
                 "JS/jQuery",
-                "Wireframes",
-                "UI Designs"
+                "Wireframes"
+                
             ],
             "slides": [
-                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png",
-                "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
+                "Pages/Work/imgs/projects/LISA/lisa4.jpg",
+                "Pages/Work/imgs/projects/LISA/lisa3.jpg",
+                "Pages/Work/imgs/projects/LISA/lisa2.jpg",
+                "Pages/Work/imgs/projects/LISA/lisa1.jpg"
             ]
         },
 
             {
             "projectName": "Health Place",
+            "projectRole":"Designer, Interaction Designer",
+            "projectType":"Web Application",
+            "projectTypeDisclaimer":"(Mockup)",
             "year": 2013,
             "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "UI Design",
+                "Wireframes",
+                "Axure"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
@@ -36,12 +42,22 @@
 
         {
             "projectName": "Sex Trafficking",
+            "projectRole":"Designer, Programmer",
+            "projectType":"Interactive Infographic",
             "year": 2012,
             "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/traf-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "UI Design",
+                "CSS3",
+                "HTML5",
+                "JS/jQuery",
+                "Illustration",
+                "Statistical Research"
+            ],
+            "siteLink": "http://ballbearingsmag.com/pics/stories/website/1757/default.php",
+            "projectAward": [
+                "2013 Best Online Multimedia, Society of Professional Journalists - Indiana",
+                "Editor's Pick, Visua.ly"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
@@ -49,13 +65,21 @@
         },
 
                 {
-            "projectName": "Ball Bearings Online",
+            "projectName": "Ball Bearings",
+            "projectRole":"Designer, Front-End Programmer",
+            "projectType":"Online Magazine Website",
             "year": 2012,
             "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "UI Design",
+                "CSS3",
+                "HTML5",
+                "JS/jQuery",
+                "Custom CMS integration"
+            ],
+             "projectAward": [
+                "Best Overall Website Design 2011-2012, Indiana Collegiate Press Association",
+                "ACP Online Pacemaker (2011 and 2012), Collegiate Press Association"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
@@ -63,12 +87,14 @@
         },
         {
             "projectName": "Save the Elephants",
+            "projectRole":"Designer",
+            "projectType":"Website",
+            "projectTypeDisclaimer":"(Mockup)",
             "year": 2011,
             "previewImg": "./Pages/Work/imgs/projects/elephant/elephant-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "Illustration",
+                "One-page Design"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
@@ -77,12 +103,15 @@
 
                                 {
             "projectName": "GRID Magazine",
+            "projectRole":"Designer, Reporter",
+            "projectType":"Magazine",
+            "projectTypeDisclaimer":"(Class Project)",
             "year": 2011,
             "previewImg": "./Pages/Work/imgs/projects/grid/grid-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "Art Direction",
+                "Infographics",
+                "Page Layouts"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
@@ -91,12 +120,14 @@
 
                                         {
             "projectName": "Coca-Cola",
+            "projectRole":"Art Director, Concept Development",
+            "projectType":"Advertisement",
+            "projectTypeDisclaimer":"(Class Project)",
             "year": 2011,
             "previewImg": "./Pages/Work/imgs/projects/coke/coke-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "Ad Design",
+                "Art Direction"
             ],
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
@@ -104,30 +135,21 @@
         },
 
                                                 {
-            "projectName": "Professional Motion",
+            "projectName": "ProMo",
+            "projectRole":"Designer",
+            "projectType":"Social Networking Website",
+            "projectTypeDisclaimer":"(Mockup)",
             "year": 2010,
             "previewImg": "./Pages/Work/imgs/projects/promo/promo-preview.jpg",
             "tags": [
-                "CSS",
-                "HTML",
-                "JS/jQuery"
+                "Web Design",
+                "Branding",
+                "Logo"
             ],
+
             "slides": [
                 "http://images1.wikia.nocookie.net/__cb20120603213351/sonicpokemon/images/7/77/Pikachu.png"
             ]
-        },
-
-
-        {
-            "projectName":"Corgi!!",
-            "year": 1960,
-            "previewImg": "http://www.dogbreedinfo.com/images10/PembrokeLucy2.jpg",
-            "tags": [
-                "PUPPIES!!!!",
-                "EIN!!!",
-                "BEBOP!!!!!"
-            ],
-            "siteLink": "http://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi"
         }
     ]
 }
