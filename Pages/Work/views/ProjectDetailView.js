@@ -161,7 +161,7 @@ define([
                     var $li = $(this);
                     var $span = $li.find('span');
 
-                    var $otherSpans = $('span').not($span);
+                    var $otherSpans = $('.project-nav span').not($span);
                     hideSpan($otherSpans);
 
                     showSpan($span);
