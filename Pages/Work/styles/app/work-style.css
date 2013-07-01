@@ -293,6 +293,6 @@ li.project-tag{
     font-family: 'open_sansregular';
 }
 
-.primary-btn.work {
-    padding: 5px 23px;
+.primary-btn.small-btn {
+    padding: 9px 23px;
 }
