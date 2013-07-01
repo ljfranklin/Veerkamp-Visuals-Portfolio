@@ -61,10 +61,6 @@
 		background:orange;
 	}
 
-	li.project-tag {
-		display:block;
-	}
-
 }
 
 /* Landscape phone to portrait tablet */
@@ -140,6 +136,7 @@
 	}
 	li.project-tag {
 		display:block;
+		float:none;
 	}
 }
 
@@ -171,7 +168,7 @@
 	.timeline-home-header-text.display-toggle {
 		display:block;
 	}
-		.timeline-home-header-text {
+	.timeline-home-header-text {
 		display:none;
 	}
 }
