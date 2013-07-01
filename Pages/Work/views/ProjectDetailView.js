@@ -154,6 +154,9 @@ define([
 
                 var $slideContainer = $el.find('.project-slides-container');
 
+                var $spinner = $el.find('.icon-spinner');
+                $spinner.hide();
+
                 _.each(loadedImgs, function(img) {
                     var $wrapper = $('<div>').addClass('project-slide');
                     $wrapper.append(img);
