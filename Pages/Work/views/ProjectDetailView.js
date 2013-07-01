@@ -215,14 +215,11 @@ define([
             }
 
             function scrollToTop($el) {
-                console.log("scroll");
+                var animateTime = 500;
 
                 var $btn = $el.find('.scroll-up');
                 $btn.click(function() {
-                    console.log('click');
-                    $el.animate({
-                        scrollTop: 0
-                    }, 500);
+                    scrollManager.scrollToTop($el, animateTime);
                 });
             }
         }

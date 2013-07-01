@@ -31,6 +31,20 @@ define([
         });
     }
 
+    self.scrollToTop = function ($container, animateTime) {
+
+        if (useScrollPlugin()) {
+            $.each(scrollItems, function() {
+                var item = this;
+                item.scrollTo(0, 0, animateTime);
+            });
+        } else {
+            $container.animate({
+                scrollTop: 0
+            }, animateTime);
+        }
+    };
+
     function useScrollPlugin() {
         return supportsOverflow() === false &&
             isMobilePlatform();
