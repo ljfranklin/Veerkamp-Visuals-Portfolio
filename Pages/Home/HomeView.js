@@ -29,6 +29,10 @@ define([
             function initParallax() {
 
                 var plaxCallback = function() {
+
+                    self.$el.find('.main-img')
+                        .removeClass('loading');
+
                     $('.parallax-container img').plaxify();
                     $.plax.enable({});
                 };

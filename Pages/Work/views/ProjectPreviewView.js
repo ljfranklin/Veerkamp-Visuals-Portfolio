@@ -27,6 +27,9 @@ define([
                     var $imageContainer = $container.find('.preview-img-container');
                     $imageContainer.append(img);
 
+                    $container.find('.preview-wrapper')
+                        .removeClass('loading');
+
                     scrollManager.refresh();
                 };
                 img.src = model.get('previewImg');
