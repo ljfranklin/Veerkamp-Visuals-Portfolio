@@ -5,7 +5,7 @@
 
 .res-content-wrapper a {
 	color:#aaa;
-		text-decoration: underline;
+	text-decoration: underline;
 }
 
 .res-content-wrapper a:hover {
@@ -18,19 +18,18 @@
 	font-size: 14px;
 }
 
-.res-job-desc ul,
-.res-skills {
-	font-size: 14px;
+.list {
+	font-size: 15px;
 	margin-left: 15px;
 }
 
-.res-job-desc ul li,
-.res-skills li {
+.list li {
 	list-style-type: none;
+	text-indent: -1.7em;
+	margin-left: 1.7em;
 }
 
-.res-job-desc ul li:before,
-.res-skills li:before {
+.list li:before {
 	content: '\25B2';
 	padding-right:10px;
 	color:#ff0;
@@ -43,7 +42,7 @@
 .res-award-company,
 .res-award-date,
 .res-award-title
- {
+{
 	font-family: 'open_sanssemibold';
 	font-size: 14px;
 	color:#aaa;
@@ -61,7 +60,7 @@
 
 .res-title
 {
-    position: fixed;
+	position: fixed;
 
 	font-family: 'open_sansregular';
 	vertical-align: middle;
@@ -84,9 +83,9 @@
 .res-header,
 .res-name,
 .res-job {
-font-family: 'neouthin';
-font-size: 30px;
-color: #ff0;
+	font-family: 'neouthin';
+	font-size: 30px;
+	color: #ff0;
 }
 
 .res-header {
@@ -112,26 +111,27 @@ color: #ff0;
 
 .primary-btn {
 	font-family: 'verbblack';
-color: white;
-border: 1px solid #ff0;
-padding: 16px 29px;
-display: inline-block;
-font-size: 20px;
-margin-bottom: 10px;
--webkit-transition: all 150ms ease-in-out;
--moz-transition: all 150ms ease-in-out;
--ms-transition: all 150ms ease-in-out;
--o-transition: all 150ms ease-in-out;
-transition: all 150ms ease-in-out;
-background: none;
-margin: 10px 0;
+	color: white;
+	border: 1px solid #ff0;
+	padding: 16px 29px;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 10px;
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	-o-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+	background: none;
+	margin: 10px 0;
+	cursor:pointer;
 }
 
 .primary-btn:hover {
 	-webkit-box-shadow: inset 0px 0px 0px 3px #ff0;
-box-shadow: inset 0px 0px 0px 3px #ff0;
-text-decoration: none;
-color:#fff;
+	box-shadow: inset 0px 0px 0px 3px #ff0;
+	text-decoration: none;
+	color:#fff;
 }
 
 .contact-info a {

@@ -67,10 +67,6 @@
 		background:orange;
 	}
 
-	.hidden-break {
-		display:none;
-	}
-
 }
 
 /* Landscape phone to portrait tablet */
@@ -135,24 +131,24 @@
 		font-size: 35px;
 	}
 
-	.hidden-break {
-		display:none;
-	}
-
 	.work-content-area .year-container {
 		font-size: 22pt;
 	}
 
-		.left-corner,
+	.left-corner,
 	.right-corner,
 	.hover-detail
-	 {
+	{
 		display:none !important;
 	}
 
 	.project-preview-container {
 		width: 95%;
-max-width: 500px;
+		max-width: 500px;
+	}
+	li.project-tag {
+		display:block;
+		float:none;
 	}
 }
 
@@ -180,8 +176,12 @@ max-width: 500px;
 	.navbar {
 		background:green;
 	}
-	.hidden-break {
+
+	.timeline-home-header-text.display-toggle {
 		display:block;
+	}
+	.timeline-home-header-text {
+		display:none;
 	}
 }
 
@@ -227,7 +227,7 @@ max-width: 500px;
 		font-size: 28px;
 	}
 
-		.work-content-area .year-container {
+	.work-content-area .year-container {
 		font-size: 16pt;
 	}
 

@@ -81,6 +81,10 @@
  margin-top: -44px;
 }
 
+.timeline-home-header-text.display-toggle {
+    display:none;
+}
+
 .triangle {
     font-size: 56px;
     line-height: 10px;
@@ -218,6 +222,17 @@
 {
     font-family: 'open_sans_bold';
     color:#ff0;
+}
+
+.list li.project-tag {
+    text-indent: 0;
+    margin-left:0;
+}
+
+.project-award-list {
+    color:#fff;
+    font-size: 1em;
+    font-family: 'open_sansregular';
 }
 
 .project-type {

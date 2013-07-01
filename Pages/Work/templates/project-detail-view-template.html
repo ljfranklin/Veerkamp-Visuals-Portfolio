@@ -44,7 +44,7 @@
 
                 <div class="project-tags">
                     <h5>Contributions</h5>
-                    <ul id="double">
+                    <ul id="double" class="list">
                         <% tags.forEach(function(tag) { %>
                         <li class="project-tag">
                             <%= tag %>
@@ -55,7 +55,7 @@
                 <% if (projectAward) { %>
                 <div class="project-award">
                     <h5>Awards</h5>
-                    <ul>
+                    <ul class="list">
                         <% projectAward.forEach(function(award) { %>
                         <li class="project-award-list">
                             <%= award %>
@@ -81,7 +81,7 @@
                 <div class="project-slides-container">
                     <i class="icon-spinner icon-spin icon-4x"></i>
                 </div>
-                <div class="btn scroll-up">Back to Top</div>
+                <div class="primary-btn scroll-up">Back to Top</div>
             </div>
         </div>
     </div>
