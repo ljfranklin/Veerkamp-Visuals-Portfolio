@@ -124,6 +124,7 @@
 	transition: all 150ms ease-in-out;
 	background: none;
 	margin: 10px 0;
+	cursor:pointer;
 }
 
 .primary-btn:hover {
