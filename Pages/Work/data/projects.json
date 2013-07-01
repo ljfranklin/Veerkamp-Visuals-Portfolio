@@ -1,5 +1,27 @@
 {
     "projects": [
+
+        {
+            "projectName": "Health Place",
+            "projectRole":"Designer, Interaction Designer",
+            "projectType":"Web Application",
+            "projectTypeDisclaimer":"(Mockup)",
+            "year": 2013,
+            "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-preview.jpg",
+            "tags": [
+            "UI Design",
+            "Wireframes",
+            "Axure"
+            ],
+            "slides": [
+            "Pages/Work/imgs/projects/HealthPlace/hp4a.png",
+            "Pages/Work/imgs/projects/HealthPlace/hp5a.png",
+            "Pages/Work/imgs/projects/HealthPlace/hp1.jpg",
+            "Pages/Work/imgs/projects/HealthPlace/hp3.jpg"
+            
+            ]
+            },
+
     {
         "projectName": "LISA LIVEWARE",
         "projectRole":"Designer, Front-End Developer, Interaction Designer",
@@ -17,31 +39,14 @@
         ],
         "slides": [
         "Pages/Work/imgs/projects/LISA/lisa3.png",
-        "Pages/Work/imgs/projects/LISA/lisa4.jpg",
-        "Pages/Work/imgs/projects/LISA/lisa2.jpg",
-        "Pages/Work/imgs/projects/LISA/lisa1.jpg"
+        "Pages/Work/imgs/projects/LISA/lisa2a.png",
+        "Pages/Work/imgs/projects/LISA/lisa1.jpg",
+        "Pages/Work/imgs/projects/LISA/lisa4.jpg"
+
         ]
         },
 
-        {
-            "projectName": "Health Place",
-            "projectRole":"Designer, Interaction Designer",
-            "projectType":"Web Application",
-            "projectTypeDisclaimer":"(Mockup)",
-            "year": 2013,
-            "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-preview.jpg",
-            "tags": [
-            "UI Design",
-            "Wireframes",
-            "Axure"
-            ],
-            "slides": [
-            "Pages/Work/imgs/projects/HealthPlace/hp1.jpg",
-            "Pages/Work/imgs/projects/HealthPlace/hp3.jpg",
-            "Pages/Work/imgs/projects/HealthPlace/hp4a.png",
-            "Pages/Work/imgs/projects/HealthPlace/hp5a.png"
-            ]
-            },
+
 
             {
                 "projectName": "Sex Trafficking",
