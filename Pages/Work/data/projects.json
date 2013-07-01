@@ -1,29 +1,29 @@
 {
     "projects": [
-        {
-            "projectName": "LISA LIVEWARE",
-            "projectRole":"Designer, Front-End Developer, Interaction Designer",
-            "projectType":"Web Application",
-            "projectTypeDisclaimer":"(In Development)",
-            "year": 2013,
-            "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview2.jpg",
-            "tags": [
-                "UI Design",
-                "CSS3",
-                "HTML5",
-                "JS/jQuery",
-                "Wireframes"
-                
-            ],
-            "slides": [
-                "Pages/Work/imgs/projects/LISA/lisa4.jpg",
-                "Pages/Work/imgs/projects/LISA/lisa3.png",
-                "Pages/Work/imgs/projects/LISA/lisa2.jpg",
-                "Pages/Work/imgs/projects/LISA/lisa1.jpg"
-            ]
+    {
+        "projectName": "LISA LIVEWARE",
+        "projectRole":"Designer, Front-End Developer, Interaction Designer",
+        "projectType":"Web Application",
+        "projectTypeDisclaimer":"(In Development)",
+        "year": 2013,
+        "previewImg": "./Pages/Work/imgs/projects/LISA/lisa-preview2.jpg",
+        "tags": [
+        "UI Design",
+        "CSS3",
+        "HTML5",
+        "JS/jQuery",
+        "Wireframes"
+        
+        ],
+        "slides": [
+        "Pages/Work/imgs/projects/LISA/lisa3.png",
+        "Pages/Work/imgs/projects/LISA/lisa4.jpg",
+        "Pages/Work/imgs/projects/LISA/lisa2.jpg",
+        "Pages/Work/imgs/projects/LISA/lisa1.jpg"
+        ]
         },
 
-            {
+        {
             "projectName": "Health Place",
             "projectRole":"Designer, Interaction Designer",
             "projectType":"Web Application",
@@ -31,137 +31,137 @@
             "year": 2013,
             "previewImg": "./Pages/Work/imgs/projects/HealthPlace/hp-preview.jpg",
             "tags": [
-                "UI Design",
-                "Wireframes",
-                "Axure"
+            "UI Design",
+            "Wireframes",
+            "Axure"
             ],
             "slides": [
-                "Pages/Work/imgs/projects/HealthPlace/hp1.jpg",
-                "Pages/Work/imgs/projects/HealthPlace/hp3.jpg",
-                "Pages/Work/imgs/projects/HealthPlace/hp4a.png",
-                "Pages/Work/imgs/projects/HealthPlace/hp5a.png"
+            "Pages/Work/imgs/projects/HealthPlace/hp1.jpg",
+            "Pages/Work/imgs/projects/HealthPlace/hp3.jpg",
+            "Pages/Work/imgs/projects/HealthPlace/hp4a.png",
+            "Pages/Work/imgs/projects/HealthPlace/hp5a.png"
             ]
-        },
+            },
 
-        {
-            "projectName": "Sex Trafficking",
-            "projectRole":"Designer, Programmer",
-            "projectType":"Interactive Infographic",
-            "year": 2012,
-            "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/traf-preview.jpg",
-            "tags": [
+            {
+                "projectName": "Sex Trafficking",
+                "projectRole":"Designer, Programmer",
+                "projectType":"Interactive Infographic",
+                "year": 2012,
+                "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/traf-preview.jpg",
+                "tags": [
                 "UI Design",
                 "CSS3",
                 "HTML5",
                 "JS/jQuery",
                 "Illustration",
                 "Statistical Research"
-            ],
-            "siteLink": "http://ballbearingsmag.com/pics/stories/website/1757/default.php",
-            "projectAward": [
+                ],
+                "siteLink": "http://ballbearingsmag.com/pics/stories/website/1757/default.php",
+                "projectAward": [
                 "2013 Best Online Multimedia, Society of Professional Journalists - Indiana",
                 "Editor's Pick, Visua.ly"
-            ],
-            "slides": [
+                ],
+                "slides": [
                 "Pages/Work/imgs/projects/sex-trafficking/traf1.jpg",
                 "Pages/Work/imgs/projects/sex-trafficking/traf2.jpg"
-            ]
-        },
+                ]
+                },
 
                 {
-            "projectName": "Ball Bearings",
-            "projectRole":"Designer, Front-End Programmer",
-            "projectType":"Online Magazine Website",
-            "year": 2012,
-            "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
-            "tags": [
-                "UI Design",
-                "CSS3",
-                "HTML5",
-                "JS/jQuery",
-                "Custom CMS integration"
-            ],
-             "projectAward": [
-                "Best Overall Website Design 2011-2012, Indiana Collegiate Press Association",
-                "ACP Online Pacemaker (2011 and 2012), Collegiate Press Association"
-            ],
-            "slides": [
-                "Pages/Work/imgs/projects/BB/bb1.jpg",
-                "Pages/Work/imgs/projects/BB/bb2.jpg"
-            ]
-        },
-        {
-            "projectName": "Save the Elephants",
-            "projectRole":"Designer",
-            "projectType":"Website",
-            "projectTypeDisclaimer":"(Mockup)",
-            "year": 2011,
-            "previewImg": "./Pages/Work/imgs/projects/elephant/elephant-preview.jpg",
-            "tags": [
-                "Illustration",
-                "One-page Design"
-            ],
-            "slides": [
-                "Pages/Work/imgs/projects/elephant/elephants.jpg"
-            ]
-        },
+                    "projectName": "Ball Bearings",
+                    "projectRole":"Designer, Front-End Programmer",
+                    "projectType":"Online Magazine Website",
+                    "year": 2012,
+                    "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
+                    "tags": [
+                    "UI Design",
+                    "CSS3",
+                    "HTML5",
+                    "JS/jQuery",
+                    "Custom CMS integration"
+                    ],
+                    "projectAward": [
+                    "Best Overall Website Design 2011-2012, Indiana Collegiate Press Association",
+                    "ACP Online Pacemaker (2011 and 2012), Collegiate Press Association"
+                    ],
+                    "slides": [
+                    "Pages/Work/imgs/projects/BB/bb1.jpg",
+                    "Pages/Work/imgs/projects/BB/bb2.jpg"
+                    ]
+                    },
+                    {
+                        "projectName": "Save the Elephants",
+                        "projectRole":"Designer",
+                        "projectType":"Website",
+                        "projectTypeDisclaimer":"(Mockup)",
+                        "year": 2011,
+                        "previewImg": "./Pages/Work/imgs/projects/elephant/elephant-preview.jpg",
+                        "tags": [
+                        "Illustration",
+                        "One-page Design"
+                        ],
+                        "slides": [
+                        "Pages/Work/imgs/projects/elephant/elephants.jpg"
+                        ]
+                        },
+
+                        {
+                            "projectName": "GRID Magazine",
+                            "projectRole":"Designer, Reporter",
+                            "projectType":"Magazine",
+                            "projectTypeDisclaimer":"(Class Project)",
+                            "year": 2011,
+                            "previewImg": "./Pages/Work/imgs/projects/grid/grid-preview.jpg",
+                            "tags": [
+                            "Art Direction",
+                            "Infographics",
+                            "Page Layouts"
+                            ],
+                            "slides": [
+                            "Pages/Work/imgs/projects/grid/grid1.jpg",
+                            "Pages/Work/imgs/projects/grid/grid2.jpg",
+                            "Pages/Work/imgs/projects/grid/grid3.jpg",
+                            "Pages/Work/imgs/projects/grid/grid4.jpg",
+                            "Pages/Work/imgs/projects/grid/grid6.jpg",
+                            "Pages/Work/imgs/projects/grid/grid7.jpg"
+                            ]
+                            },
+
+                            {
+                                "projectName": "Coca-Cola",
+                                "projectRole":"Art Director, Concept Development",
+                                "projectType":"Advertisement",
+                                "projectTypeDisclaimer":"(Class Project)",
+                                "year": 2011,
+                                "previewImg": "./Pages/Work/imgs/projects/coke/coke-preview.jpg",
+                                "tags": [
+                                "Ad Design",
+                                "Art Direction"
+                                ],
+                                "slides": [
+                                "Pages/Work/imgs/projects/coke/coke1.jpg",
+                                "Pages/Work/imgs/projects/coke/coke2.jpg",
+                                "Pages/Work/imgs/projects/coke/coke3.jpg"
+                                ]
+                                },
 
                                 {
-            "projectName": "GRID Magazine",
-            "projectRole":"Designer, Reporter",
-            "projectType":"Magazine",
-            "projectTypeDisclaimer":"(Class Project)",
-            "year": 2011,
-            "previewImg": "./Pages/Work/imgs/projects/grid/grid-preview.jpg",
-            "tags": [
-                "Art Direction",
-                "Infographics",
-                "Page Layouts"
-            ],
-            "slides": [
-                "Pages/Work/imgs/projects/grid/grid1.jpg",
-                "Pages/Work/imgs/projects/grid/grid2.jpg",
-                "Pages/Work/imgs/projects/grid/grid3.jpg",
-                "Pages/Work/imgs/projects/grid/grid4.jpg",
-                "Pages/Work/imgs/projects/grid/grid6.jpg",
-                "Pages/Work/imgs/projects/grid/grid7.jpg"
-            ]
-        },
+                                    "projectName": "ProMo",
+                                    "projectRole":"Designer",
+                                    "projectType":"Social Networking Website",
+                                    "projectTypeDisclaimer":"(Mockup)",
+                                    "year": 2010,
+                                    "previewImg": "./Pages/Work/imgs/projects/promo/promo-preview.jpg",
+                                    "tags": [
+                                    "Web Design",
+                                    "Branding",
+                                    "Logo"
+                                    ],
 
-                                        {
-            "projectName": "Coca-Cola",
-            "projectRole":"Art Director, Concept Development",
-            "projectType":"Advertisement",
-            "projectTypeDisclaimer":"(Class Project)",
-            "year": 2011,
-            "previewImg": "./Pages/Work/imgs/projects/coke/coke-preview.jpg",
-            "tags": [
-                "Ad Design",
-                "Art Direction"
-            ],
-            "slides": [
-                "Pages/Work/imgs/projects/coke/coke1.jpg",
-                "Pages/Work/imgs/projects/coke/coke2.jpg",
-                "Pages/Work/imgs/projects/coke/coke3.jpg"
-            ]
-        },
-
-                                                {
-            "projectName": "ProMo",
-            "projectRole":"Designer",
-            "projectType":"Social Networking Website",
-            "projectTypeDisclaimer":"(Mockup)",
-            "year": 2010,
-            "previewImg": "./Pages/Work/imgs/projects/promo/promo-preview.jpg",
-            "tags": [
-                "Web Design",
-                "Branding",
-                "Logo"
-            ],
-
-            "slides": [
-                "Pages/Work/imgs/projects/promo/promo.png"
-            ]
-        }
-    ]
-}
+                                    "slides": [
+                                    "Pages/Work/imgs/projects/promo/promo.png"
+                                    ]
+                                }
+                                ]
+                            }
