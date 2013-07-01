@@ -156,6 +156,11 @@
 	}
 
 	.container {width:95%;}
+
+	.contact ul li{
+		display: inline;
+		padding: 0 9px;
+	}
 }
 
 /* Landscape phones and down */
@@ -193,10 +198,21 @@
 	.project-title {
 		font-size: 36px;
 	}
+
+	.contact ul li a{
+		font-size:20px;
+	}
+	.home-content-titles-container,
+	.home-content-header{
+		display:block;
+	}
 }
 
 @media (max-width: 300px) {
-
+	.home-content-titles-container,
+	.home-content-header {
+		display:none;
+	}
 	.logo-one
 	.logo-two,
 	.logo-three {

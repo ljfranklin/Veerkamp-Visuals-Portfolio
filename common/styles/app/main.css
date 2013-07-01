@@ -133,11 +133,13 @@ body {
 
 .contact ul li a {
     color: #ff0;
+    font-size: 17px;
 }
 
 .contact ul li a:hover {
     color:white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .modal-background {
