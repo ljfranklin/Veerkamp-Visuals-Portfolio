@@ -86,6 +86,7 @@ define([
 
                     loadSlides(opts.model, $el);
                     setupNav();
+                    scrollToTop($el);
 
                     $el.show();
                     $el.animate({
@@ -111,6 +112,7 @@ define([
                 $newBreakdownArea.insertBefore($el);
 
                 setupNav();
+                scrollToTop($newBreakdownArea);
 
                 $newBreakdownArea.show();
 
@@ -210,6 +212,18 @@ define([
                 $span.animate({
                     width: '35px'
                 }, navAnimateTime);
+            }
+
+            function scrollToTop($el) {
+                console.log("scroll");
+
+                var $btn = $el.find('.scroll-up');
+                $btn.click(function() {
+                    console.log('click');
+                    $el.animate({
+                        scrollTop: 0
+                    }, 500);
+                });
             }
         }
     });
