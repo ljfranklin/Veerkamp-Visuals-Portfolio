@@ -136,10 +136,10 @@ define([
                 var slidesSrc = model.get('slides');
 
                 var loadedImgs = [];
-                _.each(slidesSrc, function(src) {
+                _.each(slidesSrc, function(src, index) {
                     var img = new Image();
                     img.onload = function () {
-                        loadedImgs.push(img);
+                        loadedImgs[index] = img;
                         if (loadedImgs.length === slidesSrc.length) {
                             displaySlides(loadedImgs, $el);
                         }
