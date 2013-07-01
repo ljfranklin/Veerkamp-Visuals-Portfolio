@@ -110,7 +110,7 @@ color: #ff0;
 	margin-bottom:20px;
 }
 
-.res-btn {
+.primary-btn {
 	font-family: 'verbblack';
 color: white;
 border: 1px solid #ff0;
@@ -127,10 +127,11 @@ background: none;
 margin: 10px 0;
 }
 
-.res-btn:hover {
+.primary-btn:hover {
 	-webkit-box-shadow: inset 0px 0px 0px 3px #ff0;
 box-shadow: inset 0px 0px 0px 3px #ff0;
 text-decoration: none;
+color:#fff;
 }
 
 .contact-info a {

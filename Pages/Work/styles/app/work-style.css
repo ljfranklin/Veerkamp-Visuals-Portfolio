@@ -47,7 +47,7 @@
 }
 
 .project-breakdown-container .project-slides-container .project-slide {
-    text-align: center;
+    margin:20px 0;
 }
 
 .timeline-home-header {
@@ -230,4 +230,8 @@ li.project-tag{
 .project-nav span{
     text-transform: uppercase;
     font-family: 'open_sansregular';
+}
+
+.primary-btn.work {
+    padding: 5px 23px;
 }
