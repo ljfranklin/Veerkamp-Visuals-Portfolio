@@ -252,11 +252,13 @@
     list-style-type: none;
     margin-top: 20px;
     height: 20px;
+
+    font-size: 140%;
 }
 
 .project-nav li {
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid white;
 
     padding: 2px 4px;
 
@@ -265,16 +267,22 @@
     cursor: pointer;
 }
 
+.project-nav li i {
+    margin-right: -14px;
+    display: inline-block;
+    width: 14px;
+}
+
 .project-nav li .nav-outer {
     display: inline-block;
-    margin-left: 6px;
+    margin-left: 10px;
+    vertical-align: text-top;
 }
 
 .project-nav li .nav-inner {
     overflow: hidden;
 
     text-transform: uppercase;
-    font-family: 'open_sansregular';
 }
 
 .project-tags ul{
