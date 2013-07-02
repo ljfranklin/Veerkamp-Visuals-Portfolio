@@ -24,3 +24,20 @@ font-family: 'open_sansbold_italic';
 	font-size: 24px;
 	color:#ff0;
 }
+
+.contact-box {
+	margin:10px 0;
+}
+
+.contact-box ul {
+	margin:0;
+}
+
+.contact-box ul li {
+	display:inline;
+}
+
+.contact-box ul li,
+.contact-box ul li a {
+	margin:0;
+}
