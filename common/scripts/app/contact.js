@@ -11,7 +11,7 @@ define([
 
     self.init = function() {
         $(document).on('click', '.nav-link-contact', showModal);
-        $(document).on('click', '.modal-background', hideModal);
+        $(document).on('click', '.modal-background, .modal-close', hideModal);
         $(document).on('click', '.contact-modal .submit', submitEmail);
     };
 
