@@ -1,6 +1,8 @@
 .res-content-wrapper {
 	font-family: 'open_sansregular';
 	color:#fff;
+    height: 100%;
+    width: 100%;
 }
 
 .res-content-wrapper a {
