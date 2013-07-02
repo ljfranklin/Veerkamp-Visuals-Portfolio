@@ -27,12 +27,12 @@
 	.parallax-container {
 		display: none;
 	}
-    .main-img {
-        height: auto;
-    }
-    .main-img.loading {
-        height: 80px;
-    }
+	.main-img {
+		height: auto;
+	}
+	.main-img.loading {
+		height: 80px;
+	}
 
 	.home-content-links li a {
 		padding:23px 30px;
@@ -73,6 +73,12 @@
 		text-align: left;
 	}
 
+	.contact-modal > div {
+		width: 27%;
+		margin-left: -13%;
+		margin-top: -20%;
+	}
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -80,12 +86,12 @@
 	.parallax-container {
 		display: none;
 	}
-    .main-img {
-        height: auto;
-    }
-    .main-img.loading {
-        height: 80px;
-    }
+	.main-img {
+		height: auto;
+	}
+	.main-img.loading {
+		height: 80px;
+	}
 
 	.navbar {
 		background:yellow;
@@ -167,6 +173,17 @@
 		display: inline;
 		padding: 0 9px;
 	}
+.contact-modal > div {
+	width: 100%;
+max-width: none;
+left: 0;
+top: 0;
+height: 100%;
+max-width: none;
+width:100%;
+margin-top: 0;
+margin-left: 0;
+}
 }
 
 /* Landscape phones and down */
