@@ -172,9 +172,9 @@ define([
 
                 $('.project-nav li').hover(function() {
                     var $li = $(this);
-                    var $span = $li.find('span');
+                    var $span = $li.find('.nav-inner');
 
-                    var $otherSpans = $('.project-nav span').not($span);
+                    var $otherSpans = $('.project-nav .nav-inner').not($span);
                     hideSpan($otherSpans);
 
                     showSpan($span);
@@ -186,11 +186,11 @@ define([
             function showFirstSpan(immediate) {
 
                 var time = immediate ? 0 : navAnimateTime;
-                var $firstLi = $('.project-nav li:first-child > span');
+                var $firstLi = $('.project-nav li:first-child .nav-inner');
 
                 showSpan($firstLi);
 
-                var $otherSpans = $('.project-nav span').not($firstLi);
+                var $otherSpans = $('.project-nav .nav-inner').not($firstLi);
                 $otherSpans.stop();
                 $otherSpans.animate({
                     width: '0'
@@ -213,7 +213,7 @@ define([
 
                 $span.show();
                 $span.animate({
-                    width: '35px'
+                    width: '40px'
                 }, navAnimateTime);
             }
 

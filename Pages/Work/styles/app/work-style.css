@@ -249,23 +249,32 @@
 }
 
 .project-nav {
-    display: inline-block;
     list-style-type: none;
     margin-top: 20px;
+    height: 20px;
 }
 
 .project-nav li {
-    display: inline;
+    display: inline-block;
     border: 1px solid black;
 
     padding: 2px 4px;
-    box-sizing: border-box;
+
+    line-height: normal;
 
     cursor: pointer;
 }
 
-.project-nav li div {
+.project-nav li .nav-outer {
     display: inline-block;
+    margin-left: 6px;
+}
+
+.project-nav li .nav-inner {
+    overflow: hidden;
+
+    text-transform: uppercase;
+    font-family: 'open_sansregular';
 }
 
 .project-tags ul{
@@ -286,11 +295,6 @@ li.project-tag{
     border:0;
     border-top:1px solid #333;
     margin:20px 0;
-}
-
-.project-nav span{
-    text-transform: uppercase;
-    font-family: 'open_sansregular';
 }
 
 .primary-btn.work {
