@@ -27,6 +27,7 @@ define([
     }
 
     function hideModal(callback) {
+        console.log("Click");
         $('.modal-background').fadeOut(animateTime);
         $('.modal-wrapper').fadeOut(
             animateTime,
