@@ -141,38 +141,69 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
-
 .modal-background {
-
     display: none;
-
     position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
-
     background-color: #515151;
-
     z-index: 100;
 }
-
 .modal-wrapper {
     display: none;
     position: fixed;
-    left: 50%;
-    top: 50%;
-
     z-index: 200;
+    width: 100%;
+    height: 100%;
 }
 .contact-modal > div {
-    position: absolute;
-    left: -200px;
-    top: -150px;
-    width: 400px;
-    height: 300px;
+position: absolute;
+left: 50%;
+top: 50%;
+width: 19%;
+height: 45%;
+margin-left: -10%;
+background-color: #000;
+margin-top: -15%;
+}
 
-    background-color: #d3d3d3;
+.modal-header,
+.modal-body .control-label {
+    font-family: 'open_sanssemibold';
+    color:white;
+}
+
+.modal-header {
+    font-family: 'neouthin';
+    font-size: 18px;
+    border-bottom:1px solid #333;
+}
+
+#user-email, 
+#user-name,
+#user-message {
+    border:1px solid #666;
+    background:#000;
+    border-radius:0;
+    color:#888;
+    font-family: 'open_sansregular';
+}
+
+#user-email:focus, 
+#user-name:focus,
+#user-message:focus {
+border-color: #ff0;
+outline: 0;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+color:#fff;
+}
+
+#user-message {
+    min-height: 92px;
 }
 
 .contact-modal .front {
@@ -221,6 +252,8 @@ body {
     -webkit-transform: rotateX(0deg) rotateY(0deg);
     -moz-transform: rotateX(0deg) rotateY(0deg);
 }
+
+
 
 /* ==========================================================================
    Helper classes

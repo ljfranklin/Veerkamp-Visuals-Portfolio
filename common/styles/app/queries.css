@@ -67,6 +67,12 @@
 		background:orange;
 	}
 
+	.form-horizontal .control-label.contact {
+		float:none;
+		width:auto;
+		text-align: left;
+	}
+
 }
 
 /* Landscape phone to portrait tablet */
