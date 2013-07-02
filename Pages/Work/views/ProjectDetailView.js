@@ -213,7 +213,7 @@ define([
 
                 $span.show();
                 $span.animate({
-                    width: '40px'
+                    width: '60px'
                 }, navAnimateTime);
             }
 

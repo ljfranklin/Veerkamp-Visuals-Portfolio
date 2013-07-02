@@ -252,16 +252,15 @@
     list-style-type: none;
     margin-top: 20px;
     height: 20px;
+    margin: 0;
 }
 
 .project-nav li {
     display: inline-block;
     border: 1px solid black;
-
+    font-size: 20px;
     padding: 2px 4px;
-
     line-height: normal;
-
     cursor: pointer;
 }
 
@@ -298,5 +297,6 @@ li.project-tag{
 }
 
 .primary-btn.small-btn {
-    padding: 9px 23px;
+    padding: 9px 11px;
+font-size: 19px;
 }

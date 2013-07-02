@@ -14,12 +14,17 @@
 	.hidden-break {
 		display:none;
 	}
+	.contact-box.toggle-display {
+		display:none;
+	}
 }
 
 @media (max-width: 980px) {
 	.res-title {
 		position: relative;
 	}
+
+
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -77,6 +82,21 @@
 		width: 27%;
 		margin-left: -13%;
 		margin-top: -20%;
+	}
+
+	.contact-box ul li, 
+	.contact-box ul li a {
+		margin: 3px 0;
+		width: 100%;
+		box-sizing: border-box;
+		list-style-type: none;
+	}
+
+	.contact-box {
+		display:block;
+	}
+	.contact-box.toggle-display {
+		display:none;
 	}
 
 }
@@ -173,17 +193,28 @@
 		display: inline;
 		padding: 0 9px;
 	}
-.contact-modal > div {
-	width: 100%;
-max-width: none;
-left: 0;
-top: 0;
-height: 100%;
-max-width: none;
-width:100%;
-margin-top: 0;
-margin-left: 0;
-}
+	.contact-modal > div {
+		width: 100%;
+		max-width: none;
+		left: 0;
+		top: 0;
+		height: 100%;
+		max-width: none;
+		width:100%;
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.about-vert {
+		display:none;
+	}
+
+	.contact-box {
+		display:none;
+	}
+	.contact-box.toggle-display {
+		display:block;
+	}
 }
 
 /* Landscape phones and down */
@@ -227,6 +258,24 @@ margin-left: 0;
 	}
 	.home-content-titles-container,
 	.home-content-header{
+		display:block;
+	}
+
+	.about-header {
+		font-size: 22px;
+		line-height: 24px;
+	}
+
+	.byline {
+		font-size: 18px;
+	}
+
+	.profile-img {
+		float:none;
+	}
+
+	.contact-box ul li, 
+	.contact-box ul li a {
 		display:block;
 	}
 }

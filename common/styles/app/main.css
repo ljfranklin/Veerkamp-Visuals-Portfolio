@@ -48,7 +48,7 @@ body {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #333;
     margin: 1em 0;
     padding: 0;
 }
@@ -78,7 +78,9 @@ body {
  textarea {
     resize: vertical;
 }
-
+.clear {
+    clear:both;
+}
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
@@ -172,6 +174,21 @@ background-color: #000;
 margin-top: -15%;
 min-height: 322px;
 max-width: 265px;
+}
+
+.modal-title {
+    float:left;
+}
+
+.modal-close {
+    float: right;
+    cursor: pointer;
+    font-family: 'verbblack';
+    color:#666;
+}
+
+.modal-close:hover {
+    color:#fff;
 }
 
 .modal-header,
