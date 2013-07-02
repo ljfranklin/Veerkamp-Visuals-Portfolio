@@ -162,11 +162,12 @@ body {
 position: absolute;
 left: 50%;
 top: 50%;
-width: 19%;
+width: 20%;
 height: 45%;
 margin-left: -10%;
 background-color: #000;
 margin-top: -15%;
+min-height: 322px;
 }
 
 .modal-header,
@@ -189,6 +190,7 @@ margin-top: -15%;
     border-radius:0;
     color:#888;
     font-family: 'open_sansregular';
+    width:90%;
 }
 
 #user-email:focus, 
