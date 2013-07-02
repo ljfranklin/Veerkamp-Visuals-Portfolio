@@ -254,16 +254,14 @@
     height: 20px;
 
     font-size: 140%;
+    margin: 0;
 }
 
 .project-nav li {
     display: inline-block;
     border: 1px solid white;
-
     padding: 2px 4px;
-
     line-height: normal;
-
     cursor: pointer;
 }
 
@@ -306,5 +304,6 @@ li.project-tag{
 }
 
 .primary-btn.small-btn {
-    padding: 9px 23px;
+    padding: 9px 11px;
+font-size: 19px;
 }

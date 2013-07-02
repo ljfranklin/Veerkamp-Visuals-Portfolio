@@ -1,17 +1,16 @@
 .about-header {
-display: block;
-font-family: 'neouthin';
-color: #ff0;
-font-size: 32px;
-line-height: 30px;
-padding:0;
+	display: block;
+	font-family: 'neouthin';
+	color: #ff0;
+	font-size: 32px;
+	line-height: 30px;
+	padding:0;
 }
 
 .about-desc {
 	font-family: "open_sansregular";
-color: #fff;
-padding-top: 26px;
-font-size: 14px;
+	color: #fff;
+	font-size: 14px;
 }
 
 .about-desc-header {
@@ -19,8 +18,17 @@ font-size: 14px;
 	font-size: 20px;
 }
 
+.profile-img {
+	padding: 0 20px 10px 0;
+	float: left;
+}
+
+.about-main-content {
+	margin:20px 0 15px;
+}
+
 .byline {
-font-family: 'open_sansbold_italic';
+	font-family: 'open_sansbold_italic';
 	font-size: 24px;
 	color:#ff0;
 }
