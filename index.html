@@ -12,6 +12,11 @@
  <link href="common/styles/app/style.css" rel="stylesheet"/>
 </head>
 <body>
+
+<!--[if lte IE 8]>
+    <h4>Browser not supported</h4>
+<![endif]-->
+<!--[if gt IE 8]><!-->
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span12">
@@ -77,7 +82,7 @@
         <div class="modal-background"></div>
     </div>
 
-    <!-- scripts -->
     <script data-main="main" src="require-jquery.min.js"></script>
+<!--<![endif]-->
 </body>
 </html>
