@@ -72,13 +72,13 @@
 }
 
 .timeline-home-header-text {
- margin: 0 auto;
- display: block;
- text-align: center;
- font-family: 'neouthin';
- color:#ff0;
- font-size: 47px;
- margin-top: -44px;
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+   font-family: 'neouthin';
+   color:#ff0;
+   font-size: 47px;
+   margin-top: -44px;
 }
 
 .timeline-home-header-text.display-toggle {
@@ -252,14 +252,14 @@
     list-style-type: none;
     margin-top: 20px;
     height: 20px;
-
+    padding: 10px 0 18px;;
     font-size: 140%;
     margin: 0;
 }
 
 .project-nav li {
     display: inline-block;
-    border: 1px solid white;
+    border: 1px solid #333;
     padding: 2px 4px;
     line-height: normal;
     cursor: pointer;
@@ -287,11 +287,13 @@
   margin-bottom:20px;
   overflow:hidden;
 }
+
 li.project-tag{
   line-height:1.5em;
   float:left;
   display:inline;
 }
+
 #double li  { width:50%;} 
 #triple li  { width:33.333%; } 
 #quad li    { width:25%; } 
@@ -305,5 +307,5 @@ li.project-tag{
 
 .primary-btn.small-btn {
     padding: 9px 11px;
-font-size: 19px;
+    font-size: 19px;
 }
