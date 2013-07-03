@@ -57,7 +57,7 @@
                 <div class="project-tags">
                     <h5>Contributions</h5>
                     <ul id="double" class="list">
-                        <% tags.forEach(function(tag) { %>
+                        <% _.each(tags, function(tag) { %>
                         <li class="project-tag">
                             <%= tag %>
                         </li>
@@ -68,7 +68,7 @@
                 <div class="project-award">
                     <h5>Awards</h5>
                     <ul class="list">
-                        <% projectAward.forEach(function(award) { %>
+                        <% _.each(projectAward, function(award) { %>
                         <li class="project-award-list">
                             <%= award %>
                         </li>
