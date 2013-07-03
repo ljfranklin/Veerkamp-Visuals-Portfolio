@@ -96,6 +96,14 @@ body {
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
    .main-content {
     position: fixed;
     top: 40px;

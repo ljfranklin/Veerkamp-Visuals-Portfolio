@@ -279,8 +279,8 @@
 
 .project-nav li .nav-inner {
     overflow: hidden;
-
     text-transform: uppercase;
+    width: 62px;
 }
 
 .project-tags ul{
