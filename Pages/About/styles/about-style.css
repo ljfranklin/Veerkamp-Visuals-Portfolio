@@ -1,3 +1,6 @@
+.about-container {
+	margin-top:10px;
+}
 .about-header {
 	display: block;
 	font-family: 'neouthin';
@@ -29,18 +32,31 @@
 
 .about-credit-img {
 	float:left;
+	padding-right: 14px;
 }
 
 .about-credit-name,
 .about-credit-role {
-	font-family: 'neouthin';
+	font-family: 'open_sans_bold';
 	color:#ff0;
-	font-size: 14px;
+	font-size: 20px;
 }
 
 .about-credit-role {
-	font-size: 12px;
+	font-size: 14px;
 	color:#fff;
+	font-family: 'open_sansregular';
+}
+
+.about-credit-extra {
+	font-family: 'open_sansregular';
+	padding: 10px 0;
+	color:#666;
+}
+
+.about-header.back-text {
+	text-align: center;
+	padding: 10px;
 }
 
 .byline {

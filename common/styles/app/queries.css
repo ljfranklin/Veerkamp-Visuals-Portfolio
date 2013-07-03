@@ -7,340 +7,375 @@
 		display:none;
 	}
 
-	.navbar {
-		background:red;
-	}
-
 	.hidden-break {
 		display:none;
 	}
-	.contact-box.toggle-display {
+	.contact-box.display-toggle {
 		display:none;
 	}
-}
 
-@media (max-width: 980px) {
-	.res-title {
-		position: relative;
+/*		.navbar {
+		background:red;
+		}*/
 	}
 
-
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 1199px) {
-	.parallax-container {
-		display: none;
-	}
-	.main-img {
-		height: auto;
-	}
-	.main-img.loading {
-		height: 80px;
+	@media (max-width: 980px) {
+		.res-title {
+			position: relative;
+		}
 	}
 
-	.home-content-links li a {
-		padding:23px 30px;
-		font-size: 35px;
-	}
+	/* Portrait tablet to landscape and desktop */
+	@media (min-width: 768px) and (max-width: 1199px) {
+		.parallax-container {
+			display: none;
+		}
+		.main-img {
+			height: auto;
+		}
+		.main-img.loading {
+			height: 80px;
+		}
 
-	.home-content-titles li {
-		font-size: 40px;
-		line-height: 33px;
-	}
+		.home-content-links li a {
+			padding:23px 30px;
+			font-size: 35px;
+		}
 
-	.logo-one,
-	.logo-two,
-	.logo-five {
-		font-size: 65px;
-	}
+		.home-content-titles li {
+			font-size: 40px;
+			line-height: 33px;
+		}
 
-	.logo-two {
-		margin-left: -41px;
-	}
+		.logo-one,
+		.logo-two,
+		.logo-five {
+			font-size: 65px;
+		}
 
-	.logo-three,
-	.logo-four {
-		font-size: 38px;
-	}
+		.logo-two {
+			margin-left: -41px;
+		}
 
-	.logo-three {
-		margin-left:-35px;
-	}
+		.logo-three,
+		.logo-four {
+			font-size: 38px;
+		}
 
-	.navbar {
+		.logo-three {
+			margin-left:-35px;
+		}
+
+
+
+		.form-horizontal .control-label.contact {
+			float:none;
+			width:auto;
+			text-align: left;
+		}
+
+		.contact-modal > div {
+			width: 27%;
+			margin-left: -13%;
+			margin-top: -20%;
+		}
+
+		.contact-box ul li, 
+		.contact-box ul li a {
+			margin: 3px 0;
+			width: 100%;
+			box-sizing: border-box;
+			list-style-type: none;
+		}
+		.contact-box {
+			display:block;
+		}
+		.about-credit {
+			float: none;
+			padding-right: none;
+		}
+
+
+		.contact-box.display-toggle {
+			display:none;
+		}
+/*		.navbar {
 		background:orange;
+		}*/
 	}
 
-	.form-horizontal .control-label.contact {
-		float:none;
-		width:auto;
-		text-align: left;
-	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 767px) {
+		.parallax-container {
+			display: none;
+		}
+		.main-img {
+			height: auto;
+		}
+		.main-img.loading {
+			height: 80px;
+		}
+		.home-content-links {
+			margin: 14px 5px;
+		}
 
-	.contact-modal > div {
-		width: 27%;
-		margin-left: -13%;
-		margin-top: -20%;
-	}
+		.home-content-links li a {
+			padding: 10px 0;
+			display: block;
+			font-size: 20px;
+			margin-bottom: 5px;
+			box-sizing: border-box;
+			text-align: center;
+			float: none;
+		}
 
-	.contact-box ul li, 
-	.contact-box ul li a {
-		margin: 3px 0;
-		width: 100%;
-		box-sizing: border-box;
-		list-style-type: none;
-	}
+		.logo-one,
+		.logo-two,
+		.logo-five {
+			font-size: 42px;
+		}
 
-	.contact-box {
-		display:block;
-	}
-	.contact-box.toggle-display {
-		display:none;
-	}
+		.logo-two {
+			margin-left: -28px;
+		}
 
-}
+		.logo-three,
+		.logo-four {
+			font-size: 24px;
+		}
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	.parallax-container {
-		display: none;
-	}
-	.main-img {
-		height: auto;
-	}
-	.main-img.loading {
-		height: 80px;
-	}
+		.logo-three {
+			margin-left:-23px;
+		}
 
-	.navbar {
+		.home-content-titles li {
+			font-size: 34px;
+			line-height: 16px;
+		}
+
+		.timeline-home-header-text {
+			font-size: 27px;
+		}
+
+		.triangle {
+			font-size: 35px;
+		}
+
+		.work-content-area .year-container {
+			font-size: 22pt;
+		}
+
+		.left-corner,
+		.right-corner,
+		.hover-detail
+		{
+			display:none !important;
+		}
+
+		.project-preview-container {
+			width: 95%;
+			max-width: 500px;
+		}
+		li.project-tag {
+			display:block;
+			float:none;
+		}
+
+		#double li {
+			width:100%;
+		}
+
+		.container {width:95%;}
+
+		.contact ul li{
+			display: inline;
+			padding: 0 9px;
+		}
+		.contact-modal > div {
+			width: 100%;
+			max-width: none;
+			left: 0;
+			top: 0;
+			height: 100%;
+			max-width: none;
+			width:100%;
+			margin-top: 0;
+			margin-left: 0;
+		}
+
+		.about-vert {
+			display:none;
+		}
+
+		.contact-box {
+			display:none;
+		}
+		.primary-btn {
+			display: block;
+			text-align: center;
+			box-sizing:border-box;
+		}
+
+		.res-title {
+			border-bottom: 1px solid #333;
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+		}
+		.about-credit-img {
+			float:none;
+			padding: 10px 0 19px;
+		}
+		.about-credit {
+			float: left;
+			padding-right: 20px;
+		}
+
+		#user-email, #user-name, #user-message {
+			width:98%;
+		}
+
+		.back {
+			text-align: center;
+		}
+
+		.contact-box.display-toggle {
+			display:block;
+		}
+
+		.contact-box {
+			display:none;
+		}
+
+
+/*	.navbar {
 		background:yellow;
-
-	}
-	.home-content-links {
-		margin: 14px 5px;
+		}*/
 	}
 
-	.home-content-links li a {
-		padding: 10px 0;
-		display: block;
-		font-size: 20px;
-		margin-bottom: 5px;
-		box-sizing: border-box;
-		text-align: center;
-		float: none;
-	}
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+		.about-credit {
+			float: none;
+			padding-right: none;
+		}
 
-	.logo-one,
-	.logo-two,
-	.logo-five {
-		font-size: 42px;
-	}
+		.parallax-container {
+			display: none;
+		}
+		.main-img-nonparallax {
+			display:block;
+		}
 
-	.logo-two {
-		margin-left: -28px;
-	}
+		.footer {
+			height:20px;
+		}
 
-	.logo-three,
-	.logo-four {
-		font-size: 24px;
-	}
+		.copyright {
+			font-size: 9px;
+		}
 
-	.logo-three {
-		margin-left:-23px;
-	}
+		.contact ul {
+			margin:0;
+		}
 
-	.home-content-titles li {
-		font-size: 34px;
-		line-height: 16px;
-	}
+		.timeline-home-header-text.display-toggle {
+			display:block;
+		}
+		.timeline-home-header-text {
+			display:none;
+		}
 
-	.timeline-home-header-text {
-		font-size: 27px;
-	}
+		.project-title {
+			font-size: 36px;
+		}
 
-	.triangle {
-		font-size: 35px;
-	}
+		.contact ul li a{
+			font-size:20px;
+		}
+		.home-content-titles-container,
+		.home-content-header{
+			display:block;
+		}
 
-	.work-content-area .year-container {
-		font-size: 22pt;
-	}
+		.about-header {
+			font-size: 22px;
+			line-height: 24px;
+		}
 
-	.left-corner,
-	.right-corner,
-	.hover-detail
-	{
-		display:none !important;
-	}
+		.byline {
+			font-size: 18px;
+		}
 
-	.project-preview-container {
-		width: 95%;
-		max-width: 500px;
-	}
-	li.project-tag {
-		display:block;
-		float:none;
-	}
+		.profile-img {
+			float:none;
+		}
 
-	#double li {
-		width:100%;
-	}
+		.contact-box ul li, 
+		.contact-box ul li a {
+			display:block;
+			box-sizing:border-box;
+		}
 
-	.container {width:95%;}
-
-	.contact ul li{
-		display: inline;
-		padding: 0 9px;
-	}
-	.contact-modal > div {
-		width: 100%;
-		max-width: none;
-		left: 0;
-		top: 0;
-		height: 100%;
-		max-width: none;
-		width:100%;
-		margin-top: 0;
-		margin-left: 0;
-	}
-
-	.about-vert {
-		display:none;
-	}
-
-	.contact-box {
-		display:none;
-	}
-	.contact-box.toggle-display {
-		display:block;
-	}
-	.primary-btn {
-		display: block;
-		text-align: center;
-	}
-
-	.res-title {
-		border-bottom: 1px solid #333;
-		padding-bottom: 15px;
-		margin-bottom: 15px;
-	}
-}
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-	.parallax-container {
-		display: none;
-	}
-	.main-img-nonparallax {
-		display:block;
-	}
-
-	.footer {
-		height:20px;
-	}
-
-	.copyright {
-		font-size: 9px;
-	}
-
-	.contact ul {
-		margin:0;
-	}
-
-	.navbar {
+		.project-preview-container {
+			margin-bottom:5px;
+			height: auto;
+		}
+/*	.navbar {
 		background:green;
+		}*/
+
 	}
 
-	.timeline-home-header-text.display-toggle {
-		display:block;
-	}
-	.timeline-home-header-text {
-		display:none;
-	}
+	@media (max-width: 300px) {
+		.home-content-titles-container,
+		.home-content-header {
+			display:none;
+		}
+		.logo-one
+		.logo-two,
+		.logo-three {
+			line-height: 10px;
+		}
 
-	.project-title {
-		font-size: 36px;
-	}
+		.logo-three {
+			margin:0 auto;
+			float:none;
+		}
 
-	.contact ul li a{
-		font-size:20px;
-	}
-	.home-content-titles-container,
-	.home-content-header{
-		display:block;
-	}
+		.footer {
+			height:33px;
+		}
 
-	.about-header {
-		font-size: 22px;
-		line-height: 24px;
-	}
+		.copyright {
+			font-size: 9px;
+			float:none;
+		}
 
-	.byline {
-		font-size: 18px;
-	}
+		.contact {
+			float:none;
+		}
 
-	.profile-img {
-		float:none;
-	}
+		.contact ul {
+			margin:0;
+		}
 
-	.contact-box ul li, 
-	.contact-box ul li a {
-		display:block;
-	}
-}
+		.timeline-home-header-text {
+			font-size: 19px;
+		}
 
-@media (max-width: 300px) {
-	.home-content-titles-container,
-	.home-content-header {
-		display:none;
-	}
-	.logo-one
-	.logo-two,
-	.logo-three {
-		line-height: 10px;
-	}
+		.triangle {
+			font-size: 28px;
+		}
 
-	.logo-three {
-		margin:0 auto;
-		float:none;
-	}
+		.work-content-area .year-container {
+			font-size: 16pt;
+		}
 
-	.footer {
-		height:33px;
-	}
-
-	.copyright {
-		font-size: 9px;
-		float:none;
-	}
-
-	.contact {
-		float:none;
-	}
-
-	.contact ul {
-		margin:0;
-	}
-
-	.navbar {
+		.project-title {
+			font-size: 25px;
+		}
+/*		.navbar {
 		background:grey;
 	}
-
-	.timeline-home-header-text {
-		font-size: 19px;
-	}
-
-	.triangle {
-		font-size: 28px;
-	}
-
-	.work-content-area .year-container {
-		font-size: 16pt;
-	}
-
-	.project-title {
-		font-size: 25px;
-	}
-
+	*/
 }

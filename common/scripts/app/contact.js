@@ -24,7 +24,7 @@ define([
     }
 
     function loadThanksImage() {
-        var $backContainer = $('.modal-wrapper .back');
+        var $backContainer = $('.modal-wrapper .back-img');
 
         if ($backContainer.find('img').size() > 0) {
             return;

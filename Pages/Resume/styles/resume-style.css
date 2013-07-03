@@ -159,3 +159,7 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+
+.row-fluid [class*="span"] {
+	min-height: 0;
+}
