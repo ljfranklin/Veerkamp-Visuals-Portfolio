@@ -27,6 +27,22 @@
 	margin:20px 0 15px;
 }
 
+.about-credit-img {
+	float:left;
+}
+
+.about-credit-name,
+.about-credit-role {
+	font-family: 'neouthin';
+	color:#ff0;
+	font-size: 14px;
+}
+
+.about-credit-role {
+	font-size: 12px;
+	color:#fff;
+}
+
 .byline {
 	font-family: 'open_sansbold_italic';
 	font-size: 24px;
