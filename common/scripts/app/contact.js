@@ -16,10 +16,25 @@ define([
     };
 
     function showModal() {
+        loadThanksImage();
         $('.modal-wrapper').fadeIn(animateTime);
         $('.modal-background').fadeTo(animateTime, 0.6);
 
         $(modalSelector).find('#user-message').val('');
+    }
+
+    function loadThanksImage() {
+        var $backContainer = $('.modal-wrapper .back');
+
+        if ($backContainer.find('img').size() > 0) {
+            return;
+        }
+
+        var imgSrc = 'common/img/thanks.jpg';
+        var $img = new Image();
+        $img.src = imgSrc;
+
+        $backContainer.html($img);
     }
 
     function flipContactModal() {
