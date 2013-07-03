@@ -1,8 +1,8 @@
 .res-content-wrapper {
 	font-family: 'open_sansregular';
 	color:#fff;
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 .res-content-wrapper a {
@@ -143,4 +143,19 @@
 
 .sticky-scroll {
 	position:fixed;
+}
+
+.resume-back {
+	text-decoration: none !important;
+	border: none;
+	color:#fff !important;
+	text-transform: uppercase;
+	font-family: 'Arial';
+}
+
+.resume-back:hover {
+	color:#ccc;
+	border:0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }

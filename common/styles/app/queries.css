@@ -215,6 +215,16 @@
 	.contact-box.toggle-display {
 		display:block;
 	}
+	.primary-btn {
+		display: block;
+		text-align: center;
+	}
+
+	.res-title {
+		border-bottom: 1px solid #333;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
 }
 
 /* Landscape phones and down */
