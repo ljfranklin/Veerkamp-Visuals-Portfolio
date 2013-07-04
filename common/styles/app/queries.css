@@ -85,6 +85,7 @@
 			margin: 3px 0;
 			width: 100%;
 			box-sizing: border-box;
+			-moz-box-sizing: border-box;
 			list-style-type: none;
 		}
 		.contact-box {
@@ -125,6 +126,7 @@
 			font-size: 20px;
 			margin-bottom: 5px;
 			box-sizing: border-box;
+			-moz-box-sizing: border-box;
 			text-align: center;
 			float: none;
 		}
@@ -214,6 +216,7 @@
 			display: block;
 			text-align: center;
 			box-sizing:border-box;
+			-moz-box-sizing: border-box;
 		}
 
 		.res-title {
@@ -314,6 +317,7 @@
 		.contact-box ul li a {
 			display:block;
 			box-sizing:border-box;
+			-moz-box-sizing: border-box;
 		}
 
 		.project-preview-container {

@@ -12,7 +12,7 @@ define([
 
             var self = this;
 
-            var fadeColor = '#111';
+            var fadeColor = '#161616';
 
             render();
             initParallax();
@@ -109,7 +109,7 @@ define([
                     $span.stop(true);
 
                     var origColor = $span.data('orig-color');
-                    var color = shouldFade ? '#111' : origColor;
+                    var color = shouldFade ? fadeColor : origColor;
 
                     $span.animate({
                         'color': color,
