@@ -1,6 +1,6 @@
 
 define([
-
+    '../vendor/modernizr.custom.transforms'
 ], function() {
 
     var self = {};
@@ -26,7 +26,8 @@ define([
     function loadThanksImage() {
         var $backContainer = $('.modal-wrapper .back-img');
 
-        if ($backContainer.find('img').size() > 0) {
+        if ($backContainer.find('img').size() > 0 ||
+            suppportsTransforms() === false) {
             return;
         }
 
@@ -42,7 +43,6 @@ define([
     }
 
     function hideModal(callback) {
-        console.log("Click");
         $('.modal-background').fadeOut(animateTime);
         $('.modal-wrapper').fadeOut(
             animateTime,
@@ -85,8 +85,6 @@ define([
 
         $.when(mailRequest).done(function(result) {
 
-            console.log(result);
-
             if (result !== '0') {
                 displayError($btn);
                 return;
@@ -114,7 +112,11 @@ define([
             $btn.text($btn.data('original-text'))
                 .removeClass('btn-danger')
                 .removeClass('disabled');
-        }, 2000);
+        }, thanksDelay);
+    }
+
+    function suppportsTransforms() {
+        return Modernizr.csstransforms3d;
     }
 
     return self;

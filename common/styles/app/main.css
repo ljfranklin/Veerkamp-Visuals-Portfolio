@@ -246,19 +246,34 @@ color:#fff;
     -moz-transform-style: preserve-3d;
     -moz-backface-visibility: hidden;
 
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+    -ms-transform-style: preserve-3d;
+    -ms-backface-visibility: hidden;
+
+    -o-transform: rotateX(0deg) rotateY(0deg);
+    -o-transform-style: preserve-3d;
+    -o-backface-visibility: hidden;
+
+    transform: rotateX(0deg) rotateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+
     -o-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 
-    z-index: 400;
+    z-index: 600;
 }
 
 
 .contact-modal.flip .front {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .contact-modal .back {
@@ -269,6 +284,18 @@ color:#fff;
     -moz-transform: rotateY(-180deg);
     -moz-transform-style: preserve-3d;
     -moz-backface-visibility: hidden;
+
+    -ms-transform: rotateY(-180deg);
+    -ms-transform-style: preserve-3d;
+    -ms-backface-visibility: hidden;
+
+    -o-transform: rotateY(-180deg);
+    -o-transform-style: preserve-3d;
+    -o-backface-visibility: hidden;
+
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
 
     -o-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -282,6 +309,9 @@ color:#fff;
 .contact-modal.flip .back {
     -webkit-transform: rotateX(0deg) rotateY(0deg);
     -moz-transform: rotateX(0deg) rotateY(0deg);
+    -ms-transform: rotateX(0deg) rotateY(0deg);
+    -o-transform: rotateX(0deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg);
 }
 
 
