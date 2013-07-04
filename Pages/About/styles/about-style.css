@@ -1,6 +1,15 @@
 .about-container {
-	margin-top:10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
+.about-inner {
+    margin-top:10px;
+}
+
 .about-header {
 	display: block;
 	font-family: 'neouthin';
