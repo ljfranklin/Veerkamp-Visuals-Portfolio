@@ -92,26 +92,27 @@
 }
 
 .home-content-links {
-    margin-top:25px;
+    display: block;
+margin: 65px auto 0;
 }
 
 .home-content-links li {
     list-style-type: none;
+    display:inline;
 }
 
 .home-content-links li a {
-    font-family: 'verbblack';
-    color: white;
-    border: 1px solid #ff0;
-    padding: 45px 53px;
-    display: inline-block;
-    font-size: 41px;
-    margin-bottom: 10px;
-    -webkit-transition: all 150ms ease-in-out;
-    -moz-transition: all 150ms ease-in-out;
-    -ms-transition: all 150ms ease-in-out;
-    -o-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+font-family: 'verbblack';
+color: white;
+padding: 8px 19px;
+font-size: 19px;
+margin-bottom: 10px;
+-webkit-transition: all 150ms ease-in-out;
+-moz-transition: all 150ms ease-in-out;
+-ms-transition: all 150ms ease-in-out;
+-o-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;
+background: #111;
 }
 
 .home-content-links li a:hover {
