@@ -24,7 +24,7 @@
 
     {
         "projectName": "LISA LIVEWARE",
-        "projectRole":"Designer, Front-End Developer, Interaction Designer",
+        "projectRole":"UI",
         "projectType":"Web Application",
         "projectTypeDisclaimer":"(In Development)",
         "year": 2013,
@@ -50,7 +50,7 @@
 
             {
                 "projectName": "Sex Trafficking",
-                "projectRole":"Designer, Programmer",
+                "projectRole":"Design",
                 "projectType":"Interactive Infographic",
                 "year": 2012,
                 "previewImg": "./Pages/Work/imgs/projects/sex-trafficking/traf-preview.jpg",
@@ -75,7 +75,7 @@
 
                 {
                     "projectName": "Ball Bearings",
-                    "projectRole":"Designer, Front-End Programmer",
+                    "projectRole":"Design, HTML/CSS, PHP",
                     "projectType":"Online Magazine Website",
                     "year": 2012,
                     "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
@@ -96,8 +96,8 @@
                     ]
                     },
                     {
-                        "projectName": "Save the Elephants",
-                        "projectRole":"Designer",
+                        "projectName": "Save Elephants",
+                        "projectRole":"Design",
                         "projectType":"Website",
                         "projectTypeDisclaimer":"(Mockup)",
                         "year": 2011,
@@ -113,7 +113,7 @@
 
                         {
                             "projectName": "GRID Magazine",
-                            "projectRole":"Designer, Reporter",
+                            "projectRole":"Design",
                             "projectType":"Magazine",
                             "projectTypeDisclaimer":"(Class Project)",
                             "year": 2011,
@@ -135,7 +135,7 @@
 
                             {
                                 "projectName": "Coca-Cola",
-                                "projectRole":"Art Director, Concept Development",
+                                "projectRole":"Art Direction",
                                 "projectType":"Advertisement",
                                 "projectTypeDisclaimer":"(Class Project)",
                                 "year": 2011,
@@ -153,7 +153,7 @@
 
                                 {
                                     "projectName": "ProMo",
-                                    "projectRole":"Designer",
+                                    "projectRole":"Design",
                                     "projectType":"Social Networking Website",
                                     "projectTypeDisclaimer":"(Mockup)",
                                     "year": 2010,
