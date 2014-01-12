@@ -37,11 +37,11 @@ define([
                         el: $previewContainer
                     });
 
-                    var year = projectModel.get('year');
-                    if (year !== prevYear) {
-                        renderYear(year, $previewContainer);
-                        prevYear = year;
-                    }
+                    // var year = projectModel.get('year');
+                    // if (year !== prevYear) {
+                    //     renderYear(year, $previewContainer);
+                    //     prevYear = year;
+                    // }
 
                     projectPreviewView.render();
                 });
@@ -49,12 +49,12 @@ define([
                 addOddClass();
             }
 
-            function renderYear(year, $el) {
-                var $yearContainer = $('<div>')
-                    .addClass('year-container')
-                    .html(year);
-                $el.append($yearContainer);
-            }
+            // function renderYear(year, $el) {
+            //     var $yearContainer = $('<div>')
+            //         .addClass('year-container')
+            //         .html(year);
+            //     $el.append($yearContainer);
+            // }
 
             function addOddClass() {
                 $('.project-preview-container:odd').addClass('odd');
