@@ -1,3 +1,7 @@
+a:hover{
+	text-decoration: none;
+}
+
 .navbar {
 	height: 50px;
 	background-color: #000;
@@ -24,75 +28,33 @@
 	float:left;
 }
 
-.nav-links-container {
-	float:right;
-}
-
-.nav-links-container a:last-child {
-	margin:0;
-}
-
-.nav-link-home {
-	width: 25px;
-	height: 21px;
-	background: url('../../img/icons.jpg') no-repeat -7px 0;
-}
-
-.nav-link-home:not(.active):hover {
-	background-position: -7px -27px;
-}
-.nav-link-home.active {
-	background-position: -7px -27px;
-}
-.nav-link-work {
-	width: 25px;
-	height: 21px;
-	background: url('../../img/icons.jpg') no-repeat -38px 0;
-}
-
-.nav-link-work:not(.active):hover {
-	background-position: -38px -27px;
-}
-.nav-link-work.active {
-	background-position: -38px -27px;
-}
-
-.nav-link-about {
-	width: 25px;
-	height: 21px;
-	background: url('../../img/icons.jpg') no-repeat -68px 0;
-}
-
-.nav-link-about:not(.active):hover {
-	background-position: -68px -27px;
-}
-.nav-link-about.active {
-	background-position: -68px -27px;
-}
-
-.nav-link-blog {
-	width: 26px;
-	height: 21px;
-	background: url('../../img/icons.jpg') no-repeat -100px 0;
-}
-
-.nav-link-blog:not(.active):hover {
-	background-position: -100px -27px;
-}
-.nav-link-blog.active {
-	background-position: -100px -27px;
-}
-
 .nav-left{
 	position: absolute;
-	top: 12px;
+	top: 14px;
 	left: 14px;
+
+
+}
+
+.nav-left a{
+	color: #898989;
+	font-size: 15px;
+	font-family: 'Open Sans';
+		-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.nav-left a:hover{
+	color:#fff;
 }
 
 .nav-right{
 	position: absolute;
-	right: 10px;
-	top: 10px;
+	right: 14px;
+	top: 13px;
 }
 
 .nav-right ul li{
@@ -101,10 +63,16 @@
 	font-style: italic;
 	font-weight: 300;
 	text-transform: uppercase;
+	padding: 0px 9px;
 }
 
 .nav-right ul li a{
 	color:#aaa;
+		-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
 }
 
 .nav-right ul li a:hover{
@@ -112,5 +80,5 @@
 }
 
 .nav-right ul li a.active{
-	color:red;
+	color:#fff;
 }

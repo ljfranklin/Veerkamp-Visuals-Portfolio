@@ -1,7 +1,7 @@
 .main-img {
     background: #fff;
     position: relative;
-
+    padding-top:100px;
     height: 424px;
     width: 100%;
 }
@@ -22,68 +22,6 @@
 
 .main-img.loading img {
     display: none;
-}
-
-.parallax-container {
-    position: relative;
-    margin: 0 auto;
-    width: 1297px;
-    height: 424px;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.parallax-container .layer9 {
-    position: absolute;
-    z-index: 11;
-    top:-73px;
-    left:0;
-}
-
-.parallax-container .layer8 {
-    position: absolute;
-    z-index: 10;
-}
-
-.parallax-container .layer7 {
-    position: absolute;
-    z-index: 9;
-    top:-48px;
-}
-
-.parallax-container .layer6 {
-    position: absolute;
-    z-index: 8;
-}
-
-.parallax-container .layer5 {
-    position: absolute;
-    z-index: 7;
-}
-
-.parallax-container .layer4 {
-    position: absolute;
-    z-index: 6;
-}
-
-.parallax-container .layer3 {
-    position: absolute;
-    z-index: 5;
-}
-
-.parallax-container .layer2 {
-    position: absolute;
-    z-index: 4;
-}
-
-.parallax-container .layer1 {
-    position: absolute;
-    z-index: 3;
-}
-
-.main-img-nonparallax img {
-    margin: 0 auto;
-    display: block;
 }
 
 .home-content-area {
@@ -195,4 +133,5 @@ background: #222;
 .intro-image {
     display:block;
     margin:0 auto;
+    padding-top:100px;
 }
