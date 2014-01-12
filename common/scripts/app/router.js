@@ -41,8 +41,8 @@ define([
     }
 
     function addActiveClass(pageName) {
-        $('.nav-links-container a').removeClass('active');
-        $('.nav-links-container a[href="#' + pageName + '"]').addClass('active');
+        $('.nav-right ul li a').removeClass('active');
+        $('.nav-right ul li a[href="#' + pageName + '"]').addClass('active');
     }
 
     return my;

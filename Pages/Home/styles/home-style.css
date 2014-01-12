@@ -93,7 +93,7 @@
 
 .home-content-links {
     display: block;
-margin: 65px auto 0;
+margin: 65px auto 30px;
 }
 
 .home-content-links li {
@@ -112,7 +112,7 @@ margin-bottom: 10px;
 -ms-transition: all 150ms ease-in-out;
 -o-transition: all 150ms ease-in-out;
 transition: all 150ms ease-in-out;
-background: #111;
+background: #222;
 }
 
 .home-content-links li a:hover {
@@ -190,4 +190,9 @@ background: #111;
     -khtml-opacity: 0.7;
     opacity: 0.7;
     opacity: 0.7;
+}
+
+.intro-image {
+    display:block;
+    margin:0 auto;
 }

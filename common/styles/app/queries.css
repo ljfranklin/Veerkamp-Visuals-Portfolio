@@ -37,36 +37,10 @@
 			height: 80px;
 		}
 
-		.home-content-links li a {
-			padding:23px 30px;
-			font-size: 35px;
-		}
-
 		.home-content-titles li {
 			font-size: 40px;
 			line-height: 33px;
 		}
-
-		.logo-one,
-		.logo-two,
-		.logo-five {
-			font-size: 65px;
-		}
-
-		.logo-two {
-			margin-left: -41px;
-		}
-
-		.logo-three,
-		.logo-four {
-			font-size: 38px;
-		}
-
-		.logo-three {
-			margin-left:-35px;
-		}
-
-
 
 		.form-horizontal .control-label.contact {
 			float:none;
@@ -116,9 +90,6 @@
 		.main-img.loading {
 			height: 80px;
 		}
-		.home-content-links {
-			margin: 14px 5px;
-		}
 
 		.home-content-links li a {
 			padding: 10px 0;
@@ -129,25 +100,6 @@
 			-moz-box-sizing: border-box;
 			text-align: center;
 			float: none;
-		}
-
-		.logo-one,
-		.logo-two,
-		.logo-five {
-			font-size: 42px;
-		}
-
-		.logo-two {
-			margin-left: -28px;
-		}
-
-		.logo-three,
-		.logo-four {
-			font-size: 24px;
-		}
-
-		.logo-three {
-			margin-left:-23px;
 		}
 
 		.home-content-titles li {
