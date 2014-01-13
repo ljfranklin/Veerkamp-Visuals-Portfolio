@@ -1,42 +1,27 @@
 <div data-model-cid="<%= cid %>" class="project-detail-container">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span12">
-                <ul class="project-nav">
-                    <li class="project-detail-back">
-                        <i class="icon-angle-left"></i>
-                        <div class="nav-outer">
-                            <div class="nav-inner">
-                                Back
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project-detail-prev">
-                        <i class="icon-angle-up"></i>
-                        <div class="nav-outer">
-                            <div class="nav-inner">
-                                Prev
-                            </div>
-                        </div>
-                    </li>
-                    <li class="project-detail-next">
-                        <i class="icon-angle-down"></i>
-                        <div class="nav-outer">
-                            <div class="nav-inner">
-                                Next
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="span5">
+
+    <div class="project-nav-wrapper">
+        <table class="project-nav-table">
+            <tr >
+                <td rowspan="2"class="left">
+                    <i class="fa fa-chevron-left project-detail-back"></i>
+                    </td>
+                        <td class="top">
+                            <i class="fa fa-chevron-up project-detail-prev"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="bottom">
+                            <i class="fa fa-chevron-down project-detail-next"></i>
+                        </td>
+                    </tr>
+                </table>
                 <div class="project-title">
                     <%= projectName %>
                 </div>
 
-                <div class="project-role">
+
+                <!-- <div class="project-role">
                     <%= projectRole %>
                 </div>
                 <div class="project-type">
@@ -45,16 +30,16 @@
                     <span class="project-type-disclaimer"><%= projectTypeDisclaimer %>
                     </span>
                     <% } %>
-                </div>
+                </div> -->
 
 
-                <% if (siteLink) { %>
+<!--                 <% if (siteLink) { %>
                 <a class="primary-btn small-btn" href="<%= siteLink %>" target="_blank">
                     website
                 </a>
-                <% } %>
+                <% } %> -->
 
-                <div class="project-tags">
+<!--                 <div class="project-tags">
                     <h5>Contributions</h5>
                     <ul id="double" class="list">
                         <% _.each(tags, function(tag) { %>
@@ -75,21 +60,20 @@
                         <% }); %>
                     </ul>
                 </div>
-                <% } %>
-            </div>
-            <div class="span7">
+                <% } %> -->
+                <!--   </div> -->
+            <!-- <div class="span7">
                 <div class="project-img">
                     <img src="<%= previewImg %>"/>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-    <hr class="project-view-line"/>
     <div class="container">
         <div class="row-fluid">
 
             <div class="span12">
-                            <div class="project-title">Examples</div>
+                <div class="project-title">Examples</div>
                 <div class="project-slides-container">
                     <i class="icon-spinner icon-spin icon-4x"></i>
                 </div>
