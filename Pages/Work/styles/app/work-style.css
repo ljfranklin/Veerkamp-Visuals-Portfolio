@@ -295,7 +295,7 @@ left: 31px;
 
 .project-nav-wrapper{
     background: #222;
-    height: 65px;
+    height: 62px;
 }
 
 .project-nav-table{
@@ -304,6 +304,12 @@ left: 31px;
 
 .project-nav-table tr td{
     padding:11px 0 0px 7px;
+    color:#666;
+    cursor:pointer;
+}
+
+.project-nav-table tr td:hover{
+    color:#ff0;
 }
 
 .project-nav-table tr td.top{
