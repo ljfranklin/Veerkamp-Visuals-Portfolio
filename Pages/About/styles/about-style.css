@@ -120,8 +120,17 @@
 
 .contact-list li i{
 	color:#ff0;
+	-webkit-transition: all 150ms ease-in-out;
+-moz-transition: all 150ms ease-in-out;
+-ms-transition: all 150ms ease-in-out;
+-o-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out;
 }
 
 .contact-list li a{
+	color:#fff;
+}
+
+.contact-list li i:hover{
 	color:#fff;
 }

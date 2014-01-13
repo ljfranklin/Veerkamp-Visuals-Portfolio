@@ -1,6 +1,28 @@
 {
     "projects": [
 
+     {
+            "projectName": "Enplug Controls",
+            "projectRole":"UI/UX",
+            "projectType":"Web Application",
+            "projectTypeDisclaimer":"",
+            "year": 2013,
+            "previewImg": "./Pages/Work/imgs/projects/Enplug/enplug-preview.jpg",
+            "tags": [
+            "UI Design",
+            "Wireframes",
+            "Axure"
+            ],
+            "slides": [
+            "Pages/Work/imgs/projects/HealthPlace/hp4a.png",
+            "Pages/Work/imgs/projects/HealthPlace/hp5a.png",
+            "Pages/Work/imgs/projects/HealthPlace/hp1.jpg",
+            "Pages/Work/imgs/projects/HealthPlace/hp3.jpg"
+            
+            ],
+            "template": "enplug_template.html"
+            },
+
         {
             "projectName": "Health Place",
             "projectRole":"UI/UX",
@@ -150,24 +172,7 @@
                                 "Pages/Work/imgs/projects/coke/coke2.jpg",
                                 "Pages/Work/imgs/projects/coke/coke3.jpg"
                                 ]
-                                },
-
-                                {
-                                    "projectName": "ProMo",
-                                    "projectRole":"Design",
-                                    "projectType":"Social Networking Website",
-                                    "projectTypeDisclaimer":"(Mockup)",
-                                    "year": 2010,
-                                    "previewImg": "./Pages/Work/imgs/projects/promo/promo-preview.jpg",
-                                    "tags": [
-                                    "Web Design",
-                                    "Branding",
-                                    "Logo"
-                                    ],
-
-                                    "slides": [
-                                    "Pages/Work/imgs/projects/promo/promo.png"
-                                    ]
                                 }
+
                                 ]
                             }
