@@ -245,6 +245,9 @@
     color:#ff0;
     text-transform: uppercase;
     display:inline-block;
+    position: relative;
+top: -19px;
+left: 31px;
 }
 
 .project-role,
@@ -292,6 +295,7 @@
 
 .project-nav-wrapper{
     background: #222;
+    height: 65px;
 }
 
 .project-nav-table{
