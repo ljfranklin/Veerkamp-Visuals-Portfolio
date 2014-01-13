@@ -14,6 +14,7 @@ define([
             tags: null,
             siteLink: null,
             slides: null,
+            template: null,
             prevProject: null,
             nextProject: null
         },
