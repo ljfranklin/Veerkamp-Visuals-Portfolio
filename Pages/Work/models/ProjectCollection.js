@@ -33,6 +33,7 @@ define([
                         siteLink: projectJson.siteLink,
                         slides: projectJson.slides,
                         year: projectJson.year,
+                        template: projectJson.template,
                         prevProject: prevProject,
                         nextProject: null
                     });

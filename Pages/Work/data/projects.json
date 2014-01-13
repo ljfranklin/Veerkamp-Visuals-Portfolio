@@ -19,7 +19,8 @@
             "Pages/Work/imgs/projects/HealthPlace/hp1.jpg",
             "Pages/Work/imgs/projects/HealthPlace/hp3.jpg"
             
-            ]
+            ],
+            "template": "health_place_template.html"
             },
 
     {

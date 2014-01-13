@@ -70,7 +70,7 @@ define([
             }
 
             function unbindClickHandlers() {
-                $('.project-detail-prev, project-detail-next').unbind('click');
+                $('.project-detail-prev, .project-detail-next').unbind('click');
             }
 
             function slideInDetailView(opts, template) {
@@ -83,6 +83,7 @@ define([
                 } else {
 
                     $el.html(template);
+                    addCustomTemplate($el, opts.model);
 
                     loadSlides(opts.model, $el);
                     setupNav();
@@ -97,6 +98,22 @@ define([
                 }
             }
 
+            function addCustomTemplate($el, model) {
+
+                if (model.get('template') == null) {
+                    return;
+                }
+
+                var ajaxCall = $.ajax({
+                    url: "Pages/Work/custom_template/" + model.get('template'),
+                    dataType: "html"
+                });
+
+                $.when(ajaxCall).done(function(templateText) {
+                    $el.find('.project-custom-template').html(templateText);
+                });
+            }
+
             function switchProject(opts, template) {
 
                 var $el = $(opts.el.selector);
@@ -109,6 +126,8 @@ define([
                 $newBreakdownArea.css('left', '0').css('top', startingPos);
 
                 $newBreakdownArea.html(template);
+                addCustomTemplate($newBreakdownArea, opts.model);
+
                 $newBreakdownArea.insertBefore($el);
 
                 setupNav();
@@ -134,6 +153,10 @@ define([
             }
 
             function loadSlides(model, $el) {
+
+                if (model.get('template') != null) {
+                    return;
+                }
 
                 var slidesSrc = model.get('slides');
 
