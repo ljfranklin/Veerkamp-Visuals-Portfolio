@@ -6,6 +6,7 @@
 }
 
 .project-wrapper{
+    position: relative;
     background: #222;
     width: 60%;
     margin: 50px auto;
@@ -31,7 +32,7 @@
  padding: 17px;
  width: 50%;
  max-width: 931px;
-
+ box-sizing: border-box;
 }
 
 .preview-img-container img {
@@ -99,8 +100,6 @@
 
 .preview-title-container{
     display: inline-block;
-    width: 45%;
-    text-align: center;
 }
 
 .preview-title-container > div{
@@ -109,6 +108,8 @@
 }
 
 .preview-title-container .name{
+    position: absolute;
+    bottom: 50%;
     font-size: 34px;
     font-family: 'Open Sans';
     color:#888;
@@ -121,6 +122,8 @@
 }
 
 .preview-title-container .role{
+    position: absolute;
+    top: 50%;
     font-size: 22px;
     font-family: 'Open Sans';
     font-style: italic;
