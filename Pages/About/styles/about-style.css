@@ -37,6 +37,9 @@
 
 .about-main-content {
 	margin:20px 0 15px;
+	color:#bbb;
+	font-family: 'Open Sans';
+	font-size: 14px;
 }
 
 .about-credit-img {
@@ -65,13 +68,14 @@
 
 .about-header.back-text {
 	text-align: center;
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .byline {
-	font-family: 'open_sansbold_italic';
-	font-size: 24px;
-	color:#ff0;
+	font-family: 'Open Sans';
+	font-style: italic;
+	padding:10px 0;
+	color:#777;
 }
 
 .contact-box {
@@ -103,4 +107,21 @@
 	font-family: 'Open Sans';
 	text-transform: uppercase;
 	font-size: 26px;
+}
+
+.contact-list{
+	margin:0;
+}
+
+.contact-list li{
+	display:inline;
+	padding-left: 5px;
+}
+
+.contact-list li i{
+	color:#ff0;
+}
+
+.contact-list li a{
+	color:#fff;
 }
