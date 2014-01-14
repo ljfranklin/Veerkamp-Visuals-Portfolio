@@ -36,51 +36,9 @@ define([
 
                 var template = _.template(projectPreviewTemplate, templateData);
                 self.$el.append(template);
-
-                bindHoverEvent();
             };
 
-            function bindHoverEvent() {
-
-                var $container = $(containerSelector);
-                var $leftCorner = $container.find('.left-corner');
-                var $rightCorner = $container.find('.right-corner');
-
-                $container.hover(function () {
-                    $leftCorner.add($rightCorner).stop(true);
-                    $leftCorner.animate({
-                        'border-right-width': '500px'
-                    }, animateTime);
-                    $rightCorner.animate({
-                        'border-left-width': '500px'
-                    }, animateTime);
-
-                    var $hoverDetail = $container.find('.hover-detail');
-                    $hoverDetail.stop(true);
-
-                    $hoverDetail.animate({
-                       'opacity': 1.0
-                    });
-
-                }, function() {
-                    $leftCorner.add($rightCorner).stop(true);
-                    $leftCorner.animate({
-                        'border-right-width': '60px'
-                    }, animateTime);
-                    $rightCorner.animate({
-                        'border-left-width': '60px'
-                    }, animateTime);
-
-                    var $hoverDetail = $container.find('.hover-detail');
-                    $hoverDetail.stop(true);
-
-                    $hoverDetail.animate({
-                        'opacity': 0
-                    });
-                });
-            }
-
-            $(document).on('click', containerSelector, function() {
+            $(document).on('click', containerSelector + ' .preview-wrapper', function() {
 
                 detailViewInstance.render({
                     el: $('.project-breakdown-container'),
