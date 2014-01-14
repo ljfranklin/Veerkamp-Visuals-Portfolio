@@ -85,7 +85,6 @@ define([
                     addCustomTemplate($el, opts.model);
 
                     loadSlides(opts.model, $el);
-                    setupNav();
                     scrollToTop($el);
 
                     $el.show();
@@ -127,7 +126,6 @@ define([
 
                 $newBreakdownArea.insertBefore($el);
 
-                setupNav();
                 scrollToTop($newBreakdownArea);
 
                 $newBreakdownArea.show();
@@ -181,57 +179,6 @@ define([
 
                     $slideContainer.append($wrapper);
                 });
-            }
-
-            function setupNav() {
-
-                showFirstSpan(true);
-
-                $('.project-nav li').hover(function() {
-                    var $li = $(this);
-                    var $span = $li.find('.nav-inner');
-
-                    var $otherSpans = $('.project-nav .nav-inner').not($span);
-                    hideSpan($otherSpans);
-
-                    showSpan($span);
-                }, function() {
-                    showFirstSpan(false);
-                });
-            }
-
-            function showFirstSpan(immediate) {
-
-                var time = immediate ? 0 : navAnimateTime;
-                var $firstLi = $('.project-nav li:first-child .nav-inner');
-
-                showSpan($firstLi);
-
-                var $otherSpans = $('.project-nav .nav-inner').not($firstLi);
-                $otherSpans.stop();
-                $otherSpans.animate({
-                    width: '0'
-                }, time, function() {
-                    $(this).hide();
-                });
-            }
-
-            function hideSpan($span) {
-                $span.stop();
-                $span.animate({
-                    width: '0'
-                }, navAnimateTime, function() {
-                    $span.hide();
-                });
-            }
-
-            function showSpan($span) {
-                $span.stop();
-
-                $span.show();
-                $span.animate({
-                    width: '62px'
-                }, navAnimateTime);
             }
 
             function scrollToTop($el) {
