@@ -2,9 +2,8 @@
 define([
     'backbone',
     'underscore',
-    'text!./templates/resume-template.html',
-    '../../common/scripts/app/scroll-manager'
-], function(Backbone, _, resumeTemplate, scrollManager) {
+    'text!./templates/resume-template.html'
+], function(Backbone, _, resumeTemplate) {
 
     var ResumeView = Backbone.View.extend({
         initialize: function() {
@@ -16,16 +15,6 @@ define([
                 self.$el.html(template);
             };
             self.render();
-            makeScrollable();
-
-            function makeScrollable() {
-                var $wrapper = $('.res-content-wrapper');
-                scrollManager.makeScrollable($wrapper);
-
-                $wrapper.find('img').on('load', function() {
-                    scrollManager.refresh();
-                });
-            }
         }
     });
 

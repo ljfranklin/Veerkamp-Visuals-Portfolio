@@ -3,9 +3,8 @@ define([
     'backbone',
     'underscore',
     'text!../templates/project-preview-template.html',
-    './ProjectDetailView',
-    '../../../common/scripts/app/scroll-manager'
-], function(Backbone, _, projectPreviewTemplate, detailViewInstance, scrollManager) {
+    './ProjectDetailView'
+], function(Backbone, _, projectPreviewTemplate, detailViewInstance) {
 
     var ProjectPreviewView = Backbone.View.extend({
         initialize: function() {
@@ -29,8 +28,6 @@ define([
 
                     $container.find('.preview-wrapper')
                         .removeClass('loading');
-
-                    scrollManager.refresh();
                 };
                 img.src = model.get('previewImg');
 
@@ -110,8 +107,6 @@ define([
                     el: $('.project-breakdown-container'),
                     animateTime: animateTime
                 });
-
-                scrollManager.refresh();
             });
         }
     });

@@ -2,9 +2,8 @@
 define([
     'backbone',
     'underscore',
-    'text!../templates/project-detail-view-template.html',
-    '../../../common/scripts/app/scroll-manager'
-], function (Backbone, _, detailTemplate, scrollManager) {
+    'text!../templates/project-detail-view-template.html'
+], function (Backbone, _, detailTemplate) {
 
     var ProjectDetailView = Backbone.View.extend({
         initialize: function () {
@@ -93,8 +92,6 @@ define([
                     $el.animate({
                         left: '0%'
                     }, animateTime);
-
-                    scrollManager.makeScrollable($el);
                 }
             }
 
@@ -134,8 +131,6 @@ define([
                 scrollToTop($newBreakdownArea);
 
                 $newBreakdownArea.show();
-
-                scrollManager.makeScrollable($newBreakdownArea);
 
                 loadSlides(opts.model, $newBreakdownArea);
 
@@ -186,7 +181,6 @@ define([
 
                     $slideContainer.append($wrapper);
                 });
-                scrollManager.refresh();
             }
 
             function setupNav() {
@@ -245,7 +239,9 @@ define([
 
                 var $btn = $el.find('.scroll-up');
                 $btn.click(function() {
-                    scrollManager.scrollToTop($el, animateTime);
+                    $el.animate({
+                        scrollTop: 0
+                    }, animateTime);
                 });
             }
         }
