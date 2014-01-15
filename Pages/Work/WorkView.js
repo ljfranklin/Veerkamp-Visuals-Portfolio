@@ -4,9 +4,8 @@ define([
     'underscore',
     'text!./templates/work-template.html',
     './models/ProjectCollection',
-    './views/ProjectPreviewView',
-    '../../common/scripts/app/scroll-manager'
-], function(Backbone, _, workTemplate, ProjectCollection, ProjectPreviewView, scrollManager) {
+    './views/ProjectPreviewView'
+], function(Backbone, _, workTemplate, ProjectCollection, ProjectPreviewView) {
 
     var WorkView = Backbone.View.extend({
         initialize: function() {
@@ -20,9 +19,6 @@ define([
                 self.$el.html(template);
 
                 renderProjectPreviewViews();
-
-                var $timelineContainer = $('.timeline-container');
-                scrollManager.makeScrollable($timelineContainer);
             };
             self.render();
 
@@ -37,27 +33,8 @@ define([
                         el: $previewContainer
                     });
 
-                    // var year = projectModel.get('year');
-                    // if (year !== prevYear) {
-                    //     renderYear(year, $previewContainer);
-                    //     prevYear = year;
-                    // }
-
                     projectPreviewView.render();
                 });
-
-                addOddClass();
-            }
-
-            // function renderYear(year, $el) {
-            //     var $yearContainer = $('<div>')
-            //         .addClass('year-container')
-            //         .html(year);
-            //     $el.append($yearContainer);
-            // }
-
-            function addOddClass() {
-                $('.project-preview-container:odd').addClass('odd');
             }
         }
     });

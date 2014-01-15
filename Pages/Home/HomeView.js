@@ -3,9 +3,8 @@ define([
     'backbone',
     'underscore',
     'text!./templates/home-template.html',
-    '../../common/scripts/app/scroll-manager',
     'common/scripts/vendor/plax'
-], function(Backbone, _, homeTemplate, scrollManager) {
+], function(Backbone, _, homeTemplate) {
 
     var HomeView = Backbone.View.extend({
         initialize: function() {
@@ -23,7 +22,6 @@ define([
 
                 addHoverEvents();
                 fadeOutHeaders();
-                makeScrollable();
             }
 
             function initParallax() {
@@ -46,16 +44,6 @@ define([
                     if (imgLoadCounter === imgCount) {
                         plaxCallback();
                     }
-                });
-            }
-
-            function makeScrollable() {
-                var $content = self.$el.find('.home-content-area');
-                scrollManager.makeScrollable($content);
-
-                var $imgs = $content.find('img');
-                $imgs.on('load', function() {
-                    scrollManager.refresh();
                 });
             }
 
