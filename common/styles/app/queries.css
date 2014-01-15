@@ -67,7 +67,7 @@
 		}
 		.about-credit {
 			float: none;
-			padding-right: none;
+			padding-right: 0;
 		}
 
 
@@ -81,6 +81,14 @@
 
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 767px) {
+
+        .expand-nav-btn {
+            display: block !important;
+        }
+        .nav-right {
+            display: none;
+        }
+
 		.parallax-container {
 			display: none;
 		}
@@ -209,9 +217,10 @@
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
+        
 		.about-credit {
 			float: none;
-			padding-right: none;
+			padding-right: 0;
 		}
 
 		.parallax-container {

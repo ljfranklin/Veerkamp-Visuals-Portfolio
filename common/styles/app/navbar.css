@@ -6,12 +6,38 @@ a:hover{
 	height: 50px;
 	background-color: #000;
 	color: white;
-	padding: 0px 5px 5px 5px;
+	/*padding: 0px 5px 5px 5px;*/
 
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
 	border-bottom: 1px solid #333333;
+}
+
+.expanded-nav {
+    position: relative;
+    top: -30px;
+    display: none;
+}
+
+.expanded-nav>ul {
+    margin-left: 0;
+}
+
+.expanded-nav>ul>li {
+    list-style: none;
+}
+
+.expanded-nav>ul>li>a {
+    display: block;
+    line-height: 20px;
+    padding: 10px 20px;
+    background-color: #222;
+    border-bottom: black solid 1px;
+}
+
+.expand-nav-btn {
+    display: none !important;
 }
 
 .nav-title {
