@@ -355,3 +355,37 @@
     padding: 9px 11px;
     font-size: 19px;
 }
+
+.project-custom-template{
+    font-size: 13px;
+    font-family: 'Open Sans';
+    color: #CCC;
+}
+
+.project-custom-template h3{
+    font-weight: 600;
+    color: #ff0;
+    font-size: 14px;
+}
+
+.project-custom-template a {
+    font-weight: bold;
+    color:#fff;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.project-custom-template a:hover {
+    font-weight: bold;
+    color:#ff0;
+}
+
+.work-header{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    color:#fff;
+}

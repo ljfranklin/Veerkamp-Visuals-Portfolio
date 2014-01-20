@@ -72,6 +72,32 @@
 
         },
 
+        {
+                    "projectName": "Ball Bearings",
+                    "projectRole":"Design, HTML/CSS, PHP",
+                    "projectType":"Online Magazine Website",
+                    "year": 2012,
+                    "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
+                    "tags": [
+                    "UI Design",
+                    "CSS3",
+                    "HTML5",
+                    "JS/jQuery",
+                    "Custom CMS integration"
+                    ],
+                    "projectAward": [
+                    "Best Overall Website Design 2011-2012, Indiana Collegiate Press Association",
+                    "ACP Online Pacemaker (2011 and 2012), Collegiate Press Association"
+                    ],
+                    "slides": [
+                    "Pages/Work/imgs/projects/BB/bb1.jpg",
+                    "Pages/Work/imgs/projects/BB/bb2.jpg"
+                    ],
+
+                    "template": "bb_template.html"
+
+                    },
+
 
 
             {
@@ -96,31 +122,13 @@
                 "slides": [
                 "Pages/Work/imgs/projects/sex-trafficking/traf1.jpg",
                 "Pages/Work/imgs/projects/sex-trafficking/traf2.jpg"
-                ]
+                ],
+
+                 "template": "st_template.html"
+
                 },
 
-                {
-                    "projectName": "Ball Bearings",
-                    "projectRole":"Design, HTML/CSS, PHP",
-                    "projectType":"Online Magazine Website",
-                    "year": 2012,
-                    "previewImg": "./Pages/Work/imgs/projects/BB/bb-preview.jpg",
-                    "tags": [
-                    "UI Design",
-                    "CSS3",
-                    "HTML5",
-                    "JS/jQuery",
-                    "Custom CMS integration"
-                    ],
-                    "projectAward": [
-                    "Best Overall Website Design 2011-2012, Indiana Collegiate Press Association",
-                    "ACP Online Pacemaker (2011 and 2012), Collegiate Press Association"
-                    ],
-                    "slides": [
-                    "Pages/Work/imgs/projects/BB/bb1.jpg",
-                    "Pages/Work/imgs/projects/BB/bb2.jpg"
-                    ]
-                    },
+                
                     {
                         "projectName": "Save Elephants",
                         "projectRole":"Design",
@@ -134,12 +142,15 @@
                         ],
                         "slides": [
                         "Pages/Work/imgs/projects/elephant/elephants.jpg"
-                        ]
+                        ],
+
+                        "template": "ele_template.html"
+
                         },
 
                         {
                             "projectName": "GRID Magazine",
-                            "projectRole":"Design",
+                            "projectRole":"Art Direction, Design",
                             "projectType":"Magazine",
                             "projectTypeDisclaimer":"(Class Project)",
                             "year": 2011,
@@ -156,11 +167,14 @@
                             "Pages/Work/imgs/projects/grid/grid7.jpg",
                             "Pages/Work/imgs/projects/grid/grid1.jpg",
                             "Pages/Work/imgs/projects/grid/grid2.jpg"
-                            ]
+                            ],
+
+                            "template": "grid_template.html"
+
                             },
 
                             {
-                                "projectName": "Coca-Cola",
+                                "projectName": "Student Ad",
                                 "projectRole":"Art Direction",
                                 "projectType":"Advertisement",
                                 "projectTypeDisclaimer":"(Class Project)",
@@ -174,7 +188,10 @@
                                 "Pages/Work/imgs/projects/coke/coke1.jpg",
                                 "Pages/Work/imgs/projects/coke/coke2.jpg",
                                 "Pages/Work/imgs/projects/coke/coke3.jpg"
-                                ]
+                                ],
+
+                                "template": "ad_template.html"
+
                                 }
 
                                 ]
