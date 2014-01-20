@@ -400,6 +400,7 @@
     -o-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
     border:1px solid black;
+    text-align: center;
 }
 
 .work-image:hover{
