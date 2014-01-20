@@ -389,3 +389,24 @@
     font-weight: 600;
     color:#fff;
 }
+
+.work-image{
+    background: #222;
+    padding:10px;
+    margin:10px 0px;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    border:1px solid black;
+}
+
+.work-image:hover{
+    cursor: pointer;
+    border:1px solid #ff0;
+}
+
+.second-column{
+    padding: 59px 0 0;
+}
