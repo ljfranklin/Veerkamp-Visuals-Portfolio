@@ -16,6 +16,7 @@
     -ms-transition: all 250ms ease-in-out;
     -o-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out;
+    max-width: 960px;
 }
 
 .project-wrapper:hover{
@@ -134,7 +135,7 @@
     font-family: 'Open Sans';
     font-style: italic;
     display:block;
-    color: #444;
+    color: #585858;
 }
 
 .preview-wrapper.loading {

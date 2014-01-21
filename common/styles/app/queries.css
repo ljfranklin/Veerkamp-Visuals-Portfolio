@@ -19,6 +19,21 @@
 		}*/
 	}
 
+	@media (max-width: 1280px) {
+		.preview-title-container .name{
+			font-size: 20px;
+		}
+
+		.preview-title-container .name i{
+			font-size: 17px;
+		}
+
+		.preview-title-container .role{
+			font-size: 16px;
+		}
+	}
+
+
 	@media (max-width: 980px) {
 		.res-title {
 			position: relative;
@@ -28,16 +43,23 @@
 			padding:6px 0;
 		}
 
-				.contact-list li i{
+		.contact-list li i{
 			font-size: 27px;
-padding-right: 10px;
+			padding-right: 10px;
 		}
+
 
 
 	}
 
+
+
 	/* Portrait tablet to landscape and desktop */
 	@media (min-width: 768px) and (max-width: 1199px) {
+
+		.preview-title-container .name{
+			font-size: 20px;
+		}
 
 		.about-title-wrapper{
 			padding:6px 0;
@@ -98,7 +120,26 @@ padding-right: 10px;
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 767px) {
 
+		.preview-title-container .name,
+		.preview-title-container .role
+		{
+			position: static;
 
+		}
+
+		.project-wrapper{
+			max-width: 500px;
+			padding: 10px;
+			margin: 20px auto;
+			width:auto;
+		}
+
+		.preview-img-container{
+			padding:0;
+			padding-bottom: 10px;
+			width:auto;
+			margin: 0 auto;
+		}
 
 		.about-title-wrapper{
 			padding:4px 0;
@@ -185,6 +226,7 @@ padding-right: 10px;
 		.project-preview-container {
 			width: 95%;
 			max-width: 500px;
+			margin:0 auto;
 		}
 		li.project-tag {
 			display:block;
