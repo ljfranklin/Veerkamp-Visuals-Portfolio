@@ -31,7 +31,7 @@
 
 .home-content-links {
     display: block;
-margin: 65px auto 30px;
+    margin: 65px auto 30px;
 }
 
 .home-content-links li {
@@ -40,17 +40,17 @@ margin: 65px auto 30px;
 }
 
 .home-content-links li a {
-font-family: 'verbblack';
-color: white;
-padding: 8px 19px;
-font-size: 19px;
-margin-bottom: 10px;
--webkit-transition: all 150ms ease-in-out;
--moz-transition: all 150ms ease-in-out;
--ms-transition: all 150ms ease-in-out;
--o-transition: all 150ms ease-in-out;
-transition: all 150ms ease-in-out;
-background: #222;
+    font-family: 'verbblack';
+    color: white;
+    padding: 8px 19px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    background: #222;
 }
 
 .home-content-links li a:hover {
@@ -134,4 +134,29 @@ background: #222;
     display:block;
     margin:0 auto;
     padding-top:100px;
+}
+
+.intro-callout {
+    text-align: center;
+    margin: -100px 0 0;
+}
+
+.intro-callout a{
+    color: #FF0;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-style: italic;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    font-size: 19px;
+    background: rgba(63, 63, 63, 0.5);
+    padding: 10px;
+}
+
+.intro-callout a:hover{
+    background: rgba(63, 63, 63, 0.8);
 }
