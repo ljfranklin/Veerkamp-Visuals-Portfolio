@@ -82,6 +82,19 @@
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 767px) {
 
+		.intro-callout{
+			margin-top:0;
+		}
+
+		.intro-callout a{
+			background: rgba(63, 63, 63, 0.3);
+			display: block;
+		}
+
+		.intro-image{
+			padding-top: 0;
+		}
+
 		.nav-left a:before{
 			content:url('/common/img/small_triangle.fw.png');
 		}
