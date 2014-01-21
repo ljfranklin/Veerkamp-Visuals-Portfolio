@@ -134,3 +134,12 @@ transition: all 150ms ease-in-out;
 .contact-list li i:hover{
 	color:#fff;
 }
+
+.about-img{
+	margin: 0 auto;
+display: block;
+}
+
+.about-img-wrapper{
+	background: white;
+}

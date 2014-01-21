@@ -23,10 +23,26 @@
 		.res-title {
 			position: relative;
 		}
+
+		.about-title-wrapper{
+			padding:6px 0;
+		}
+
+				.contact-list li i{
+			font-size: 27px;
+padding-right: 10px;
+		}
+
+
 	}
 
 	/* Portrait tablet to landscape and desktop */
 	@media (min-width: 768px) and (max-width: 1199px) {
+
+		.about-title-wrapper{
+			padding:6px 0;
+		}
+
 		.parallax-container {
 			display: none;
 		}
@@ -82,6 +98,17 @@
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 767px) {
 
+
+
+		.about-title-wrapper{
+			padding:4px 0;
+			
+		}
+
+		.about-title-wrapper p{
+			font-size: 19px;
+		}
+
 		.intro-callout{
 			margin-top:0;
 		}
@@ -103,12 +130,12 @@
 			opacity: 0;
 		}
 
-        .expand-nav-btn {
-            display: block !important;
-        }
-        .nav-right {
-            display: none;
-        }
+		.expand-nav-btn {
+			display: block !important;
+		}
+		.nav-right {
+			display: none;
+		}
 
 		.parallax-container {
 			display: none;
@@ -238,7 +265,7 @@
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
-        
+
 		.about-credit {
 			float: none;
 			padding-right: 0;
@@ -288,7 +315,7 @@
 		}
 
 		.byline {
-			font-size: 18px;
+			font-size: 14px;
 		}
 
 		.profile-img {
