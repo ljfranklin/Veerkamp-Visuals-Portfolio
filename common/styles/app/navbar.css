@@ -108,3 +108,36 @@ a:hover{
 .nav-right ul li a.active{
 	color:#ff0;
 }
+
+.navbar .btn-navbar {
+	background: black;
+	box-shadow: none;
+	margin-top:10px;
+}
+
+.navbar .btn-navbar:hover {
+	background: black;
+	box-shadow: none;
+}
+
+.navbar .btn-navbar .icon-bar{
+		background-color:#ff0 ;
+}
+
+
+.navbar .btn-navbar:hover .icon-bar{
+	background-color:#fff ;
+}
+
+.expanded-nav>ul>li>a:hover{
+	background: #282828;
+}
+
+.expanded-nav>ul>li:last-child>a{
+	border-bottom: 1px solid #222;
+}
+
+.expanded-nav li a{
+	color:#bbb;
+	font-family: 'Open Sans';
+}

@@ -82,6 +82,14 @@
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 767px) {
 
+		.nav-left a:before{
+			content:url('/common/img/small_triangle.fw.png');
+		}
+
+		.logo{
+			opacity: 0;
+		}
+
         .expand-nav-btn {
             display: block !important;
         }
